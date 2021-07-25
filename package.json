@@ -1,0 +1,30 @@
+{
+  "name": "tiengnhatdehie",
+  "version": "0.0.1",
+  "description": "- 👋 Hi, I’m @tiengnhatdehieu - 👀 I’m interested in ... - 🌱 I’m currently learning ... - 💞️ I’m looking to collaborate on ... - 📫 How to reach me ...",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test",
+    "scss": "gulp sass",
+    "watch": "gulp sass:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiengnhatdehieu/tiengnhatdehieu.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "quanict",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/tiengnhatdehieu/tiengnhatdehieu/issues"
+  },
+  "homepage": "https://github.com/tiengnhatdehieu/tiengnhatdehieu#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.0.0",
+    "node-sass": "^6.0.1"
+  }
+}

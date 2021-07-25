@@ -1,0 +1,63 @@
+
+.dtlms-curriculum-list {
+    margin: 0;
+    >li {
+        border-style: solid;
+        border-width: 0 0 1px;
+        padding: 20px;
+        position: relative;
+
+        &:last-child {
+            border-width: 0;
+        }
+    }
+
+    li {
+        .dtlms-curriculum-meta-title,
+        .dtlms-completed {
+            display: inline-block;
+        }
+
+        .dtlms-curriculum-meta-title {
+            //float: left;
+            text-transform: capitalize;
+
+            a {
+                display: inline-block;
+                width: 100%;
+                color: #000;
+
+                &.active {
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+
+.dtlms-curriculum-list li .dtlms-completed,
+.dtlms-toggle-group-set h5.dtlms-toggle>a>span.dtlms-completed {
+    float: none;
+    font-size: 0;
+    margin-left: 10px;
+    padding: 0;
+    position: relative;
+    top: -1px;
+    margin-bottom: -6px;
+}
+
+.dtlms-curriculum-list li .dtlms-completed span,
+.dtlms-toggle-group-set h5.dtlms-toggle>a>span.dtlms-completed span {
+    font-size: 11px;
+    margin: 0;
+    padding: 3px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.dtlms-curriculum-list .dtlms-curriculum-meta-preview {
+    float: none;
+    font-size: 13px;
+    padding: 2px 10px;
+    border-radius: 2px;
+}

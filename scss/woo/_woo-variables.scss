@@ -1,0 +1,11 @@
+$--button--color-background: #ddd;
+$--button--color-text: #ddd;
+$--form--color-text: #ddd;
+$--range-color: #af7dd1;
+$--low: 0.4;
+$--high: 1;
+$--track-background: linear-gradient(90deg, transparent $--low, $--range-color 0, $--range-color $--high, transparent 0) no-repeat 0 100%/100% 100%;
+
+
+//--track-background: linear-gradient(270deg, transparent var(--low), var(--range-color) 0, var(--range-color) var(--high), transparent 0) no-repeat 0 100%/100% 100%;
+//--range-color: #af7dd1;

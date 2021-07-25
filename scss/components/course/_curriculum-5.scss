@@ -1,0 +1,111 @@
+
+.dtlms-toggle-group-set .dtlms-curriculum-list {
+    font-weight: 700;
+    letter-spacing: 0;
+    font-size: 15px;
+    counter-reset: listStyle;
+
+    li {
+        padding: 18px 10px 18px 28px;
+        position: relative;
+        counter-increment: listStyle;
+
+        &:before {
+            /*content: "";*/
+            position: absolute;
+            content: counter(listStyle, lower-alpha);
+            left: 11px;
+            top: 18px;
+            font-size: 16px;
+            font-weight: 500;
+            color: rgba(34, 34, 34, .5)
+        }
+
+        &:after {
+            content: "";
+            width: 2px;
+            height: 2px;
+            display: inline-block;
+            border-radius: 50%;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            position: absolute;
+            top: 34px;
+            left: 22px;
+            // float: left;
+            background-color: rgba(34, 34, 34, .5)
+        }
+
+        &.purchased-item:before,
+        &.preview-item:before {
+            color: #222
+        }
+    }
+}
+
+.dtlms-curriculum-list {
+    // li {
+        // > input[type=text] {
+        //     min-width: 50%;
+        //     background-color: #cccccc;
+        // }
+
+        // .curriculum-answer {
+        //     display: inline-block;
+        // }
+
+        // .curriculum-type {
+        //     display: inline-block;
+        // }
+
+        .dtlms-curriculum-meta-title {
+            font-size: 16px;
+            letter-spacing: -.04em;
+            font-weight: 500;
+            color: #222;
+            padding: 0;
+            position: relative
+        }
+
+        .dtlms-curriculum-meta-icon {
+            // float: left;
+            position: absolute;
+            right: 260px;
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+            border-radius: 50%;
+            text-align: center;
+            background-color: transparent;
+            line-height: 50px;
+            font-size: 15px;
+            color: #2F2F2F;
+            margin: auto;
+            top: 0;
+            bottom: 0
+        }
+
+        // > .dtlms-curriculum-meta-icon {
+        //     color: #FFF
+        // }
+
+        .dtlms-curriculum-meta-duration:before {
+            content: "\f017";
+            font-weight: 900;
+            font-family: Font Awesome\ 5 Free;
+            margin-right: 7px
+        }
+    // }
+
+    .dtlms-curriculum-meta-preview {
+        margin: 3px 0 0 30px;
+        border-radius: 50px;
+        font-weight: 400;
+        right: -10px
+    }
+
+    .dtlms-toggle-content .block {
+        padding-top: 34px
+    }
+}
+

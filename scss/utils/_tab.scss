@@ -1,0 +1,23 @@
+.scroll-tab {
+    margin: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+    font-size: 0px;
+    position: absolute;
+    top: 0px;
+    left: 26px;
+    right: 26px;
+
+    > li > a {
+        
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .dtlms-tabs-horizontal-container {
+        ul.dtlms-tabs-horizontal>li>a {
+            padding: 0;
+        }
+    }
+}

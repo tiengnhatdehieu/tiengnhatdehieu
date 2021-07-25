@@ -1,0 +1,60 @@
+.wp-admin div[id*="result-popup"] , 
+body[class*="single-dtlms"] {
+    table {
+        th, td {
+            padding: 10px 6px;
+            //text-align: center;
+            text-transform: inherit;
+        }
+    }
+}
+
+
+
+body[class*="single-dtlms"] table {
+    border-collapse: collapse;
+}
+
+body[class*="single-dtlms"] table th {
+    font-weight: 400;
+}
+
+body[class*="single-dtlms"] table th, body[class*="single-dtlms"] table td {
+    padding: 15px 6px;
+}
+
+body[class*="single-dtlms"] table.dtlms-course-detail-media-attachment th, body[class*="single-dtlms"] table.dtlms-course-detail-media-attachment td {
+    font-size: 16px;
+}
+
+body[class*="single-dtlms"] table th, 
+body[class*="single-dtlms"] table td, 
+.admin-bar div[id*="result-popup"] table th, 
+.admin-bar div[id*="result-popup"] table td, 
+.dtlms-quiz-statistics-timetaken:before, 
+.dtlms-quiz-results-container h2, 
+.dtlms-quiz-results-container .dtlms-quiz-results h5 span, 
+.dtlms-curriculum-list li .dtlms-curriculum-meta-title a:hover, 
+.dtlms-curriculum-list li .dtlms-curriculum-meta-title a.active, 
+.dtlms-curriculum-list li.active > .dtlms-curriculum-meta-title a, 
+.dtlms-curriculum-list > li .dtlms-curriculum-meta-icon, 
+.dtlms-curriculum-list > li.locked:before, 
+.dtlms-curriculum-list > li.drip-locked:before, 
+.dtlms-curriculum-intro h2, 
+.dtlms-assignment-submission li .dtlms-column a:hover, 
+.dtlms-course-result-popup-intro h2, 
+.dtlms-class-result-popup-intro h2, 
+.dtlms-course-results-main-detail-wrapper .dtlms-author-title h5 a, 
+.dtlms-course-curriculum-table .dtlms-view-curriculum-details, 
+.dtlms-class-curriculum-table .dtlms-view-class-curriculum-details, 
+.dtlms-toggle-group-set h5.dtlms-toggle a, 
+.dtlms-toggle-group-set h5.dtlms-toggle:before, 
+.dtlms-pagination.dtlms-ajax-pagination .prev-post a, 
+.dtlms-pagination.dtlms-ajax-pagination .next-post a, 
+.dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li a, 
+.dtlms-payment-details .dtlms-item-status-details, 
+.dtlms-payment-details .dtlms-item-status-details .dtlms-item-pricing-details, 
+.dtlms-payment-details .dtlms-item-status-details > del, .dtlms-payment-details .dtlms-item-status-details .dtlms-item-pricing-details > del, .dtlms-payment-details .dtlms-item-status-details > ins, .dtlms-payment-details .dtlms-item-status-details .dtlms-item-pricing-details > ins, #dtlms-course-curriculum-popup .dtlms-course-curriculum-popup-container .dtlms-four-fifth .dtlms-curriculum-content-holder ul.dtlms-assignment-submission li .dtlms-four-fifth > ul > li a, #dtlms-course-result-popup .dtlms-course-result-popup-container .dtlms-three-fifth .dtlms-curriculum-assignment-holder ul.dtlms-assignment-submission li .dtlms-four-fifth > ul > li a, /* Frontend Dashboard */
+table.dtlms-custom-table td, .dtlms-custom-box table td, table.dtlms-custom-table tbody.dtlms-custom-dashboard-table ul li a:hover {
+    color: #000;
+}
