@@ -12,7 +12,7 @@ function IctTab() {
 	this.horizontal = function () {
 		if(jQuery('ul.dtlms-tabs-horizontal').length > 0){
 			jQuery('ul.dtlms-tabs-horizontal').each(function(){
-				jQuery(this).dtLMSTabs('> .dtlms-tabs-horizontal-content', {
+				jQuery(this).fpTabs('> .dtlms-tabs-horizontal-content', {
 					effect: 'fade'
 				});
 			});
@@ -23,7 +23,7 @@ function IctTab() {
 		if(jQuery('ul.dtlms-tabs-vertical').length > 0){
 			jQuery('ul.dtlms-tabs-vertical').each(function() {
 				var this_item = jQuery('ul.dtlms-tabs-vertical');
-				jQuery(this).dtLMSTabs('> .dtlms-tabs-vertical-content', {
+				jQuery(this).fpTabs('> .dtlms-tabs-vertical-content', {
 					effect: 'fade',
 				});
 			});
@@ -31,10 +31,10 @@ function IctTab() {
 	}
 
 	this.init = function () {
-		// tab.dtLMSTabScroll();
-		
-		tab.horizontal();
-		tab.vertical();
+		//tab.dtLMSTabScroll();
+		//tab.horizontal();
+		//tab.vertical();
+		//console.log(`=== ddd`,jQuery.fn.fpTabs )
 		
 	}
 

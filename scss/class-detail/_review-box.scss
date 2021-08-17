@@ -1,0 +1,89 @@
+.dtlms-class-detail-review-box {
+    text-align: center;
+}
+
+.dtlms-class-detail-review-box .dtlms-class-detail-average-value {
+    color: #000;
+    font-size: 110px;
+    line-height: 120px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.dtlms-class-detail-review-box .dtlms-class-detail-star-review span {
+    font-size: 0;
+}
+
+.dtlms-class-detail-review-box .dtlms-class-detail-star-review span:before {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.dtlms-class-detail-ratings span,
+.comment-rating span {
+    font-size: 0;
+}
+
+.dtlms-class-detail-ratings span:before,
+.comment-rating span:before {
+    font-size: 16px;
+    margin: 0 3px;
+}
+
+.dtlms-class-detail-ratings-breakup {
+    list-style-type: none;
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.dtlms-class-detail-ratings-breakup .dtlms-class-detail-ratings-percentage {
+    display: block;
+    float: left;
+    height: 10px;
+    margin: 7px 0 0 10px;
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.dtlms-class-detail-ratings-breakup .dtlms-class-detail-ratings-percentage span {
+    display: block;
+    text-align: center;
+    height: 100%;
+}
+
+.dtlms-class-detail-ratings-breakup>li {
+    clear: both;
+    display: block;
+    float: left;
+    width: 100%;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.dtlms-class-detail-ratings-breakup li .dtlms-class-detail-ratings-label {
+    float: left;
+    margin-right: 10px;
+    min-width: 55px;
+}
+
+.dtlms-class-detail-ratings-breakup li>span {
+    float: right;
+}
+
+.dtlms-class-detail-ratings-breakup li>span:not(.dtlms-class-detail-ratings-label) {
+    float: none;
+    display: inline-block;
+    margin-left: 15px;
+    text-align: center;
+    min-width: 15px;
+}
+
+.dtlms-class-detail-comment-rating span:not(.dtlms-class-detail-rating-label) {
+    font-size: 0;
+}
+
+.dtlms-class-detail-comment-rating span:before {
+    font-size: 16px;
+    margin-right: 5px;
+}

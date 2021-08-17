@@ -1,6 +1,9 @@
 // source
 // https://elearni.wpengine.com/
 
+@import "variables";
+
+@import "./utils/mixin";
 @import "woo/woo-variables";
 @import "../css/theme.min.css";
 @import "../css/member.min.css";
@@ -23,7 +26,6 @@
 @import "../css/js_composer.min.css";
 @import "../css/smile_fonts.css";
 @import "../css/ultimate_style.min.css";
-
 @import "../css/grid.css";
 @import "../css/layout.css";
 @import "../css/blog.css";
@@ -36,14 +38,13 @@
 @import "../css/material-design-iconic-font.min.css";
 @import "../css/magnific-popup.css";
 @import "../css/gutenberg.css";
-@import "../css/head-d4c5c191029dfe943ecc9714e3b4483823275548.css";
 @import "../css/body-cef0ddd92bacbf9359ed1a36b46752e79bd6d4d4.css";
-@import "../css/font-awesome-4.7.0.css";
 @import "../css/v4-shims.min.css";
-@import "../css/font-awesome-5.11.2.min.css";
+
+
 @import "../css/animate.min.css";
 @import "../css/background-style.min.css";
-@import "../css/fontawesome-all.5.0.13.css";
+
 @import "../css/icon-moon.css";
 @import "../css/swiper.min.css";
 @import "../css/jquery-ui.min.css";
@@ -54,11 +55,22 @@
 @import "../css/chosen.css";
 @import "../css/woocommerce.css";
 
+//@import "../css/font-awesome-4.7.0.css";
+//@import "../css/font-awesome-5.11.2.min.css";
+//@import "../css/fontawesome-all.5.0.13.css";
+@import "../css/font-awesome-5.15.4.min.css";
+// https://fontawesome.com/v5.15/icons?d=gallery&p=2
+
 @import "style";
 @import "vc_custom";
 @import "vc_shortcodes-custom";
+@import "utils/player";
+//@import "utils/player_cycler";
+@import "./utils/sentence_example";
 @import "elearni-custom";
+@import "./utils/header";
 
 @import "custom";
 @import "utils/tab";
 @import "utils/_text";
+@import "utils/question";

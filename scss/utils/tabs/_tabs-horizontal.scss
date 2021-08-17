@@ -1,0 +1,107 @@
+
+.dtlms-tabs-horizontal-container {
+    clear: both;
+    float: left;
+    margin: 0 0 60px;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+
+    ul.dtlms-tabs-horizontal {
+        float: left;
+        width: 100%;
+        background-color: #2f2f2f;
+        margin: 0;
+
+        &.scroll_tabs_container {
+            float: left;
+            width: 100%;
+        }
+
+        .scroll_tab_inner {
+            height: 100%;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 4px;
+            padding: 0;
+            width: auto;
+            text-align: center;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            a {
+                color: #000;
+                display: inline-block;
+                font-size: 16px;
+                margin: 0;
+                padding: 0 15px;
+                position: relative;
+                width: 100%;
+                line-height: 58px;
+                outline: none;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+
+            .chapter-submenus {
+                position: absolute;
+                top: 90px;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}
+
+
+.dtlms-class-detail .dtlms-tabs-horizontal-container {
+    ul.dtlms-tabs-horizontal {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+}
+
+
+.dtlms-tabs-horizontal-container ul.dtlms-tabs-horizontal li a span {
+    margin: 0 10px 0 0;
+    position: relative;
+    top: 0;
+}
+
+.dtlms-tabs-horizontal-container .dtlms-tabs-horizontal-content {
+    float: left;
+    margin: 0;
+    padding: 40px 0 0;
+    position: relative;
+    width: 66%;
+}
+
+.dtlms-tabs-horizontal-container .dtlms-sidebar-container {
+    margin-left: 2%;
+    width: 32%;
+}
+
+.dtlms-tabs-horizontal-container #comments {
+    float: left;
+    margin: 40px 0 0;
+    width: 100%;
+}
+
+.dtlms-tabs-horizontal-container h3:empty {
+    display: none;
+}
+
+.dtlms-tabs-horizontal-container:not(.with-sidebar) .dtlms-tabs-horizontal-content {
+    width: 100%;
+    border-right: none;
+}
+
+.dtlms-tabs-horizontal-container .dtlms-course-detail-news-item:last-child {
+    border-bottom: none;
+}

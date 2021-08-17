@@ -1,0 +1,11 @@
+.curriculum-guild {
+    .sentence {
+        padding: 15px;
+        background-color: $gray-color-1;
+        color: $black0;
+
+        &:nth-child(2n+1){
+            background-color: $gray-color-2;
+        }
+    }
+}

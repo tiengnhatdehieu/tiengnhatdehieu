@@ -1,0 +1,53 @@
+.dtlms-toggle-content {
+    counter-reset: questions;
+}
+
+.question-group {
+    background-color: #f8f9fa;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    border-left: 5px solid $theme-color;
+
+    &.question-example {
+        .question-main {
+            &.counter:before {
+                content: "例）";
+                padding-right: 10px;
+                font-weight: bold;
+            }
+
+            .question-ans {
+                counter-reset: questions;
+            }
+        }
+    }
+
+    .question-main {
+        margin-bottom: 0.5rem;
+        &.counter:before {
+            counter-increment: questions;
+            content: counter(questions, decimal-leading-zero) "）";
+            padding-right: 10px;
+            font-weight: bold;
+        }
+    }
+
+    .question-ans {
+        border-left: 2px solid $theme-color;
+        padding-left: 0.5rem;
+        font-size: 90%;
+        .sentence {
+            // line-height: 80%;
+            margin: 1rem auto;
+        }
+    }
+
+    
+}
+
+.sentence {
+    .sentence-trans {
+        font-size: 80%;
+        line-height: 80%;
+    }
+}

@@ -1,0 +1,10 @@
+.conv-group {
+    .conv-content {
+        position: relative;
+        display: block;
+        .play-part {
+            position: absolute;
+            left: -15px;
+        }
+    }
+}

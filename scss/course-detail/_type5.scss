@@ -1,0 +1,822 @@
+
+/**
+@source : https://elearni.wpengine.com/courses/course-with-forum/
+*/
+.dtlms-course-detail.type5 {
+
+    .dtlms-course-detail-header {
+        margin-bottom: 25px;
+    }
+
+    .dtlms-main-title-section {
+        width: auto;
+
+        h2 {
+            margin-bottom: 18px;
+            display: inline-block;
+        }
+    }
+
+    .dtlms-course-detail-image {
+        height: 477px;
+        margin-bottom: 90px;
+
+        &:before {
+            content: "";
+            position: absolute;
+            display: inline-block;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(34, 34, 34, 0.77);
+        }
+    }
+
+    .dtlms-course-detail-author-title h5 {
+        font-size: 20px;
+        margin: 2px 0 -8px;
+        display: inline-block;
+        position: relative;
+        top: -3px;
+    }
+
+    .dtlms-course-detail-author {
+        .dtlms-author-contact-details {
+            display: inline-block;
+            margin: 0px 0 0 20px;
+            position: relative;
+            top: 4px;
+
+            >li>a {
+                width: 30px;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .dtlms-course-detail-author-image {
+        width: 56px;
+        height: 56px;
+
+        img {
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14);
+        }
+    }
+
+    .dt-lms-course-detail-date {
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 0;
+        color: rgba(71, 71, 71, 0.5);
+        font-weight: normal;
+    }
+
+    .dtlms-course-detail-content-meta {
+        >div {
+            border: none;
+            position: relative;
+            font-size: 16px;
+            font-weight: bold;
+            letter-spacing: 0;
+            padding: 10px 15px 10px 20px;
+
+            &:first-child {
+                padding: 0 20px 0 72px;
+
+                &:after {
+                    display: none;
+                }
+            }
+
+            &:after {
+                content: "";
+                background-color: #d1d1d1;
+                height: 21px;
+                width: 2px;
+                display: inline-block;
+                position: absolute;
+                margin: auto;
+                top: 0;
+                bottom: 0;
+                left: 0;
+            }
+        }
+    }
+
+    .dtlms-course-detail-ratings {
+        span {
+            margin-right: 8px;
+            letter-spacing: 0px;
+            width: 13px;
+
+            &:before {
+                font-size: 18px;
+                letter-spacing: -0.18em;
+            }
+        }
+    }
+
+    div[class$="share-holder"] {
+        margin: 32px 8px 0 0;
+        display: inline-block;
+        float: left;
+
+        .dtlms-title {
+            font-size: 16px;
+            letter-spacing: 0;
+            font-weight: bold;
+            color: #474747;
+            float: left;
+            width: auto;
+        }
+
+        .dtlms-title:after {
+            display: none;
+        }
+
+        ul li {
+            a {
+                height: 26px;
+                line-height: normal;
+                width: 26px;
+                font-size: 18px;
+                background-color: transparent;
+                color: #222;
+            }
+
+            &:first-child {
+                margin-left: 6px;
+            }
+        }
+    }
+
+    .dtlms-view-forum {
+        font-weight: 500;
+        letter-spacing: 0;
+        font-size: 16px;
+        line-height: 20px;
+        position: relative;
+        margin: 28px 0 0 30px;
+        display: inline-block;
+        float: left;
+        width: auto;
+        clear: none;
+
+        a {
+            i {
+                font-size: 18px;
+                margin-right: 5px;
+            }
+
+            span {
+                margin-bottom: -8px;
+                display: inline-block;
+            }
+        }
+    }
+
+    .dtlms-course-detail-content {
+        .dtlms-coursedetail-cart-details {
+            .dtlms-button {
+                padding: 18px 43px;
+                line-height: normal;
+                margin: 7px 0 10px;
+                font-size: 18px;
+                letter-spacing: 0;
+                font-weight: 500;
+                z-index: 1;
+                float: right;
+            }
+        }
+
+        &.right {
+            background-color: transparent;
+            padding: 0;
+            border: 0;
+            width: auto;
+            float: right;
+        }
+
+    }
+    
+    .dtlms-coursedetail-price-details {
+        display: inline-block;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 0;
+        padding: 6px 23px;
+        border-radius: 50px;
+        margin: 5px 0 0 20px;
+        line-height: normal;
+
+        span {
+            color: #FFF;
+            background-color: transparent;
+        }
+    }
+}
+
+
+
+.dtlms-course-detail.type5 .dtlms-forum-button-holder .dtlms-button.dtlms-button-forum-link {
+    background-color: transparent;
+}
+
+.dtlms-course-detail.type5 .dtlms-view-forum a,
+.dtlms-course-detail.type5 .dtlms-tabs-horizontal-container ul.dtlms-tabs-horizontal li a.current,
+.dtlms-course-detail.type5 .dtlms-tabs-horizontal-container ul.dtlms-tabs-horizontal li a:hover {
+    color: #222222;
+}
+
+
+.dtlms-course-detail.type5 .dtlms-forum-button-holder .dtlms-button.dtlms-button-forum-link {
+    background-image: none;
+    padding: 0;
+    border-radius: 0;
+}
+
+.dtlms-course-detail.type5 .dtlms-forum-button-holder .dtlms-button.dtlms-button-forum-link:before {
+    content: "";
+    width: 80%;
+    height: 1px;
+    background-color: #222;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.dtlms-course-detail.type5 .dtlms-forum-button-holder .dtlms-button.dtlms-button-forum-link:hover:before {
+    width: 0;
+}
+
+.dtlms-course-detail.type5 .dtlms-tabs-horizontal-container {
+    overflow: visible;
+}
+
+.dtlms-course-detail.type5 .dtlms-tabs-horizontal.scroll_tabs_container {
+    border-bottom: 0;
+    float: left;
+    clear: both;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    height: 130px;
+    line-height: 130px;
+    list-style-type: none;
+    counter-reset: li;
+    width: 100vw;
+    margin: 0 0 0 -50vw;
+    left: 50%;
+}
+
+.dtlms-course-detail.type5 {
+    .dtlms-tabs-horizontal-container {
+        ul.dtlms-tabs-horizontal {
+            li {
+                position: relative;
+                margin: auto;
+                top: -10px;
+                width: 25%;
+        
+                &.scroll_tab_last:after {
+                    display: none;
+                }
+        
+                &:after {
+                    content: "";
+                    display: inline-block;
+                    width: 2px;
+                    height: 20px;
+                    background-color: #FFF;
+                    right: 0;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    margin: auto;
+                }
+        
+                a {
+                    color: $main-color;
+                    font-size: 20px;
+                    font-weight: bold;
+                    letter-spacing: -0.04em;
+                    line-height: inherit;
+                    position: relative;
+            
+                    &.current,
+                    &.activated,
+                    &:hover {
+                        background-color: transparent;        
+                    }
+        
+                    &:before {
+                        counter-increment: li;
+                        content: counter(li, decimal-leading-zero);
+                        padding-right: 10px;
+                    }
+        
+                    &.current:after,
+                    &.activated:after {
+                        content: "";
+                        width: 0px;
+                        height: 0px;
+                        border-left: 18px solid transparent;
+                        border-right: 18px solid transparent;
+                        border-bottom: 18px solid #FFF;
+                        position: absolute;
+                        bottom: 0;
+                        margin: auto;
+                        left: 0;
+                        right: 0;
+                        display: inline-block;
+                    }
+        
+                    span { display: none;}
+                }
+            }
+
+            &.chapter-actions {
+                li {
+                    width: auto;
+                    //position: unset;
+                    top: unset;
+                    a {
+                        line-height: initial;
+                        height: 130px;
+                        padding-top: 25px;
+                        font-weight: unset;
+    
+                        &:before {
+                            content: '';
+                            padding: 0;
+                        }
+
+                        &.activated {
+                            font-weight: bold;
+                        }
+    
+                        span { 
+                            display: block;
+                            line-height: 50px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .chapter-action-child {
+            display: block;
+            clear: both;
+            text-align: center;
+            padding-top: 15px;
+
+            li {
+                position: relative;
+                display: inline-block;
+                margin: auto 15px;
+
+                a.activated {
+                    color: #222;
+                    font-weight: bold;
+                }
+            }
+        }
+    
+        //&:not(.with-sidebar) .dtlms-tabs-horizontal-content {
+            //width: 100%;
+            //width: 72%;
+            //margin: 0 14%;
+        //}
+    }
+}
+
+
+/*.dtlms-course-detail.type5 .dtlms-tabs-horizontal-container .dtlms-tabs-horizontal-content-holder{width:72%; margin:0px 14% 0;}*/
+
+
+.dtlms-course-detail.type5 {
+
+    .dtlms-coursedetail-cart-details,
+    .dtlms-classdetail-cart-details {
+        .added_to_cart {
+            font-weight: 500;
+            padding: 0;
+            font-size: 18px;
+            clear: both;
+            float: right;
+            font-size: 18px;
+            line-height: 60px;
+            padding: 0;
+            text-decoration: none;
+            height: 60px;
+            background: none;
+            border: none;
+            width: auto;
+            font-weight: 500;
+            color: #222;
+            letter-spacing: 0;
+
+            &:before {
+                content: "\f0da";
+                font-family: "Font Awesome 5 Free";
+                font-weight: 900;
+                float: right;
+                margin-left: 8px;
+            }
+
+            &:hover {
+                background-color: transparent;
+                background: none;
+            }
+        }
+    }
+
+    .dtlms-toggle-group-set {
+        position: relative;
+        padding-bottom: 24px;
+        margin: 0;
+    
+        .dtlms-toggle {
+            font-size: 30px;
+            font-weight: bold;
+            padding: 12px 26px;
+            position: relative;
+            text-transform: none;
+            letter-spacing: -0.04em;
+            border-radius: 12px;
+    
+            &:before {
+                /*background-image: url(images/toggle-arrow.png);*/
+                content: "";
+                display: inline-block;
+                background-repeat: no-repeat;
+                position: absolute;
+                right: 30px;
+                top: 28px;
+                margin: 0;
+            }
+    
+            &:after {
+                content: "";
+                position: absolute;
+                left: -52px;
+                top: 25px;
+                width: 18px;
+                height: 18px;
+                margin: auto;
+                opacity: 1;
+                border-radius: 50%;
+                background-color: #e1e1e1;
+            }
+    
+            &.active {
+                &:after {
+                    border: 7px solid;
+                    background-color: #FFF;
+                    width: 32px;
+                    height: 32px;
+                    left: -58px;
+                    top: 19px;
+                }
+    
+                &:before {
+                    top: 14px;
+                    filter: grayscale(100%) contrast(100);
+                    -moz-filter: grayscale(100%) contrast(100);
+                    -webkit-filter: grayscale(100%) contrast(100);
+                    /*-ms-filter: grayscale(100%) contrast(100);*/
+                    transform: scaleY(-1);
+                }
+            }
+        }
+    
+        .dtlms-toggle-content {
+            position: relative;
+            overflow: visible !important;
+            border: none;
+    
+            &:before {
+                content: "";
+                background-color: #e1e1e1;
+                position: absolute;
+                left: -44px;
+                top: -22px;
+                height: calc(100% + 72px);
+                width: 3px;
+                display: inline-block;
+                z-index: -1;
+            }
+
+            .block {
+                padding-top: 34px;
+            }
+        }
+    
+        &:last-child .dtlms-toggle-content:before {
+            height: 100%;
+        }
+    }
+
+    .dtlms-curriculum-list {
+        font-weight: bold;
+        letter-spacing: 0;
+        font-size: 15px;
+        counter-reset: listStyle;
+
+        li {
+            .dtlms-curriculum-meta-title {
+                font-size: 16px;
+                letter-spacing: -0.04em;
+                font-weight: 500;
+                color: #222;
+                padding: 0;
+                position: relative;
+            }
+
+            &.purchased-item:before,
+            &.preview-item:before {
+                color: #222;
+            }
+
+            &:after {
+                content: "";
+                width: 2px;
+                height: 2px;
+                display: inline-block;
+                border-radius: 50%;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                position: absolute;
+                top: 34px;
+                left: 22px;
+                float: left;
+                background-color: rgba(34, 34, 34, 0.5);
+            }
+        }
+
+        >li.preview-item>.dtlms-curriculum-meta-icon {
+            color: #FFF;
+        }
+
+        >li>.dtlms-curriculum-meta-icon {
+            position: absolute;
+            display: inline-block;
+            float: left;
+            right: 260px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            text-align: center;
+            background-color: transparent;
+            line-height: 50px;
+            font-size: 15px;
+            color: #2F2F2F;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+        }
+
+        >li .dtlms-curriculum-meta-duration:before {
+            content: "\f017";
+            font-weight: 900;
+            font-family: Font Awesome\ 5 Free;
+            margin-right: 7px;
+        }
+
+        .dtlms-curriculum-meta-preview {
+            margin: 3px 0 0 30px;
+            border-radius: 50px;
+            font-weight: normal;
+            right: -10px;
+        }
+    }
+
+    .dtlms-curriculum-meta-duration {
+        margin-top: 4px;
+    }
+
+    .dtlms-dynamic-section-counter {
+        .dtlms-course-dynamic-section-startdate {
+            padding: 0;
+            font-size: 20px;
+            font-weight: normal;
+            letter-spacing: 0;
+
+            strong {
+                font-size: 27px;
+                font-weight: bold;
+                letter-spacing: 0;
+            }
+        }
+    }
+
+    .dtlms-course-detail-author-title {
+        h5 {
+            a, a:hover {
+                background-color: transparent;
+            }
+        }
+    }
+
+    .scroll_tabs_container {
+        .scroll_tab_right_button,
+        .scroll_tab_left_button {
+            width: 60px !important;
+            z-index: 1;
+        }
+
+        .scroll_tab_right_button {
+            right: 9px !important;
+        }
+
+        .scroll_tab_left_button {
+            left: 9px !important;
+        }
+    }
+
+    .dtlms-course-dynamic-section-holder {
+        .dtlms-title {
+            font-size: 20px;
+            letter-spacing: -0.04em;
+            font-weight: bold;
+            text-align: left;
+
+            &:after {
+                display: none;
+            }
+        }
+
+        &.dtlms-dynamic-section-course-progress {
+            padding: 0;
+            background-color: transparent;
+            border: none;
+
+            .dtlms-item-student-submitted-item-details {
+                color: #2f2f2f;
+                letter-spacing: 0;
+                font-weight: 300;
+            }
+
+            .dtlms-item-student-submitted-item-details
+            .dtlms-item-student-completed-item-details {
+                margin-left: 60px;
+                width: 46.3%;
+                border-right: 1px solid #eeeeee;
+                padding-right: 60px;
+                float: left;
+
+                > span {
+                    font-weight: bold;
+                    letter-spacing: 0;
+                    background-color: #fef0bf;
+                    border: 1px solid #fcc400;
+                    padding: 4px 13px;
+                    border-radius: 5px;
+                    margin-left: 8px;
+                }
+            }
+        }
+    }
+
+    .dtlms-item-submit-button-holder {
+        width: 33.3%;
+        clear: none;
+        float: left;
+
+        .dtlms-item-submit-button {
+            margin: 100px 0 0;
+        }
+    }
+
+    .dtlms-item-progress-details-holder {
+        width: 66.6%;
+        float: left;
+
+        .dtlms-title {
+            margin-bottom: 10px;
+        }
+    }
+
+    .dtlms-countdown-holder {
+        .dtlms-countdown-wrapper {
+            border: 4px solid;
+            margin: 5px 7px 0;
+            width: 76px;
+
+            .dtlms-countdown-icon-wrapper {
+                font-size: 27px;
+            }
+
+            .dtlms-countdown-title {
+                font-size: 14px;
+            }
+        }
+    }
+ 
+}
+
+@import "../components/course/curriculum/toggle-group-holder";
+
+
+
+.dtlms-course-detail.type5 .dtlms-toggle-group-set .dtlms-curriculum-list li {
+    padding: 18px 10px 18px 28px;
+    position: relative;
+    counter-increment: listStyle;
+}
+
+.dtlms-course-detail.type5 .dtlms-toggle-group-set .dtlms-curriculum-list {
+    li:before {
+        content: "";
+        position: absolute;
+        content: counter(listStyle, lower-alpha);
+        left: 11px;
+        top: 18px;
+        font-size: 16px;
+        font-weight: 500;
+        color: rgba(34, 34, 34, 0.5);
+    }
+
+    &.no-counter {
+        li:before,
+        li::after {
+            content : '';
+            width: 0;
+        }
+    }
+}
+
+
+
+.dtlms-course-detail.type5 div[class*="dynamic-section-holder"]>div[class$="dynamic-section-startdate"] i {
+    display: none;
+}
+
+.dtlms-course-detail.type5 .dtlms-course-dynamic-section-holder.dtlms-dynamic-section-notification:not(.dtlms-dynamic-section-counter) {
+    padding: 18px 38px 18px;
+    background-color: #fde17f;
+    border: 1px solid #fcc400;
+    border-radius: 10px;
+    letter-spacing: 0;
+}
+
+.dtlms-course-detail.type5 .dtlms-course-dynamic-section-holder.dtlms-dynamic-section-notification:not(.dtlms-dynamic-section-counter) p,
+.dtlms-course-detail.type5 .dtlms-course-dynamic-section-holder.dtlms-dynamic-section-notification:not(.dtlms-dynamic-section-counter) p a {
+    color: #2f2f2f;
+}
+
+.dtlms-course-detail.type5 .dtlms-course-dynamic-section-holder.dtlms-dynamic-section-notification:not(.dtlms-dynamic-section-counter) p:before {
+    content: '\f1f8';
+    font-family: 'Material-Design-Iconic-Font';
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    margin-right: 10px;
+}
+
+.dtlms-course-detail.type5 .dtlms-course-dynamic-section-holder.dtlms-dynamic-section-counter {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 60px;
+}
+
+.dtlms-course-detail.type5 .dtlms-course-dynamic-section-holder.dtlms-dynamic-section-counter .dtlms-course-dynamic-section-startdate {
+    padding: 0;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 0;
+    margin-right: 90px;
+}
+
+.dtlms-course-detail.type5 .dtlms-course-dynamic-section-holder.dtlms-dynamic-section-counter .dtlms-course-dynamic-section-startdate strong {
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 0;
+}
+
+.dtlms-course-detail.type5 .dtlms-course-dynamic-section-holder.dtlms-dynamic-section-counter .dtlms-countdown-holder {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+
+.dtlms-course-detail.type5 .dtlms-course-dynamic-section-holder.dtlms-dynamic-section-course-progress .dtlms-item-student-submitted-item-details {
+    margin-left: 0;
+}
+
+
+.dtlms-course-detail.type5 .dtlms-tabs-horizontal-container .dtlms-tabs-horizontal-content {
+    padding: 80px 0 0;
+}
+
+.dtlms-course-detail.type5 .dtlms-tabs-horizontal.scroll_tabs_container {
+    background-color: $main-bg-color;
+    color: $main-color;
+}

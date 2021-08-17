@@ -1,0 +1,27 @@
+
+// @media only screen and (max-width: 767px) {
+//     .dt-logo-container {
+//         img {
+//             //width: 127px 
+//         }
+//     }
+    
+// }
+
+.dt-logo-container {
+    padding: 5px 0;
+    // img {
+    //     //width: 127px;
+    //     height: 65px;
+    // }
+}
+
+.elearni-header {
+    background-color: $header-bg-color;
+    position: relative;
+    left: -126px;
+    /* box-sizing: border-box; */
+    width: 962px;
+    padding-left: 126px;
+    padding-right: 126px;
+  }

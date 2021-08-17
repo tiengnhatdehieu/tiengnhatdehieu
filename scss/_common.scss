@@ -348,63 +348,7 @@ div[class$="answer-container"], .dtlms-quiz-questions, .dtlms-quiz-questions ul 
 }
 
 /* Tables */
-.wp-admin div[id*="result-popup"] table, body[class*="single-dtlms"] table {
-    border-collapse: collapse;
-    margin: 0 0 1.5em;
-    width: 100%;
-}
 
-.wp-admin div[id*="result-popup"] table thead, 
-.wp-admin div[id*="result-popup"] table tbody,
- body[class*="single-dtlms"] table thead, 
- body[class*="single-dtlms"] table tbody
-{
-    display: block;
-    overflow-x: auto;
-}
-
-.wp-admin div[id*="result-popup"] thead th {
-    border-bottom: 2px solid #bbb;
-    padding-bottom: 0.5em;
-}
-
-.wp-admin div[id*="result-popup"] tr {
-    border-bottom-width: 0;
-}
-
-.wp-admin div[id*="result-popup"] th {
-    padding: 0.4em;
-    text-align: left;
-}
-
-.wp-admin div[id*="result-popup"] td {
-    padding: 0.4em;
-}
-
-
-
-.wp-admin div[id*="result-popup"] table th,
-body[class*="single-dtlms"] table th {
-    font-weight: 600;
-}
-
-.wp-admin div[id*="result-popup"] table tbody tr:nth-child(2n+1) td,
-body[class*="single-dtlms"] table tbody tr:nth-child(2n+1) td {
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.wp-admin div[id*="result-popup"] table, .wp-admin div[id*="result-popup"] table,
-body[class*="single-dtlms"] table, body[class*="single-dtlms"] table {
-    border-left: 1px solid;
-    border-right: 1px solid;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-.wp-admin div[id*="result-popup"] table th,
-body[class*="single-dtlms"] table th {
-    border-bottom: none;
-}
 
 @import "./components/table";
 
@@ -417,20 +361,7 @@ body[class*="single-dtlms"] table th {
 
 }
 
-.wp-admin div[id*="result-popup"] .dtlms-class-curriculum-table td.section,
-body[class*="single-dtlms"] .dtlms-class-curriculum-table td.section,
-.wp-admin div[id*="result-popup"] .dtlms-course-curriculum-table td.section,
-body[class*="single-dtlms"] .dtlms-course-curriculum-table td.section,
-.wp-admin div[id*="result-popup"] .dtlms-class-curriculum-table td.dtlms-class-curriculum-item,
-body[class*="single-dtlms"] .dtlms-class-curriculum-table td.dtlms-class-curriculum-item,
-.wp-admin div[id*="result-popup"] .dtlms-course-curriculum-table td.dtlms-course-curriculum-item,
-body[class*="single-dtlms"] .dtlms-course-curriculum-table td.dtlms-course-curriculum-item,
-.wp-admin div[id*="result-popup"] table th.dtlms-media-attachment-item, .wp-admin div[id*="result-popup"] table td.dtlms-media-attachment-item,
-body[class*="single-dtlms"] table th.dtlms-media-attachment-item, body[class*="single-dtlms"] table td.dtlms-media-attachment-item {
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: left;
-}
+
 
 .dtlms-course-curriculum-table td.section,
 .dtlms-class-curriculum-table td.section {
@@ -4986,17 +4917,6 @@ div[class*="listing-filters"] > div[class$="filter"] > ul > li > input[type="rad
 }
 
 
-.dtlms-title, table.dtlms-custom-table, 
-.dtlms-custom-box table,
-.admin-bar div[id*="result-popup"] table th, 
-.admin-bar div[id*="result-popup"] table td,
-body[class*="single-dtlms"] table th, 
-body[class*="single-dtlms"] table td,
-.wp-admin div[id*="result-popup"] table, 
-.wp-admin div[id*="result-popup"] table,
-body[class*="single-dtlms"] table, 
-.dtlms-statistics-container .dtlms-chart-holder .dtlms-overview-chart-container table tr th,
-.dtlms-statistics-container .dtlms-chart-holder .dtlms-overview-chart-container table tr td,
 .dtlms-statistics-container .dtlms-custom-table td .dtlms-subscriber-tooltip .dtlms-subscription-detail-holder ul,
 div[class$="answer-container"], 
 .dtlms-answer-explanation-container,
@@ -6442,15 +6362,21 @@ table.dtlms-custom-table td.section, table.dtlms-custom-table tbody tr:nth-child
         display: inline-block;
     }
 
-    .dtlms-course-result-curriculum-container, .dtlms-class-result-curriculum-container {
+    .dtlms-course-result-curriculum-container, 
+    .dtlms-class-result-curriculum-container {
         width: 100%;
         float: left;
         overflow-x: scroll;
     }
 
-    .dtlms-course-result-curriculum-container th, .dtlms-course-result-curriculum-container td, .dtlms-course-result-curriculum-container tbody th, .dtlms-class-result-curriculum-container th, .dtlms-class-result-curriculum-container td, .dtlms-class-result-curriculum-container tbody th {
-        font-size: 14px;
-    }
+    // .dtlms-course-result-curriculum-container th, 
+    // .dtlms-course-result-curriculum-container td, 
+    // .dtlms-course-result-curriculum-container tbody th, 
+    // .dtlms-class-result-curriculum-container th, 
+    // .dtlms-class-result-curriculum-container td, 
+    // .dtlms-class-result-curriculum-container tbody th {
+    //     font-size: 14px;
+    // }
 
     .dtlms-course-result-popup-intro h2, .dtlms-course-result-popup-intro h3, .dtlms-course-result-popup-intro h4, .dtlms-class-result-popup-intro h2, .dtlms-class-result-popup-intro h3, .dtlms-class-result-popup-intro h4 {
         font-size: 20px;
@@ -6546,3 +6472,4 @@ table.dtlms-custom-table td.section, table.dtlms-custom-table tbody tr:nth-child
     }
 
 }
+

@@ -1,0 +1,139 @@
+
+.dtlms-class-detail .dtlms-class-detail-header,
+.dtlms-class-detail .dtlms-class-detail-image,
+.dtlms-class-detail .dtlms-class-detail-content,
+.dtlms-class-detail .dtlms-main-title-section,
+.dtlms-class-detail-content-meta {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.dtlms-class-detail .dtlms-class-detail-header {
+    margin-bottom: 50px;
+}
+
+.dtlms-class-detail .dtlms-class-detail-image {
+    float: left;
+    clear: both;
+    padding: 0px;
+    text-align: center;
+    width: 100vw;
+    position: relative;
+    margin: 0 0 0 -50vw;
+    height: 490px;
+    left: 50%;
+    overflow: hidden;
+}
+
+.dtlms-class-detail .dtlms-class-detail-image img {
+    display: block;
+}
+
+.dtlms-class-detail .dtlms-class-detail-content.left {
+    float: left;
+    width: 75%;
+}
+
+.dtlms-class-detail .dtlms-class-detail-content.right {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.dtlms-class-detail .dtlms-main-title-section h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.dtlms-class-detail .dtlms-class-detail-content-meta>div:first-child {
+    padding: 0 15px 0 80px;
+    border: 0;
+}
+
+.dtlms-class-detail .dtlms-class-detail-content-meta>div {
+    border-left: 1px solid #d1d1d1;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 16px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.dtlms-class-detail .dtlms-class-detail-content-meta>div label {
+    color: inherit;
+}
+
+.dtlms-class-detail .dtlms-class-detail-author-image {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    display: inline-block;
+    height: 65px;
+    margin: 0 20px 0 0;
+    width: 65px;
+}
+
+.dtlms-class-detail .dtlms-class-detail-author-image img {
+    border-radius: 50%;
+}
+
+.dtlms-class-detail .dtlms-class-detail-author-title {
+    display: inline-block;
+    padding: 0;
+}
+
+.dtlms-class-detail .dtlms-class-detail-author-title h5 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.dtlms-class-detail .dtlms-class-detail-content-meta i {
+    margin-right: 15px;
+}
+
+.dtlms-class-detail .dtlms-class-detail-ratings {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.dtlms-class-detail .dtlms-class-detail-ratings span {
+    font-size: 0;
+    margin-right: 5px;
+}
+
+.dtlms-class-detail .dtlms-class-detail-ratings span:before {
+    font-size: 14px;
+    margin: 0;
+}
+
+.dtlms-class-detail .dtlms-class-detail-total-reviews {
+    display: inline-block;
+}
+
+.dtlms-class-detail .dtlms-classdetail-price-details {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.dtlms-class-detail .dtlms-classdetail-cart-details {
+    margin-bottom: 25px;
+}
+
+.dtlms-class-detail .dtlms-forum-button-holder .dtlms-button.dtlms-button-forum-link {
+    box-shadow: inherit;
+    -webkit-box-shadow: inherit;
+    margin: auto;
+}
+
+.dtlms-class-detail .dtlms-forum-button-holder:before {
+    display: none;
+}
+
+.dtlms-class-detail .dtlms-class-detail-author-meta {
+    display: inline-block;
+}

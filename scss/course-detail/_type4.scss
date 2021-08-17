@@ -1,0 +1,102 @@
+
+.dtlms-course-detail.type4 .dtlms-course-detail-image {
+    height: 350px;
+}
+
+.dtlms-course-detail.type4 .dtlms-course-detail-content-holder {
+    background-color: #fff;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.dtlms-course-detail.type4 .dtlms-course-detail-image~.dtlms-course-detail-content-holder {
+    margin: -80px -50px 0;
+    padding: 35px 45px;
+    box-sizing: content-box !important;
+}
+
+.dtlms-course-detail.type4 .dtlms-course-detail-content.right>div {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0;
+    clear: none;
+    width: auto;
+    margin: 0 0 10px 10px;
+}
+
+.dtlms-course-detail.type4 .dtlms-course-detail-content.right>div:first-child {
+    margin: 0 0 10px;
+}
+
+.dtlms-course-detail.type4 .dtlms-coursedetail-cart-link {
+    margin: 0;
+}
+
+.dtlms-course-detail.type4 .dtlms-course-detail-content.right {
+    text-align: right;
+    z-index: 0;
+}
+
+.dtlms-course-detail.type4 .dtlms-course-detail-content-meta>div {
+    font-weight: 500;
+}
+
+.dtlms-course-detail.type4 .dtlms-course-detail-author>span,
+.dtlms-course-detail.type4 .dtlms-course-detail-curriculum>span,
+.dtlms-course-detail.type4 .dtlms-course-detail-ratings-container>span {
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.dtlms-course-detail.type4 .dtlms-tabs-horizontal-container ul.dtlms-tabs-horizontal {
+    background-color: #f9f9f9;
+    border: 1px solid #f1f1f1;
+}
+
+.dtlms-course-detail.type4 .dtlms-toggle-group-set {
+    border: 1px solid #f1f1f1;
+}
+
+.dtlms-course-detail.type4 .dtlms-toggle-group-set .dtlms-toggle-content {
+    border: 0;
+    padding: 0 20px 0 25px;
+}
+
+.dtlms-course-detail.type4 .dtlms-toggle-group-set h5.dtlms-toggle {
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.dtlms-course-detail.type4 .dtlms-toggle-group-set h5.dtlms-toggle.active {
+    border-color: #f1f1f1;
+}
+
+.dtlms-course-detail.type4 .dtlms-toggle-group-set .dtlms-toggle-group-set {
+    padding: 0;
+}
+
+.dtlms-course-detail.type4 .dtlms-toggle-group-set .dtlms-toggle-group-set h5.dtlms-toggle {
+    padding: 10px 20px;
+}
+
+.dtlms-course-detail.type4 .dtlms-button {
+    margin: 0;
+}
+
+.dtlms-course-detail.type4 div[class$="share-holder"] {
+    margin-top: 6px;
+}
+
+.dtlms-course-detail.type4 div[class$="share-holder"] ul {
+    margin-bottom: 16px;
+}
+
+.dtlms-course-detail.type4 .dtlms-toggle-group-set .dtlms-toggle-group-set .dtlms-toggle-content .block {
+    padding: 10px 0 0;
+}
+
+.dtlms-course-detail.type4 .dtlms-toggle-group-set .dtlms-toggle-group-set .dtlms-toggle-group-set .dtlms-toggle-content .block {
+    padding: 10px 0 20px;
+}

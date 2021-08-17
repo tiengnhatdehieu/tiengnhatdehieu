@@ -1,0 +1,96 @@
+.dtlms-tabs-vertical-container {
+    clear: both;
+    display: table;
+    margin: 0 0 20px;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+
+.dtlms-tabs-vertical-container ul.dtlms-tabs-vertical,
+.dtlms-tabs-vertical-container .dtlms-tabs-vertical-content {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.dtlms-tabs-vertical-container ul.dtlms-tabs-vertical {
+    margin: 0;
+    padding: 10px 0;
+    position: relative;
+    width: 25%;
+}
+
+.dtlms-tabs-vertical-container ul.dtlms-tabs-vertical:after {
+    border-style: solid;
+    border-width: 0 3px 0 0;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+}
+
+.dtlms-tabs-vertical-container ul.dtlms-tabs-vertical>li {
+    float: left;
+    display: block;
+    margin: 0 0 2px;
+    padding: 0;
+    width: 100%;
+}
+
+.dtlms-tabs-vertical-container ul.dtlms-tabs-vertical>li>a {
+    border-right: 1px solid transparent;
+    float: left;
+    font-size: 14px;
+    border: 1px solid #f0f0f0;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 10px 15px;
+    position: relative;
+    width: 100%;
+}
+
+.dtlms-tabs-vertical-container ul.dtlms-tabs-vertical>li>a.current,
+.dtlms-tabs-vertical-container ul.dtlms-tabs-vertical>li>a:hover {
+    z-index: 1;
+}
+
+.dtlms-tabs-vertical-container ul.dtlms-tabs-vertical>li>a,
+.dtlms-tabs-vertical-container ul.dtlms-tabs-vertical>li>a:focus {
+    outline: none;
+}
+
+.dtlms-tabs-vertical-container ul.dtlms-tabs-vertical>li>a>span {
+    float: left;
+    margin: 0 10px 0 0;
+    position: relative;
+    top: 4px;
+}
+
+.dtlms-tabs-vertical-container>ul>li>a:after {
+    content: "";
+    height: 0;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    right: -1px;
+    top: 0;
+    visibility: hidden;
+    width: 3px;
+}
+
+.dtlms-tabs-vertical-container>ul>li>a.current:after {
+    height: 100%;
+    visibility: visible;
+}
+
+.dtlms-tabs-vertical-container .dtlms-tabs-vertical-content {
+    margin: 0;
+    padding: 10px 30px;
+    position: relative;
+}
+
+.dtlms-tabs-vertical-content:last-child {
+    border-width: 1px;
+}

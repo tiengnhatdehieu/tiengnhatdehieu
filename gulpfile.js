@@ -6,12 +6,20 @@ var sass = require('gulp-sass')(require('node-sass'));
 var concat = require('gulp-concat');
 sass.compiler = require('node-sass');
 
-gulp.task('sass', function () {
-   return gulp.src('./scss/*.scss')
+gulp.task('bootstrap-css', function () {
+  return gulp.src('./scss/bootstrap.scss')
+  .pipe(sass().on('error', sass.logError))
+  .pipe(gulp.dest('./css/'));
+});
+
+gulp.task('tiengnhatdehieu-css', function () {
+  return gulp.src('./scss/e-learn-wp.scss')
    .pipe(concat('tiengnhatdehieu.scss'))
    .pipe(sass().on('error', sass.logError))
    .pipe(gulp.dest('./css/'));
 });
+
+gulp.task('sass', gulp.series(['bootstrap-css', 'tiengnhatdehieu-css']));
 
 gulp.task('sass:watch', function () {
   gulp.watch(
@@ -23,12 +31,6 @@ gulp.task('sass:watch', function () {
     gulp.series('sass')
   );
 });
-
-// gulp.task('watch', function() {
-//   gulp.watch('app/css/*.css', gulp.series('styles'));
-//   gulp.watch('app/js/*.js', gulp.series('scripts'));
-//   gulp.watch('app/img/*', gulp.series('images'));
-// });
 
 gulp.task('clean', () => {
   return del([

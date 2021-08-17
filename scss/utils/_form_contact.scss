@@ -1,0 +1,104 @@
+
+.wpcf7-form-control-wrap
+{
+    float: left; 
+    width: 100%;
+}
+.wpcf7-form-control-wrap:before
+{
+    background: #2b2b2b;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: auto;
+            transition: all .3s linear; 
+    width: 0;
+    z-index: 9;
+       -moz-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+         -o-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+.wpcf7-form-control-wrap:hover:before
+{
+    width: 100%;
+}
+
+.wpcf7-form .wpcf7-not-valid
+{
+    border-color: #f00 !important;
+}
+.wpcf7-form .wpcf7-not-valid-tip
+{
+    display: none;
+}
+
+.wpcf7-form.event-contact-form .wpcf7-not-valid
+{
+    background-color: rgba(255, 0, 0, .1) !important;
+}
+.wpcf7-form.university-contact-form p
+{
+    clear: both;
+}
+
+.wpcf7-form div.wpcf7-validation-errors,
+.wpcf7-form div.wpcf7-mail-sent-ok
+{
+    box-sizing: border-box; 
+    clear: both;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 15px 15px 15px 45px;
+    width: 99%;
+}
+.wpcf7-form div.wpcf7-validation-errors
+{
+    background-color: #fcc;
+    border: 1px solid #f99;
+    color: #d01313;
+    position: relative;
+}
+.wpcf7-form div.wpcf7-validation-errors:before,
+.wpcf7-form div.wpcf7-mail-sent-ok:before
+{
+    font-family: FontAwesome;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    left: 18px;
+    position: absolute; 
+    text-decoration: inherit;
+    top: 15px;
+}
+.wpcf7-form div.wpcf7-validation-errors:before
+{
+    color: #c54228; 
+    content: '\f057';
+}
+
+.wpcf7-form div.wpcf7-mail-sent-ok
+{
+    background-color: #eafac0;
+    border: 1px solid #b1cf67;
+    color: #7ba411;
+    position: relative;
+}
+.wpcf7-form div.wpcf7-mail-sent-ok:before
+{
+    color: #75b632; 
+    content: '\f058';
+}
+
+.wpcf7 form .wpcf7-response-output {float: left; width: 100%; margin: 10px 0 0; }
+    form.wpcf7-form .wpcf7-response-output {position: relative; clear: both; float: left; margin-left: 0; margin-right: 0; padding: 15px 15px 15px 45px; width: 99%; box-sizing: border-box; }
+    form.wpcf7-form.invalid .wpcf7-response-output {background-color: #ffcccc; border: 1px solid #ff9999; color: #d01313; }
+    form.wpcf7-form.sent .wpcf7-response-output {background-color: #eafac0; border: 1px solid #b1cf67; color: #7ba411; }
+
+    form.wpcf7-form .wpcf7-response-output:before {top: 15px;left: 18px; font-family: "Font Awesome 5 Free"; font-weight: 900; font-style: normal;font-weight: normal;text-decoration: inherit;font-size: 20px;position: absolute;}
+    form.wpcf7-form.invalid .wpcf7-response-output:before {content: "\f057";}
+    form.wpcf7-form.sent .wpcf7-response-output:before {content: "\f058";}

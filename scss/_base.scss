@@ -73,14 +73,14 @@ fieldset,
 form,
 label,
 legend,
-table,
+// table,
 caption,
 tbody,
 tfoot,
-thead,
-tr,
-th,
-td,
+// thead,
+// tr,
+// th,
+// td,
 article,
 aside,
 canvas,
@@ -278,123 +278,13 @@ p:empty
 
 /*--------------------------------------------------------------
 	1.4 - Fonts
-	--------------------------------------------------------------*/
+--------------------------------------------------------------*/
 
-body,
-input[type='text'],
-input[type='password'],
-input[type='email'],
-input[type='url'],
-input[type='tel'],
-input[type='number'],
-input[type='range'],
-input[type='date'],
-textarea,
-input.text,
-input[type='search'],
-select,
-textarea,
-#footer .dt-sc-contact-info.simple h6,
-.dt-sc-team.team-profile .dt-sc-team-details h5,
-.dt-sc-icon-box.type14 .icon-content h4,
-.process .dt-sc-timeline-item h3,
-.testimonial_carousel .dt-sc-testimonial.type1 blockquote,
-.carousel_items.testimonial_carousel .dt-sc-testimonial-wrapper .dt-sc-testimonial.type1 .dt-sc-testimonial-author cite small,
-.dt-sc-contact-info.simple-type h6,
-.dt-sc-image-caption.curved .dt-sc-image-title h3,
-.dt-sc-team.type2.colorful .dt-sc-team-details h5,
-.dtlms-instructor-item.type2.team-profile .dtlms-instructor-item-meta-data h5,
-.dtlms-instructor-item.type6 .dtlms-instructor-item-meta-data h5,
-.dtlms-courselist-item-wrapper .dtlms-courselist-details .dtlms-courselist-author-description h5 span,
-.vertical-testimonial-slider .dt-sc-special-testimonial-details-holder .dt-sc-testimonial-description:before,
-.vertical-testimonial-slider .dt-sc-special-testimonial-details-holder .dt-sc-testimonial-author cite small,
-.dt-sc-special-testimonial-images-holder .dt-sc-testimonial-author cite small,
-.dtlms-course-detail.type5 .dtlms-coursedetail-price-details,
-.dtlms-course-detail-related-courses-list-wrapper .dtlms-title span,
-.blog-single-entry.post-custom-classic blockquote.type2 q,
-h3.portfolio-caption,
-h5.portfolio-caption,
-.dtportfolio-single-layout-container.custom-layout h3.vc_custom_heading,
-.dtportfolio-single-layout-container.custom-layout h5.vc_custom_heading
-{
-    font-family: 'Roboto', sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-#main-menu ul.menu > li > a,
-.dt-sc-counter.type1 .dt-sc-counter-number,
-.dt-sc-portfolio-sorting a,
-.dt-sc-testimonial.type1 blockquote,
-.entry-meta,
-.dt-sc-testimonial .dt-sc-testimonial-author cite,
-.dt-sc-pr-tb-col.minimal .dt-sc-price p,
-.dt-sc-pr-tb-col.minimal .dt-sc-price h6 span,
-.dt-sc-testimonial.special-testimonial-carousel blockquote,
-.dt-sc-pr-tb-col .dt-sc-tb-title,
-.dt-sc-pr-tb-col .dt-sc-tb-content,
-.dt-sc-button,
-.dt-sc-bar-text,
-input[type='submit'],
-input[type='reset'],
-.dt-header-menu ul.dt-primary-nav > li > a,
-.dt-sc-tabs-horizontal-frame-container.type6 ul.dt-sc-tabs-horizontal-frame > li > a,
-.dt-sc-team.team-profile.none .dt-sc-team-details .prof a,
-.dt-sc-image-caption.default .view-btn,
-.simple-link,
-a.video-image span:after,
-.link-text,
-.dtlms-course-category-item.type8 .dtlms-category-total-items,
-.fullwidth-tabs ul.dt-sc-tabs-horizontal-frame > li > a,
-.dt-sc-tabs-vertical-container.circle-rings ul.dt-sc-tabs-vertical > li > a,
-.contact-form button[type=submit],
-.dt-sc-team.type2.colorful .dt-sc-team-details .marks,
-.type6.dtlms-courselist-item-wrapper .dtlms-courselist-details .dtlms-courselist-metadata-holder .dtlms-courselist-author-description p a,
-.fullwidth-courses .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li a,
-.fullwidth-courses .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li span,
-.vertical-testimonial-slider .dt-sc-special-testimonial-details-holder .dt-sc-testimonial-author cite,
-.dt-sc-special-testimonial-images-holder .dt-sc-testimonial-author cite,
-.dtlms-course-detail.type5 .dtlms-view-forum,
-.dtlms-course-detail.type5 .dtlms-tabs-horizontal-container ul.dtlms-tabs-horizontal li a,
-.dtlms-button,
-.dtlms-course-detail.type5 .dtlms-curriculum-list li .dtlms-curriculum-meta-title,
-.dtlms-course-detail.type5 .dtlms-toggle-group-set .dtlms-curriculum-list li:before,
-.dtlms-course-detail.type5 .dtlms-toggle-group-set .dtlms-curriculum-list li:before,
-.dtlms-course-detail-related-courses-list-wrapper .dtlms-title,
-.type6.dtlms-courselist-item-wrapper .dtlms-courselist-details .dtlms-coursedetail-cart-details a,
-.type6.dtlms-courselist-item-wrapper .dtlms-courselist-details .dtlms-coursedetail-cart-details .added_to_cart,
-.dtlms-login-form-container .dtlms-login-form .dtlms-login-form-holder label,
-.dtlms-course-detail.type5 .dtlms-dynamic-section-counter .dtlms-course-dynamic-section-startdate,
-.dtlms-course-detail.type5 .dtlms-course-dynamic-section-holder .dtlms-title,
-input[type='submit'],
-button,
-input[type='button'],
-input[type='reset'],
-.dtlms-coursedetail-cart-details a,
-.button,
-div[class*='listing-holder'] div[class*='display-filter'] a[class*='display-type'],
-select
-{
-    font-family: 'Poppins', sans-serif;
-}
-
-blockquote.type1,
-.dt-sc-testimonial.type5 .dt-sc-testimonial-quote blockquote,
-.dt-sc-testimonial.type5 .dt-sc-testimonial-author cite:before,
-.dt-sc-testimonial.type1 q:before,
-.dt-sc-testimonial.type1 q:after
-{
-    font-family: Georgia, serif;
-}
-
+@import "./utils/text_font";
 
 /*--------------------------------------------------------------
 	1.5 - Text Elements
-	--------------------------------------------------------------*/
+--------------------------------------------------------------*/
 
 a
 {
@@ -414,10 +304,6 @@ a img
     color: #fff;
 }
 
-p
-{
-    margin-bottom: 10px;
-}
 .large p
 {
     font-size: 22px;
@@ -729,68 +615,12 @@ button.dismissButton
 }
 /*--------------------------------------------------------------
 	1.6 - Tables
-	--------------------------------------------------------------*/
-
-table
-{
-    border-collapse: separate;
-    border-spacing: 0;
-    border-top: 1px solid rgba(0, 0, 0, .1);  
-    clear: both;
-    margin-bottom: 20px;
-    width: 100%;
-}
-th
-{
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
-    font-weight: bold;
-    line-height: normal;
-    padding: 15px;
-    text-align: center;
-}
-td,
-tbody th
-{
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
-    line-height: normal;
-    padding: 13px 15px; 
-    //text-align: center;
-}
-tbody tr:nth-child(2n):not(.odd) td,
-tbody tr:nth-child(2n):not(.odd) th,
-tbody tr.even td,
-tbody tr.even th
-{
-    background: rgba(0, 0, 0, .03);
-}
-
-tbody td .dt-sc-button.small
-{
-    font-size: 12px;
-    margin: 0; 
-    padding: 7px 14px;
-}
-th a:hover,
-td a:hover,
-table > tbody:first-child > tr > th a:hover
-{
-    text-decoration: underline;
-}
-td a
-{
-    font-weight: bold;
-}
-thead th,
-thead th a,
-table > tbody:first-child > tr > th
-{
-    color: #fff;
-    text-transform: uppercase;
-}
+--------------------------------------------------------------*/
+@import "./utils/table";
 
 /*--------------------------------------------------------------
 	1.7 - Definition Lists
-	--------------------------------------------------------------*/
+--------------------------------------------------------------*/
 
     dl { margin:0px 0px; }
 	dl.gallery-item { margin:0px; }
@@ -802,405 +632,21 @@ table > tbody:first-child > tr > th
 
 /*--------------------------------------------------------------
 	1.8 - Galleries
-	--------------------------------------------------------------*/
-
-.gallery
-{
-    margin: 0 -1.1666667% 1.75em;
-}
-.gallery-item
-{
-    display: inline-block;
-    max-width: 33.33%;
-    padding: 0 1.1400652% 2.2801304%;
-    text-align: center;
-    vertical-align: top;
-    width: 100%;
-}
-
-.gallery-columns-1 .gallery-item
-{
-    max-width: 100%;
-}
-.gallery-columns-2 .gallery-item
-{
-    max-width: 50%;
-}
-.gallery-columns-4 .gallery-item
-{
-    max-width: 25%;
-}
-.gallery-columns-5 .gallery-item
-{
-    max-width: 20%;
-}
-.gallery-columns-6 .gallery-item
-{
-    max-width: 16.66%;
-}
-.gallery-columns-7 .gallery-item
-{
-    max-width: 14.28%;
-}
-.gallery-columns-8 .gallery-item
-{
-    max-width: 12.5%;
-}
-.gallery-columns-9 .gallery-item
-{
-    max-width: 11.11%;
-}
-
-.gallery-icon img
-{
-    margin: 0 auto;
-}
-
-.gallery-caption
-{
-    color: #686868;
-    display: block;
-    font-size: 13px;
-    font-size: .8125rem;
-    font-style: italic;
-    line-height: 1.6153846154;
-    padding-top: .5384615385em;
-}
-.gallery-columns-6 .gallery-caption,
-.gallery-columns-7 .gallery-caption,
-.gallery-columns-8 .gallery-caption,
-.gallery-columns-9 .gallery-caption
-{
-    display: none;
-}
+--------------------------------------------------------------*/
+@import "./utils/gallery";
 
 
 /*--------------------------------------------------------------
 	1.9 - Forms
-	--------------------------------------------------------------*/
-fieldset
-{
-    border: 1px solid;
-    margin: 0 0 20px 0; 
-    padding: 15px;
-}
-legend
-{
-    font-weight: bold;
-}
-
-input[type='text'],
-input[type='password'],
-input[type='email'],
-input[type='url'],
-input[type='tel'],
-input[type='number'],
-input[type='range'],
-input[type='date'],
-textarea,
-input.text,
-input[type='search'],
-select,
-textarea
-{
-    font-size: 16px;
-}
-
-input[type='text'],
-input[type='password'],
-input[type='email'],
-input[type='url'],
-input[type='tel'],
-input[type='number'],
-input[type='range'],
-input[type='date'],
-textarea,
-input.text,
-input[type='search'],
-input[type='password']
-{
-    border: 1px solid #f4f4f4;
-            border-radius: 30px 5px 5px 5px;
-    display: block;
-    margin: 0;
-    padding: 14px 12px 14px 32px;
-    transition: all .3s linear;
-    width: 100%;
-    -webkit-border-radius: 30px 5px 5px 5px;
-
-    -webkit-appearance: none;
-            appearance: none;
-}
-
-textarea
-{
-    height: 115px;
-    overflow: auto;
-    resize: none;
-}
-
-select
-{
-    border: 1px solid;
-            border-radius: 30px 5px 5px 5px;
-    cursor: pointer;
-    height: 49px;
-    margin: 0;
-    padding: 10px 0;
-    text-indent: .01px;
-    text-overflow: '';
-    width: 100%;
-       -moz-border-radius: 30px 5px 5px 5px;
-    -webkit-border-radius: 30px 5px 5px 5px;
-
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
-}
-
-input[type='submit'],
-button,
-input[type='button'],
-input[type='reset']
-{
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    float: left;
-    font-size: 14px;
-    font-weight: bold;
-    margin: 10px 0 0;
-    padding: 16px 30px 14px;
-    text-transform: capitalize;
-
-    -webkit-appearance: none;
-}
-.aligncenter input[type='submit']
-{
-    float: none;
-}
-
-.buddypress-wrap .standard-form .groups-members-search input[type=search],
-.buddypress-wrap .standard-form .groups-members-search input[type=text],
-.buddypress-wrap .standard-form [data-bp-search] input[type=search],
-.buddypress-wrap .standard-form [data-bp-search] input[type=text],
-.buddypress-wrap .standard-form input[type=color],
-.buddypress-wrap .standard-form input[type=date],
-.buddypress-wrap .standard-form input[type=datetime-local],
-.buddypress-wrap .standard-form input[type=datetime],
-.buddypress-wrap .standard-form input[type=email],
-.buddypress-wrap .standard-form input[type=month],
-.buddypress-wrap .standard-form input[type=number],
-.buddypress-wrap .standard-form input[type=password],
-.buddypress-wrap .standard-form input[type=range],
-.buddypress-wrap .standard-form input[type=search],
-.buddypress-wrap .standard-form input[type=tel],
-.buddypress-wrap .standard-form input[type=text],
-.buddypress-wrap .standard-form input[type=time],
-.buddypress-wrap .standard-form input[type=url],
-.buddypress-wrap .standard-form input[type=week],
-.buddypress-wrap .standard-form select,
-.buddypress-wrap .standard-form textarea
-{
-    border-radius: 30px 5px 5px 5px;
-    border-width: 1px;
-}
-
-.bp-messages-filters li
-{
-    display: inline-block;
-}
-
-#bp-message-content .mce-btn button
-{
-    background: none;
-    background-color: transparent;
-    border-radius: 0 !important;
-}
-
-.bp-messages-content #send_message_form .submit input[type=button]
-{
-    margin-right: 10px;
-}
-
-.dt_ajax_subscribe_msg .success-msg
-{
-    color: #15d401;
-}
-.dt_ajax_subscribe_msg .error-msg
-{
-    color: #bd0404;
-}
-
-
-/*----*****---- << Moz Reset >> --****--*/
-input[type='submit']::-moz-focus-inner
-{
-    border: 0;
-    margin-bottom: -1px; 
-    margin-top: -1px;
-    padding: 0;
-}
-
-#searchform
-{
-    clear: both;
-}
-
-.selection-box
-{
-    clear: both; 
-    position: relative;
-}
-.selection-box:before,
-.selection-box:after
-{
-    content: '';
-    pointer-events: none;
-    position: absolute;
-}
-.selection-box:before
-{
-    border-left: 7px solid transparent;
-    border-right: 7px solid transparent;
-    border-top: 7px solid; 
-    bottom: 0;
-    height: 0;
-    margin: auto;
-    right: 17px;
-    top: 5px;
-    z-index: 1;
-}
-.selection-box:after
-{
-    border-left: 1px solid rgba(0, 0, 0, .15);
-    border-right: 1px solid rgba(0, 0, 0, .15); 
-    height: calc(100% - 2px);
-    right: 0;
-    top: 1px;
-    width: 48px;
-}
-.selection-box select
-{
-    margin-top: 0;
-}
-
-.post-password-form input[type=password]
-{
-    margin: 15px 0 10px;
-}
-
+--------------------------------------------------------------*/
+@import "./utils/form";
 /*----*****---- << 1.17 - Contact Form 7 >> ----*****----*/
-
-.wpcf7-form-control-wrap
-{
-    float: left; 
-    width: 100%;
-}
-.wpcf7-form-control-wrap:before
-{
-    background: #2b2b2b;
-    bottom: 0;
-    content: '';
-    display: block;
-    height: 1px;
-    left: 0;
-    position: absolute;
-    top: auto;
-            transition: all .3s linear; 
-    width: 0;
-    z-index: 9;
-       -moz-transition: all .3s linear;
-        -ms-transition: all .3s linear;
-         -o-transition: all .3s linear;
-    -webkit-transition: all .3s linear;
-}
-.wpcf7-form-control-wrap:hover:before
-{
-    width: 100%;
-}
-
-.wpcf7-form .wpcf7-not-valid
-{
-    border-color: #f00 !important;
-}
-.wpcf7-form .wpcf7-not-valid-tip
-{
-    display: none;
-}
-
-.wpcf7-form.event-contact-form .wpcf7-not-valid
-{
-    background-color: rgba(255, 0, 0, .1) !important;
-}
-.wpcf7-form.university-contact-form p
-{
-    clear: both;
-}
-
-.wpcf7-form div.wpcf7-validation-errors,
-.wpcf7-form div.wpcf7-mail-sent-ok
-{
-    box-sizing: border-box; 
-    clear: both;
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 15px 15px 15px 45px;
-    width: 99%;
-}
-.wpcf7-form div.wpcf7-validation-errors
-{
-    background-color: #fcc;
-    border: 1px solid #f99;
-    color: #d01313;
-    position: relative;
-}
-.wpcf7-form div.wpcf7-validation-errors:before,
-.wpcf7-form div.wpcf7-mail-sent-ok:before
-{
-    font-family: FontAwesome;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: normal;
-    left: 18px;
-    position: absolute; 
-    text-decoration: inherit;
-    top: 15px;
-}
-.wpcf7-form div.wpcf7-validation-errors:before
-{
-    color: #c54228; 
-    content: '\f057';
-}
-
-.wpcf7-form div.wpcf7-mail-sent-ok
-{
-    background-color: #eafac0;
-    border: 1px solid #b1cf67;
-    color: #7ba411;
-    position: relative;
-}
-.wpcf7-form div.wpcf7-mail-sent-ok:before
-{
-    color: #75b632; 
-    content: '\f058';
-}
-
-.wpcf7 form .wpcf7-response-output {float: left; width: 100%; margin: 10px 0 0; }
-    form.wpcf7-form .wpcf7-response-output {position: relative; clear: both; float: left; margin-left: 0; margin-right: 0; padding: 15px 15px 15px 45px; width: 99%; box-sizing: border-box; }
-    form.wpcf7-form.invalid .wpcf7-response-output {background-color: #ffcccc; border: 1px solid #ff9999; color: #d01313; }
-    form.wpcf7-form.sent .wpcf7-response-output {background-color: #eafac0; border: 1px solid #b1cf67; color: #7ba411; }
-
-    form.wpcf7-form .wpcf7-response-output:before {top: 15px;left: 18px; font-family: "Font Awesome 5 Free"; font-weight: 900; font-style: normal;font-weight: normal;text-decoration: inherit;font-size: 20px;position: absolute;}
-    form.wpcf7-form.invalid .wpcf7-response-output:before {content: "\f057";}
-    form.wpcf7-form.sent .wpcf7-response-output:before {content: "\f058";}
+@import "./utils/form_contact";
 
 
 /*--------------------------------------------------------------
 	1.10 - Images
-	--------------------------------------------------------------*/
+--------------------------------------------------------------*/
 
 .alignleft,
 img.alignleft

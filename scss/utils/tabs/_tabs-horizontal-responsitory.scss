@@ -1,0 +1,17 @@
+@mixin tabs-horizontal-1200 {
+    .dtlms-tabs-horizontal-container {
+        ul.dtlms-tabs-horizontal {
+            >li,
+            >a>span {
+                margin-right: 6px;
+            }
+
+            >li>a {
+                font-size: 13px;
+                letter-spacing: 0;
+                //padding: 10px 4px;
+            }
+
+        }
+    }
+}

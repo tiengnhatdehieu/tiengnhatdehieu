@@ -5330,204 +5330,13 @@ div[class*="dynamic-section-holder"],
     width: 100%;
 }
 
-
 /*----*****---- << Horizontal Tabs Section >> ----*****----*/
-
-.dtlms-tabs-horizontal-container {
-    clear: both;
-    float: left;
-    margin: 0 0 60px;
-    overflow: hidden;
-    padding: 0;
-    width: 100%;
-}
-
-.dtlms-tabs-horizontal-container ul.dtlms-tabs-horizontal {
-    float: left;
-    width: 100%;
-    background-color: #2f2f2f;
-    margin: 0;
-}
-
-.dtlms-tabs-horizontal-container ul.dtlms-tabs-horizontal.scroll_tabs_container {
-    float: left;
-    width: 100%;
-}
-
-.dtlms-tabs-horizontal-container ul.dtlms-tabs-horizontal .scroll_tab_inner {
-    height: 100%;
-}
-
-.dtlms-class-detail .dtlms-tabs-horizontal-container ul.dtlms-tabs-horizontal {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-}
-
-.dtlms-tabs-horizontal-container ul.dtlms-tabs-horizontal li {
-    display: inline-block;
-    margin-right: 4px;
-    padding: 0;
-    width: auto;
-    text-align: center;
-}
-
-.dtlms-tabs-horizontal-container ul.dtlms-tabs-horizontal li a {
-    color: #000;
-    display: inline-block;
-    font-size: 16px;
-    margin: 0;
-    padding: 0 15px;
-    position: relative;
-    width: 100%;
-    line-height: 58px;
-}
-
-.dtlms-tabs-horizontal-container ul.dtlms-tabs-horizontal li a,
-.dtlms-tabs-horizontal-container ul.dtlms-tabs-horizontal li a:focus {
-    outline: none;
-}
-
-.dtlms-tabs-horizontal-container ul.dtlms-tabs-horizontal li:last-child {
-    margin-right: 0;
-}
-
-.dtlms-tabs-horizontal-container ul.dtlms-tabs-horizontal li a span {
-    margin: 0 10px 0 0;
-    position: relative;
-    top: 0;
-}
-
-.dtlms-tabs-horizontal-container .dtlms-tabs-horizontal-content {
-    float: left;
-    margin: 0;
-    padding: 40px 0 0;
-    position: relative;
-    width: 66%;
-}
-
-.dtlms-tabs-horizontal-container .dtlms-sidebar-container {
-    margin-left: 2%;
-    width: 32%;
-}
-
-.dtlms-tabs-horizontal-container #comments {
-    float: left;
-    margin: 40px 0 0;
-    width: 100%;
-}
-
-.dtlms-tabs-horizontal-container h3:empty {
-    display: none;
-}
-
-.dtlms-tabs-horizontal-container:not(.with-sidebar) .dtlms-tabs-horizontal-content {
-    width: 100%;
-    border-right: none;
-}
-
-.dtlms-tabs-horizontal-container .dtlms-course-detail-news-item:last-child {
-    border-bottom: none;
-}
-
+@import "./utils/tabs/tabs-horizontal";
 
 /*----*****---- << Vertical Tabs Section >> ----*****----*/
+@import "./utils/tabs/tabs-vertical";
 
-.dtlms-tabs-vertical-container {
-    clear: both;
-    display: table;
-    margin: 0 0 20px;
-    overflow: hidden;
-    padding: 0;
-    width: 100%;
-}
 
-.dtlms-tabs-vertical-container ul.dtlms-tabs-vertical,
-.dtlms-tabs-vertical-container .dtlms-tabs-vertical-content {
-    display: table-cell;
-    vertical-align: top;
-}
-
-.dtlms-tabs-vertical-container ul.dtlms-tabs-vertical {
-    margin: 0;
-    padding: 10px 0;
-    position: relative;
-    width: 25%;
-}
-
-.dtlms-tabs-vertical-container ul.dtlms-tabs-vertical:after {
-    border-style: solid;
-    border-width: 0 3px 0 0;
-    content: "";
-    height: 100%;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 1px;
-}
-
-.dtlms-tabs-vertical-container ul.dtlms-tabs-vertical>li {
-    float: left;
-    display: block;
-    margin: 0 0 2px;
-    padding: 0;
-    width: 100%;
-}
-
-.dtlms-tabs-vertical-container ul.dtlms-tabs-vertical>li>a {
-    border-right: 1px solid transparent;
-    float: left;
-    font-size: 14px;
-    border: 1px solid #f0f0f0;
-    background-color: #f8f8f8;
-    margin: 0;
-    padding: 10px 15px;
-    position: relative;
-    width: 100%;
-}
-
-.dtlms-tabs-vertical-container ul.dtlms-tabs-vertical>li>a.current,
-.dtlms-tabs-vertical-container ul.dtlms-tabs-vertical>li>a:hover {
-    z-index: 1;
-}
-
-.dtlms-tabs-vertical-container ul.dtlms-tabs-vertical>li>a,
-.dtlms-tabs-vertical-container ul.dtlms-tabs-vertical>li>a:focus {
-    outline: none;
-}
-
-.dtlms-tabs-vertical-container ul.dtlms-tabs-vertical>li>a>span {
-    float: left;
-    margin: 0 10px 0 0;
-    position: relative;
-    top: 4px;
-}
-
-.dtlms-tabs-vertical-container>ul>li>a:after {
-    content: "";
-    height: 0;
-    margin: auto;
-    position: absolute;
-    bottom: 0;
-    right: -1px;
-    top: 0;
-    visibility: hidden;
-    width: 3px;
-}
-
-.dtlms-tabs-vertical-container>ul>li>a.current:after {
-    height: 100%;
-    visibility: visible;
-}
-
-.dtlms-tabs-vertical-container .dtlms-tabs-vertical-content {
-    margin: 0;
-    padding: 10px 30px;
-    position: relative;
-}
-
-.dtlms-tabs-vertical-content:last-child {
-    border-width: 1px;
-}
 
 
 /* Curriculum List */
@@ -8476,15 +8285,9 @@ div[class$="share-holder"] ul li a:hover,
         clear: none;
         width: 50%;
     }
-    .dtlms-tabs-horizontal-container ul.dtlms-tabs-horizontal>li,
-    .dtlms-tabs-horizontal-container ul.dtlms-tabs-horizontal>li>a>span {
-        margin-right: 6px;
-    }
-    .dtlms-tabs-horizontal-container ul.dtlms-tabs-horizontal>li>a {
-        font-size: 13px;
-        letter-spacing: 0;
-        padding: 10px 4px;
-    }
+    
+    @include tabs-horizontal-1200;
+
     .dtlms-toggle-group-set h5.dtlms-toggle {
         font-size: 18px;
     }

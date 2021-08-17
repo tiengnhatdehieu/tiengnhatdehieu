@@ -1,4 +1,5 @@
 jQuery.noConflict();
+
 jQuery(document).ready(function($){
     "use strict";
 
@@ -18,27 +19,27 @@ jQuery(document).ready(function($){
     }
     
     // Mega Menu
-        if ( $('li.has-mega-menu').length>0 && $('.dt-no-header-builder-content').length==0 ) {
+    if ( $('li.has-mega-menu').length>0 && $('.dt-no-header-builder-content').length==0 ) {
 
-            jQuery.fn.liCenter = function () {
+        jQuery.fn.liCenter = function () {
 
-                var w = $('#header .container').width(),
-                    a = $(window).width(),
-                    c = $('.dt-header-menu').parents('.wpb_column'),
-                    ol = $('.dt-header-tpl').offset().left;
+            var w = $('#header .container').width(),
+                a = $(window).width(),
+                c = $('.dt-header-menu').parents('.wpb_column'),
+                ol = $('.dt-header-tpl').offset().left;
 
-                c.addClass("dt-col-static-position");
-                $('.mega-menu-page-equal li.has-mega-menu:not(.mega-menu-custom-width) > ul > li.menu-item-object-dt_mega_menus').css("width", w+"px");
+            c.addClass("dt-col-static-position");
+            $('.mega-menu-page-equal li.has-mega-menu:not(.mega-menu-custom-width) > ul > li.menu-item-object-dt_mega_menus').css("width", w+"px");
 
-                return this;
-            };
+            return this;
+        };
 
+        $('.mega-menu-page-equal li.has-mega-menu:not(.mega-menu-custom-width) > ul').liCenter();
+
+        $(window).resize(function(){
             $('.mega-menu-page-equal li.has-mega-menu:not(.mega-menu-custom-width) > ul').liCenter();
-
-            $(window).resize(function(){
-                $('.mega-menu-page-equal li.has-mega-menu:not(.mega-menu-custom-width) > ul').liCenter();
-            });
-        }
+        });
+    }
 
     $('.alignfull').each(function () {
         if($(this).parents('#primary').hasClass('content-full-width')) {
@@ -738,4 +739,30 @@ jQuery(document).ready(function($){
 	dtBlogRelatedPostsWidgetHandler(jQuery('body'), jQuery);
 	dtLightboxWidgetHandler(jQuery('body'), jQuery);
 
+    // https://jplayer.org/latest/demo-07/
+    $("#mp3Full_0").jPlayer({
+
+        ready: function (event) {
+            let test = this;
+            
+            $(this).jPlayer("setMedia", {
+                mp3:this.dataset.src,
+                oga: "public/lesson/giaotrinh/Minna/Audio/Minna_Bai1_bk.ogg"
+            });
+
+            var volumeBtn = $('.volume-btn').get(0);
+            var volumeControls = $('.volume-controls').get(0);
+            
+            volumeBtn.addEventListener('click', () => {
+                volumeBtn.classList.toggle('open');
+            volumeControls.classList.toggle('hidden');
+            })
+        },
+        swfPath: "public/js/Jplayer.swf",
+        supplied:"mp3,oga",
+        wmode:"window",
+        solution:"html",
+        cssSelectorAncestor: "#mp3FullPlayer_0"
+    });
+    
 })(jQuery);

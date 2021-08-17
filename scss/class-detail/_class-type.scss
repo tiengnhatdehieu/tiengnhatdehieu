@@ -1,0 +1,47 @@
+
+.dtlms-class-detail .dtlms-class-type {
+    display: inline-block;
+    float: right;
+    padding: 8px 15px;
+    border: 1px solid #0080d2;
+    line-height: normal;
+    border-radius: 3px;
+}
+
+.dtlms-class-detail .dtlms-class-type:before {
+    content: "";
+    display: inline-block;
+    background-color: #0080d2;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin: 0 7px 0 0;
+    position: relative;
+    top: -1px;
+    left: auto;
+}
+
+.dtlms-class-detail .dtlms-class-type.online:before {
+    background-color: #f8066a;
+}
+
+.dtlms-class-detail .dtlms-class-type.online {
+    border-color: #f8066a;
+}
+
+.dtlms-class-detail .dtlms-class-type i {
+    margin: 0 5px 0 0;
+}
+
+.dtlms-class-detail.type3 .dtlms-class-detail-image-holder {
+    text-align: center;
+}
+
+.dtlms-class-detail.type3 .dtlms-class-type {
+    float: none;
+    margin: 30px 0;
+}
+
+.dtlms-class-detail.type3 .dtlms-classdetail-seats-available~.dtlms-class-type {
+    margin: 10px 0 20px;
+}

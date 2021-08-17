@@ -1,0 +1,63 @@
+
+.dtlms-class-detail {
+    .dtlms-class-detail-info {
+        display: block;
+        float: left;
+        padding: 15px 25px;
+        border: 1px solid #f1f1f1;
+        width: 100%;
+
+        li {
+            display: block;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 15px 5px 15px 10px;
+            border-bottom: 1px solid #f1f1f1;
+            position: relative;
+
+
+            &:last-child {
+                border: 0;
+            }
+
+            a {
+                color: #2f2f2f;
+            }
+
+            i {
+                margin-right: 15px;
+            }
+
+
+            label {
+                font-weight: 400;
+            }
+        }
+    }
+
+    &.type3 {
+        .dtlms-class-detail-info {
+            padding: 15px 15px 20px 20px;
+            border: 0;
+            margin: 0;
+        }
+
+        .dtlms-class-detail-info li {
+            border: 0;
+            padding: 10px 0px 15px 0px;
+        }
+
+        .dtlms-class-detail-info li i {
+            background-color: #e7e8ec;
+            border-radius: 50%;
+            display: inline-block;
+            font-size: 14px;
+            float: left;
+            margin-bottom: 15px;
+            width: 28px;
+            height: 28px;
+            text-align: center;
+            line-height: 28px;
+        }
+    }
+}
