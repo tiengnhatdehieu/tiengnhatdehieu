@@ -46,6 +46,7 @@ gulp.task('sass:watch', function () {
 const scripts = series(cleanJs, function(cb) {
   gulp.src([
     './js/jquery/jquery.jplayer.js',
+    
     './js/ict/question.js',
     './js/ict/converstation.js',
     './js/jquery/jquery.toggle.click.js',

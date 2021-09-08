@@ -3566,6 +3566,7 @@ jQuery.fn.jpPlayer = function() {
 		
 		const media = jQuery('source', elm).get(0);
 		player.jPlayer("destroy");
+		console.log(`media player:[${media.src}]`);
 		
 		player = jQuery('#jp-player').jPlayer({
 			ready: function (event) {
@@ -3588,6 +3589,7 @@ jQuery.fn.jpPlayer = function() {
 			const playerInner = jQuery(this).parents('.jp-player');
 			const media = jQuery('source', playerInner).get(0);
 
+			console.log(`media mini clicked :[${media.src}]`,{playerHidden});
 			playerHidden.jPlayer("stop");
 			playerHidden.jPlayer("setMedia", { 'mp3': media.src });
 			playerHidden.jPlayer("play");
