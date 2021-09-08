@@ -97,20 +97,7 @@ var dtLMSFrontendUtils = {
 
 	dtLMSToggleItems : function() {
 
-		if(jQuery('.dtlms-toggle').length) {
-
-			jQuery('.dtlms-toggle').toggleClick(function() {
-				jQuery(this).removeClass('active');  
-			}, function() { 
-				jQuery(this).addClass('active'); 
-			});
-
-			jQuery('.dtlms-toggle').on('click',function(){ 
-				jQuery(this).next('.dtlms-toggle-content').slideToggle(); 
-			});
-
-		}
-
+		
 	},		
 
 	dtLMSNiceScroll : function(itemclass) {
