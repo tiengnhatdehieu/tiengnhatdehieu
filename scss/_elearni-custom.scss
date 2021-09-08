@@ -345,11 +345,9 @@
 .dt-sc-button.gradient-button, 
 .dtlms-course-category-item.type8:hover .dtlms-category-total-items a, 
 .dt-sc-icon-box.type3.circle:hover .icon-wrapper span, 
-.contact-form button[type=submit],
 .dtlms-button, 
-.type6.dtlms-courselist-item-wrapper .dtlms-courselist-details .dtlms-coursedetail-cart-details .added_to_cart, 
-body #buddypress input[type="reset"], body #buddypress input[type="submit"], 
-input[type="submit"], button, input[type="button"], input[type="reset"],
+.type6.dtlms-courselist-item-wrapper .dtlms-courselist-details 
+.dtlms-coursedetail-cart-details .added_to_cart, 
 .gradient-accordion.dt-sc-toggle-frame-set .dt-sc-toggle-frame h5.dt-sc-toggle-accordion.active,
 .gradient-accordion.dt-sc-toggle-group-set .dt-sc-toggle-frame h5.dt-sc-toggle.active,
 .dt-sc-team.team-profile .dt-sc-team-thumb::before,
@@ -928,25 +926,4 @@ div#dt-1544005272349-0c5b5fa0-17f1 i.menu-item-icon {
   display: none
 }
 
-.dt-sc-button.gradient-button,
-.dtlms-course-category-item.type8:hover .dtlms-category-total-items a,
-.dt-sc-icon-box.type3.circle:hover .icon-wrapper span,
-.contact-form button[type=submit],
-.dtlms-button,
-.type6.dtlms-courselist-item-wrapper .dtlms-courselist-details .dtlms-coursedetail-cart-details .added_to_cart,
-body #buddypress input[type="reset"],
-body #buddypress input[type="submit"],
-input[type="submit"],
-button,
-input[type="button"],
-input[type="reset"],
-.gradient-accordion.dt-sc-toggle-frame-set .dt-sc-toggle-frame h5.dt-sc-toggle-accordion.active,
-.gradient-accordion.dt-sc-toggle-group-set .dt-sc-toggle-frame h5.dt-sc-toggle.active,
-.dt-sc-team.team-profile .dt-sc-team-thumb::before,
-.dtlms-instructor-item.type2.team-profile .dtlms-instructor-item-thumb::before {
-  background-image: -webkit-linear-gradient(left, #00eda4, #6a7df1);
-  background-image: -moz-linear-gradient(left, #00eda4, #6a7df1);
-  background-image: -o-linear-gradient(left, #00eda4, #6a7df1);
-  background-image: -ms-linear-gradient(left, #00eda4, #6a7df1);
-  background-image: linear-gradient(to right, #00eda4, #6a7df1);
-}
+

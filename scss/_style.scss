@@ -1,16 +1,16 @@
 
-body,
-.wp-block-pullquote {
-  color: #474747
-}
+// body,
+// .wp-block-pullquote {
+//   color: #474747
+// }
 
 // a {
 //   color: $cadet-blue-color;
 // }
 
-a:hover {
-  color: #474747
-}
+// a:hover {
+//   color: #474747
+// }
 
 // BEGIN kirki-inline-styles
 .has-primary-background-color,
@@ -383,9 +383,6 @@ ul.dt-sc-tabs-vertical-frame > li > a:hover, ul.dt-sc-tabs-vertical-frame > li.c
 
 //thead, 
 //table > tbody:first-child > tr > th,
-input[type="submit"], 
-button, 
-input[type="reset"],
 .loader
 {
   background-color: $main-color;
@@ -1706,7 +1703,7 @@ ul.products li.product .woo-type21 .product-thumb a.add_to_cart_button:hover, ul
 
 .dt-skin-secondary-bg, div[class*="dt-skin-secondary-bg-opaque"]:not(.ult-vc-hide-row):before, div[class*="dt-skin-secondary-bg-opaque"] .upb_row_bg:before, section[class*="dt-skin-secondary-bg-opaque"]:before,
 .dt-skin-secondary-bg.extend-bg-fullwidth-left:after,
-.dt-skin-secondary-bg.extend-bg-fullwidth-right:after, input[type="submit"]:hover, button:hover, input[type="reset"]:hover,
+.dt-skin-secondary-bg.extend-bg-fullwidth-right:after, 
 .mz-blog .comments a:hover,
 .mz-blog div.vc_gitem-post-category-name:hover,
 .dt-sc-infinite-portfolio-load-more:hover,
@@ -2210,13 +2207,7 @@ body,
 
 
 
-.main-title-section h1, h1.simple-title {
-  font-family: Poppins;
-  font-weight: 700;
-  letter-spacing: -.04em;
-  text-transform: none;
-  color: #fff
-}
+//@import "./utils/typography/heading";
 
 div.breadcrumb a {
   font-family: Roboto;
@@ -2228,68 +2219,15 @@ div.breadcrumb a {
 }
 
 body {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 300;
-  letter-spacing: .02em;
-  line-height: 30px;
-  text-transform: none;
-  color: #474747
+  // font-family: Roboto;
+  // font-size: 16px;
+  // font-weight: 300;
+  // letter-spacing: .02em;
+  // line-height: 30px;
+  // text-transform: none;
+  // color: #474747
 }
 
-h1 {
-  font-family: Poppins;
-  font-size: 32px;
-  font-weight: 700;
-  letter-spacing: -.04em;
-  text-transform: none;
-  color: #222
-}
-
-h2 {
-  font-family: Poppins;
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: -.04em;
-  text-transform: none;
-  color: #222
-}
-
-h3 {
-  font-family: Poppins;
-  font-size: 28px;
-  font-weight: 700;
-  letter-spacing: -.04em;
-  text-transform: none;
-  color: #222
-}
-
-h4 {
-  font-family: Poppins;
-  font-size: 26px;
-  font-weight: 700;
-  letter-spacing: -.04em;
-  text-transform: none;
-  color: #222
-}
-
-h5 {
-  font-family: Poppins;
-  font-size: 24px;
-  font-weight: 700;
-  letter-spacing: -.04em;
-  text-transform: none;
-  color: #222
-}
-
-h6 {
-  font-family: Poppins;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: -.04em;
-  text-transform: none;
-  color: #222
-}
 
 div.footer-widgets h3.widgettitle,
 #footer h3.widgettitle {

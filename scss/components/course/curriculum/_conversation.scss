@@ -7,4 +7,9 @@
             left: -15px;
         }
     }
+
+    >.row {
+        &:nth-child(even) {background: #eff5f9}
+        &:nth-child(odd) {background-color: #ffffff;}
+    }
 }

@@ -1,0 +1,9 @@
+div[class*="listing-filters"]>div[class$="filter"]>ul>li {
+    display: block;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+div[class*="listing-filters"]>div[class$="filter"]>ul>li:last-child {
+    margin-bottom: 0;
+}

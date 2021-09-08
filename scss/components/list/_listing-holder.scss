@@ -1,0 +1,238 @@
+
+div[class*="listing-holder"] div[class*="listing-filters"] select {
+    width: 100%;
+    padding: 0.7em;
+}
+
+div[class*="listing-holder"] div[class*="listing-filters"] ul {
+    list-style: none;
+}
+
+div[class*="listing-holder"] div[class*="listing-filters"] ul li * {
+    float: none;
+    display: inline-block;
+}
+
+div[class*="listing-holder"] div[class*="listing-rightside-filter"] {
+    clear: both;
+    display: table;
+    margin-bottom: 30px;
+    padding: 21px 20px;
+    width: 100%;
+}
+
+div[class*="listing-holder"] div[class*="listing-containers"] {
+    position: relative;
+}
+
+div[class*="listing-holder"] div[class*="listing-containers"] #dtlms-ajax-load-image,
+.dtlms-packages-listing-holder #dtlms-ajax-load-image {
+    position: absolute;
+    min-height: 150px;
+    margin-top: 0;
+}
+
+div[class*="listing-holder"] div[class*="listing-containers"] #dtlms-ajax-load-image .dtlms-loading {
+    top: 80px;
+}
+
+#main div[class*="listing-holder"] .dtlms-courses-listing-filters .dtlms-courses-search-filter,
+#main div[class*="listing-holder"] .dtlms-classes-listing-filters .dtlms-classes-search-filter {
+    padding: 20px 20px;
+}
+
+#main .dtlms-classes-listing-holder form .dtlms-courses-listing-filters .dtlms-courses-search-filter,
+#main .dtlms-classes-listing-holder form .dtlms-classes-listing-filters .dtlms-classes-search-filter {
+    padding: 15px 0px;
+}
+
+#main .dtlms-classes-listing-holder form .dtlms-courses-listing-filters .dtlms-courses-search-filter:before,
+#main .dtlms-classes-listing-holder form .dtlms-classes-listing-filters .dtlms-classes-search-filter:before {
+    right: 18px;
+    top: 28px;
+}
+
+div[class*="listing-holder"] div[class*="listing-rightside-filter"]>div[class*="display-filter"],
+div[class*="listing-holder"] div[class*="listing-rightside-filter"]>div[class*="orderby-filter"] {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+
+div[class*="listing-holder"] div[class*="listing-rightside-filter"]>div:only-child {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+div[class*="listing-holder"] div[class*="listing-rightside-filter"] div[class*="orderby-filter"] {
+    text-align: right;
+}
+
+div[class*="listing-holder"] div[class*="orderby-filter"] label {
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+div[class*="listing-holder"] div[class*="orderby-filter"] label,
+div[class*="listing-holder"] div[class*="orderby-filter"] select,
+div[class*="listing-holder"] div[class*="orderby-filter"] .selection-box {
+    clear: none;
+    float: none;
+    display: inline-block;
+}
+
+
+/*div[class*="listing-holder"] div[class*="orderby-filter"] select { border-right: none; }*/
+
+div[class*="listing-holder"] div[class*="orderby-filter"] label~select {
+    height: 30px;
+    line-height: 30px;
+}
+
+div[class*="listing-holder"] div[class*="display-filter"] a[class*="display-type"] {
+    cursor: pointer;
+    float: left;
+    font-size: 18px;
+    height: auto;
+    line-height: 16px;
+    margin-right: 10px;
+    min-width: 75px;
+    padding: 17px 26px;
+    position: relative;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+div[class*="listing-holder"] div[class*="display-filter"] a[class*="display-type"]:last-child {
+    margin-right: 0;
+}
+
+div[class*="listing-holder"] div[class*="display-filter"] a[class*="display-type"]:before {
+    content: "";
+    float: left;
+    font-family: "Font Awesome 5 Pro";
+    font-size: 18px;
+    line-height: inherit;
+    margin-right: 10px;
+    position: relative;
+    top: 1px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+div[class*="listing-holder"] div[class*="display-filter"] a[class*="display-type"].grid:before {
+    content: "\f00a"
+}
+
+div[class*="listing-holder"] div[class*="display-filter"] a[class*="display-type"].list:before {
+    content: "\f00b"
+}
+
+div[class*="listing-holder"] .dtlms-one-third div[class*="listing-filters"] div[class*="type-filter"],
+div[class*="listing-holder"] .dtlms-one-third div[class*="listing-filters"] div[class*="orderby-filter"],
+div[class*="listing-holder"] .dtlms-one-third div[class*="listing-filters"] div[class*="instructor-filter"] -instructor-filter,
+div[class*="listing-holder"] .dtlms-one-third div[class*="listing-filters"] div[class*="cost-filter"] -cost-filter,
+div[class*="listing-holder"] .dtlms-one-third div[class*="listing-filters"] div[class*="type-filter"] select,
+div[class*="listing-holder"] .dtlms-one-third div[class*="listing-filters"] div[class*="orderby-filter"] select {
+    float: left;
+    width: 100%;
+}
+
+div[class*="listing-holder"] .dtlms-one-third div[class*="listing-filters"] div[class*="orderby-filter"] label {
+    margin-bottom: 10px;
+}
+
+
+
+div[class*="listing-holder"] div[class*="listing-filters"]>div[class$="filter"]>ul>li {
+    margin: 0 0 20px;
+}
+
+div[class*="listing-holder"] div[class*="listing-filters"]>div[class$="filter"]>ul>li>label {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0 0 30px;
+}
+
+div[class*="listing-holder"] div[class*="listing-filters"]>div[class$="filter"]>ul>li>input[type="checkbox"]+label:before,
+div[class*="listing-holder"] div[class*="listing-filters"]>div[class$="filter"]>ul>li>input[type="radio"]+label:before {
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+    height: 15px;
+    width: 15px;
+    left: 3px;
+}
+
+div[class*="listing-holder"] form {
+    text-align: center;
+}
+
+div[class*="listing-holder"] form div[class*="listing-filters"],
+div[class*="listing-holder"] form div[class*="listing-filters"] * {
+    text-align: left;
+}
+
+div[class*="listing-holder"] form div[class*="listing-filters"] .chosen-container-single .chosen-single div {
+    top: 50%;
+    bottom: 0;
+    height: auto;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+div[class*="listing-holder"] form,
+div[class*="listing-holder"] form div[class*="listing-filters"],
+div[class*="listing-holder"] form,
+div[class*="listing-holder"] form div[class*="listing-filters"] {
+    float: left;
+    width: 100%;
+}
+
+div[class*="listing-holder"] form div[class*="listing-filters"] .chosen-container .chosen-choices,
+div[class*="listing-holder"] form div[class*="listing-filters"] .chosen-container .chosen-single {
+    background: #fff;
+    font-size: 16px;
+    height: auto;
+    line-height: normal;
+    padding: 14px 12px;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+div[class*="listing-holder"] form div[class*="listing-filters"] .chosen-container .chosen-choices li.search-field input[type="text"] {
+    margin: 0;
+    height: auto;
+}
+
+div[class*="listing-holder"] form div[class*="listing-filters"] .chosen-container.chosen-container-active .chosen-choices,
+div[class*="listing-holder"] form div[class*="listing-filters"] .chosen-container.chosen-container-active .chosen-single {
+    border-color: #b7b7b7;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+div[class*="listing-holder"] form div[class*="listing-filters"] .chosen-container .chosen-drop {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+div[class*="listing-holder"] form input[class*="listing-searchform-submit"],
+div[class*="listing-holder"] form input[class*="listing-searchform-submit"] {
+    display: inline-block;
+    float: none;
+}
+
+div[class*="listing-holder"] form input[class*="listing-searchform-submit"],
+div[class*="listing-holder"] form input[class*="listing-searchform-submit"] {
+    margin: 10px 0 0;
+}

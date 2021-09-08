@@ -2,8 +2,13 @@
 // https://elearni.wpengine.com/
 
 @import "variables";
+@import "./bootstrap-5.0.2/functions";
+@import "./bootstrap-5.0.2/variables";
 
+@import "./mixins/google-font";
 @import "./utils/mixin";
+@import "./utils/fonts";
+
 @import "woo/woo-variables";
 @import "../css/theme.min.css";
 @import "../css/member.min.css";
@@ -20,17 +25,18 @@
 @import "base";
 @import "common";
 
-@import "../css/gridlist-items.css";
+@import "gridlist-items";
 @import "single-items";
 @import "../css/rs6.css";
 @import "../css/js_composer.min.css";
 @import "../css/smile_fonts.css";
 @import "../css/ultimate_style.min.css";
 @import "../css/grid.css";
-@import "../css/layout.css";
+@import "./utils/layout";
+
 @import "../css/blog.css";
 @import "../css/contact.css";
-@import "../css/custom-class.css";
+@import "custom-class";
 @import "../css/browsers.css";
 @import "../css/prettyPhoto.min.css";
 @import "../css/pe-icon-7-stroke.css";
@@ -58,6 +64,16 @@
 //@import "../css/font-awesome-4.7.0.css";
 //@import "../css/font-awesome-5.11.2.min.css";
 //@import "../css/fontawesome-all.5.0.13.css";
+
+/*
+* https://fontawesome.com/v5.15/icons/edit?style=regular
+* https://kit-pro.fontawesome.com/releases/v5.15.4/webfonts/pro-fa-light-300-5.11.1.svg
+svg
+eot
+tff
+woff
+woff2
+*/
 @import "../css/font-awesome-5.15.4.min.css";
 // https://fontawesome.com/v5.15/icons?d=gallery&p=2
 
@@ -74,3 +90,6 @@
 @import "utils/tab";
 @import "utils/_text";
 @import "utils/question";
+
+@import "components/messages/chat-list";
+//@import "components/messages/chat-group";

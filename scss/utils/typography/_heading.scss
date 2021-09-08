@@ -1,0 +1,149 @@
+
+.main-title-section h1, 
+h1.simple-title {
+  font-family: Poppins;
+  font-weight: 700;
+  letter-spacing: -.04em;
+  text-transform: none;
+  color: #fff
+}
+
+
+
+h1
+{
+    font-size: 40px;
+}
+h2
+{
+    font-size: 34px;
+}
+h3
+{
+    font-size: 28px;
+}
+h4
+{
+    font-size: 24px;
+}
+h5
+{
+    font-size: 18px;
+}
+h6
+{
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 20px;
+    word-spacing: -.04em;
+}
+
+h1:empty,
+h2:empty,
+h3:empty,
+h4:empty,
+h5:empty,
+h6:empty,
+p:empty
+{
+    display: none;
+}
+
+h1 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -.04em;
+    text-transform: none;
+    color: #222
+  }
+  
+  h2 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -.04em;
+    text-transform: none;
+    color: #222
+  }
+  
+  h3 {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -.04em;
+    text-transform: none;
+    color: #222
+  }
+  
+  h4 {
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: -.04em;
+    text-transform: none;
+    color: #222
+  }
+  
+  h5 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -.04em;
+    text-transform: none;
+    color: #222
+  }
+  
+  h6 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -.04em;
+    text-transform: none;
+    color: #222
+  }
+
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a:hover,
+  h1 a,
+  h2 a,
+  h3 a,
+  h4 a,
+  h5 a,
+  h6 a
+  {
+      color: #222;
+  }
+  
+  .dt-sc-dark-bg,
+  .dt-sc-dark-bg h1,
+  .dt-sc-dark-bg h2,
+  .dt-sc-dark-bg h3,
+  .dt-sc-dark-bg h4,
+  .dt-sc-dark-bg h5,
+  .dt-sc-dark-bg h6,
+  .dt-sc-dark-bg .dt-sc-title.with-right-border-decor > h1:first-child,
+  .dt-sc-dark-bg .dt-sc-title.with-right-border-decor > h2:first-child,
+  .dt-sc-dark-bg .dt-sc-title.with-right-border-decor > h3:first-child,
+  .dt-sc-dark-bg .dt-sc-title.with-right-border-decor > h4:first-child,
+  .dt-sc-dark-bg .dt-sc-title.with-right-border-decor > h5:first-child,
+  .dt-sc-dark-bg .dt-sc-title.with-right-border-decor > h6:first-child
+  {
+      color: #fff;
+  }

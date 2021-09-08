@@ -3504,3 +3504,114 @@
 		OPTION_KEY: "Check your option name."
 	};
 }));
+
+
+jQuery.fn.jpPlayer = function() {
+ 
+	let player = jQuery('#jp-player').jPlayer({
+		supplied:"mp3,oga",
+		wmode:"window",
+		solution:"html",
+	});
+
+	let playerHidden = jQuery('#jp-player-hidden').jPlayer({
+		supplied:"mp3,oga",
+		wmode:"window",
+		solution:"html",
+	});
+
+	player.bind(jQuery.jPlayer.event.ended, function () {
+		jQuery('.jp-media-mini .jp-play').removeClass('fa-pause-circle').addClass('fa-play-circle');
+	});
+
+	function createPlayer(elm) {
+		let source;
+		if (elm.nodeName == 'SOURCE') {
+			source = elm;
+		} else {
+			let files = jQuery('source', elm);
+			if (files.length < 1) {
+				return;
+			}
+			source = files.get(0);
+		 }
+		
+
+		const elmPlayer = jQuery(elm).parent('.jp-player').get(0);
+		jQuery(elm).jPlayer({
+			ready: function (event) {
+				let test = this;
+				
+				jQuery(this).jPlayer("setMedia", {
+					mp3: source.src,
+					//oga: "public/lesson/giaotrinh/Minna/Audio/Minna_Bai1_bk.ogg"
+				});
+	
+				// var volumeBtn = $('.volume-btn').get(0);
+				// var volumeControls = $('.volume-controls').get(0);
+				
+				// volumeBtn.addEventListener('click', () => {
+				//     volumeBtn.classList.toggle('open');
+				// 	volumeControls.classList.toggle('hidden');
+				// })
+			},
+			supplied:"mp3,oga",
+			wmode:"window",
+			solution:"html",
+			cssSelectorAncestor: "#"+elmPlayer.id
+		});
+	}
+
+	function mediaEvents(elm) {
+		
+		const media = jQuery('source', elm).get(0);
+		player.jPlayer("destroy");
+		
+		player = jQuery('#jp-player').jPlayer({
+			ready: function (event) {
+				jQuery(this).jPlayer("setMedia", {
+					mp3: media.src,
+				});
+			},
+			supplied:"mp3,oga",
+			wmode:"window",
+			solution:"html",
+			cssSelectorAncestor: "#"+elm.id
+		});
+		
+	}
+
+	function mediaMiniEvents(elm) {
+		
+		jQuery('.jp-play', elm).click(function (e) {
+			const btn = jQuery(this);
+			const playerInner = jQuery(this).parents('.jp-player');
+			const media = jQuery('source', playerInner).get(0);
+
+			playerHidden.jPlayer("stop");
+			playerHidden.jPlayer("setMedia", { 'mp3': media.src });
+			playerHidden.jPlayer("play");
+			jQuery('.jp-media-mini .jp-play').removeClass('fa-pause-circle').addClass('fa-play-circle');
+			btn.removeClass('fa-play-circle').addClass('fa-pause-circle');
+		});
+	}
+
+    return this.each(function() {
+		let test = this;
+		
+		if (this.classList.contains('jp-media-mini')) {
+			mediaMiniEvents(this);
+		}
+
+		if (this.classList.contains('jp-media-player')) {
+			mediaEvents(this);
+		}
+    });
+ 
+};
+
+jQuery(document).ready(function ($) {
+	//$('.jp-audio-play').jpPlayer();
+	$('.jp-media-mini, .jp-media-player').jpPlayer();
+	
+});

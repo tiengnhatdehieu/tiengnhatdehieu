@@ -1,0 +1,33 @@
+
+.type9.dtlms-courselist-item-wrapper .dtlms-courselist-details{background-color:#f8f8f8; border:none; padding:35px 0 0;}
+.type9.dtlms-courselist-item-wrapper .dtlms-courselist-details-inner > h5{font-weight:500; letter-spacing:0px; display:inline-block; text-transform:none;}
+.type9.dtlms-courselist-item-wrapper:not(.list-item) .dtlms-courselist-thumb:not(.without-featured-image) ~ .dtlms-courselist-details .dtlms-courselist-details-inner,
+.type9.dtlms-courselist-item-wrapper:not(.list-item):hover .dtlms-courselist-details .dtlms-courselist-details-inner,
+.type9.dtlms-courselist-item-wrapper:not(.list-item):hover .dtlms-courselist-thumb:not(.without-featured-image) ~ .dtlms-courselist-details .dtlms-courselist-details-inner{padding:0px 30px;}
+.type9.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-section{clear:both; width:100%; display:inline-block; color:#FFF; padding:12px 30px 0px; margin:15px 0 0; float:left;}
+.type9.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-section .dtlms-courselist-bottom-left-section{float:left;}
+.type9.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-section .dtlms-courselist-bottom-right-section{float:right;}
+.type9.dtlms-courselist-item-wrapper .dtlms-price-status.dtlms-free{padding:0; background-color:transparent; margin:0; font-size:22px;}
+.type9.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-section .dtlms-coursedetail-price-details ins{background:none; font-size:22px; font-weight:500;}
+.type9.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-section .dtlms-coursedetail-price-details del{font-size:22px;}
+.type9.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-section .dtlms-courselist-ratings{display:inline-block; margin:2px 0px 10px;}
+.type9.dtlms-courselist-item-wrapper .dtlms-courselist-purchase-status-details .dtlms-purchase-status{top:-1px;}
+
+.type9.list-item.dtlms-courselist-item-wrapper .dtlms-courselist-details{padding:30px 0 0; border:none;}
+.type9.dtlms-courselist-item-wrapper.list-item .dtlms-courselist-details .dtlms-courselist-details-inner{margin-bottom:0; padding:0 30px;}
+.type9.dtlms-courselist-item-wrapper .dtlms-courselist-details .dtlms-coursedetail-cart-details{width:100%; clear:both; float:left; margin:0px 0px 0px 0px; text-align:center; display:inline-block;}
+.type9.dtlms-courselist-item-wrapper .dtlms-courselist-details .dtlms-coursedetail-cart-details a{margin:0; color:#FFF; display:inline-block; width:100%; border:none; border-radius:0px; text-transform:none; font-size:18px; font-weight:normal; position:relative; line-height:46px; min-height:auto;}
+.type9.dtlms-courselist-item-wrapper .dtlms-courselist-details .dtlms-coursedetail-cart-details a.added_to_cart.wc-forward{border-top:1px solid;}
+
+.type9.dtlms-courselist-item-wrapper.list-item .dtlms-courselist-bottom-section .dtlms-courselist-bottom-right-section{float:right;}
+.type9.dtlms-courselist-item-wrapper.list-item .dtlms-courselist-details .dtlms-coursedetail-cart-details{width:auto; float:right; text-align:right; clear:none;}
+.type9.dtlms-courselist-item-wrapper.list-item .dtlms-courselist-details .dtlms-coursedetail-cart-details a{width:auto; padding:0; min-height:1px; background-color:transparent; line-height:normal;}
+.type9.dtlms-courselist-item-wrapper.list-item .dtlms-courselist-details .dtlms-coursedetail-cart-details a:hover{background-color:transparent;}
+.type9.dtlms-courselist-item-wrapper.list-item .dtlms-courselist-bottom-section .dtlms-courselist-bottom-left-section .dtlms-courselist-ratings-container{display:inline-block; margin-right:30px;}
+.type9.dtlms-courselist-item-wrapper.list-item .dtlms-courselist-bottom-section .dtlms-courselist-bottom-left-section .dtlms-coursedetail-price-details{display:inline-block;}
+
+
+.type9.dtlms-courselist-item-wrapper .dtlms-courselist-progress-details .dtlms-undergoing, 
+.type9.dtlms-courselist-item-wrapper .dtlms-courselist-progress-details .dtlms-underevaluation, 
+.type9.dtlms-courselist-item-wrapper .dtlms-courselist-progress-details .dtlms-completed { border-radius: 0; }
+

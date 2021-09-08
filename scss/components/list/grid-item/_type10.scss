@@ -1,0 +1,51 @@
+.type10.dtlms-courselist-item-wrapper.dtlms-column{margin-bottom:50px;}
+.type10.dtlms-courselist-item-wrapper.dtlms-column.list-item{overflow:visible;}
+.type10.dtlms-courselist-item-wrapper.grid-item:before{content:""; box-shadow:0px 15px 25px 5px rgba(0,0,0,0.1); -moz-box-shadow:0px 15px 25px 5px rgba(0,0,0,0.1); -webkit-box-shadow: 0px 15px 25px 5px rgba(0,0,0,0.1); position:absolute;width:calc(100% - 25px); height:calc(100% - 50px); width:-webkit-calc(100% - 25px); height:-webkit-calc(100% - 50px); width:-moz-calc(100% - 25px); height:-moz-calc(100% - 50px); display:inline-block; top:30px; left:15px;}
+.type10.dtlms-courselist-item-wrapper:before{content:""; box-shadow:0px 15px 25px 5px rgba(0,0,0,0.1); -moz-box-shadow:0px 15px 25px 5px rgba(0,0,0,0.1); -webkit-box-shadow: 0px 15px 25px 5px rgba(0,0,0,0.1); position:absolute;width:calc(100% - 0px); height:calc(100% - 0px); width:-webkit-calc(100% - 0px); height:-webkit-calc(100% - 0px); width:-moz-calc(100% - 0px); height:-moz-calc(100% - 0px); display:inline-block; top:0; left:0px;}
+
+
+.type10.dtlms-courselist-item-wrapper.grid-item .dtlms-courselist-thumb{overflow:visible;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-metadata-holder .dtlms-courselist-author-image{width:75px;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-metadata-holder .dtlms-courselist-author-image img{border-radius:100%;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-thumb .dtlms-courselist-ratings-container{position:absolute; bottom:0; right:0; background-color:#FFF; display:inline-block; float:right; padding:9px 14px 4px; z-index:1; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; border-radius: 0; }
+.type10.dtlms-courselist-item-wrapper.list-item .dtlms-courselist-thumb .dtlms-courselist-ratings-container{bottom:0;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-thumb .dtlms-courselist-ratings-container p{margin-bottom:0px;}
+.type10.dtlms-courselist-item-wrapper.grid-item .dtlms-courselist-metadata-holder{margin:-60px 0 0;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-author-image{float:left; margin-right:15px;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-author-description{float:left; margin:38px 0 0;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-author-description h5{font-size:16px; letter-spacing:0px;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-author-description h5 a{float:left;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-author-description h5 span{clear:both; float:left;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-details{padding-left:0px; padding-right:0px; border:none;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-details-inner > h5{font-weight:500; letter-spacing:0px; padding:5px 0 0; font-size:22px; line-height:34px; text-transform:none;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-tags{position:relative;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-tags:before{content:"\f02b"; font-family:FontAwesome;font-style:normal;font-weight:normal; color:#FFF; position:absolute; left:0; top:0; width:28px; text-align:center; height:100%;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-details .dtlms-courselist-metadata p{font-weight:normal; font-size:12px; padding:0px 14px 0 40px;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-details .dtlms-courselist-metadata p a{font-weight:normal; font-size:12px;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-details .dtlms-courselist-metadata p.dtlms-courselist-ratings{background-color:transparent; padding:0;}
+.type10.dtlms-courselist-item-wrapper:not(.list-item) .dtlms-courselist-thumb:not(.without-featured-image) ~ .dtlms-courselist-details .dtlms-courselist-details-inner,
+.type10.dtlms-courselist-item-wrapper:not(.list-item):hover .dtlms-courselist-details .dtlms-courselist-details-inner,
+.type10.dtlms-courselist-item-wrapper:not(.list-item):hover .dtlms-courselist-thumb:not(.without-featured-image) ~ .dtlms-courselist-details .dtlms-courselist-details-inner{padding:0px 30px;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-section{clear:both; float:left; width:100%; position:relative; display:-webkit-box; display:-webkit-flex; display:-ms-flexbox; display:flex; -webkit-box-flex:1; -webkit-flex-grow:1; flex-grow:1; -webkit-flex-direction:column; -ms-flex-direction:column; flex-direction:column; -webkit-box-pack:center; -webkit-justify-content:center; -ms-flex-pack:center; justify-content:center; display:table;}
+.type10.dtlms-courselist-item-wrapper .dtlms-coursedetail-cart-details a{border:none;border-radius:0px;font-size:16px;font-weight:500;text-transform:none;width:100%;display:inline-block;margin:0px; min-height:auto;padding:20px 10px;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-left-section:empty { background: none; }
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-left-section:empty ~ .dtlms-courselist-bottom-right-section { width: 100%; }
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-left-section:empty ~ .dtlms-courselist-bottom-right-section .dtlms-free{font-weight:500; font-size:20px;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-right-section .dtlms-coursedetail-price-details del{font-size:22px;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-left-section:empty ~ .dtlms-courselist-bottom-right-section:empty{display:none;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-left-section{float:left;width: 100%;text-align:center; display: table-cell;vertical-align: middle;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-right-section{text-align:center;width:35%;position: static;font-size:22px;display: table-cell;vertical-align: middle;padding:15px 10px; line-height:20px;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-right-section .dtlms-cost{ font-weight:500;}
+.type10.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-right-section ins{background:none;}
+.type10.dtlms-courselist-item-wrapper.list-item .dtlms-courselist-details .dtlms-courselist-metadata p.dtlms-courselist-ratings{display:inline-block; padding-left:30px;}
+.type10.dtlms-courselist-item-wrapper.list-item .dtlms-courselist-author-description{margin:10px 0 0;}
+.type10.dtlms-courselist-item-wrapper.list-item .dtlms-certificate-badge,
+.type10.dtlms-courselist-item-wrapper.list-item .dtlms-courselist-details .dtlms-courselist-description{margin:20px 0 0;}
+.type10.dtlms-courselist-item-wrapper.list-item .dtlms-courselist-metadata-holder .dtlms-courselist-author-image{float:left;}
+.type10.dtlms-courselist-item-wrapper.list-item .dtlms-certificate-badge{width:auto; float:right; clear:none;}
+.type10.dtlms-courselist-item-wrapper.list-item .dtlms-courselist-details .dtlms-courselist-metadata{display:inline-block; margin-right:20px;}
+.type10.dtlms-courselist-item-wrapper.list-item .dtlms-courselist-details .dtlms-courselist-ratings-container{display:inline-block;}
+
+.type10.dtlms-courselist-item-wrapper .dtlms-price-status.dtlms-free{font-size:16px;}
+.type10.dtlms-courselist-item-wrapper.grid-item .dtlms-courselist-metadata-holder{position:relative; padding:0 0 0 90px; float:left;}
+.type10.dtlms-courselist-item-wrapper.grid-item .dtlms-courselist-author-image{position:absolute; left:0; top:0;}

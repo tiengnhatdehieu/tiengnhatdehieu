@@ -78,24 +78,24 @@ select
             appearance: none;
 }
 
-input[type='submit'],
-button,
-input[type='button'],
-input[type='reset']
-{
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    float: left;
-    font-size: 14px;
-    font-weight: bold;
-    margin: 10px 0 0;
-    padding: 16px 30px 14px;
-    text-transform: capitalize;
+// input[type='submit'],
+// button,
+// input[type='button'],
+// input[type='reset']
+// {
+//     border: none;
+//     border-radius: 5px;
+//     color: #fff;
+//     cursor: pointer;
+//     float: left;
+//     font-size: 14px;
+//     font-weight: bold;
+//     margin: 10px 0 0;
+//     padding: 16px 30px 14px;
+//     text-transform: capitalize;
 
-    -webkit-appearance: none;
-}
+//     -webkit-appearance: none;
+// }
 .aligncenter input[type='submit']
 {
     float: none;
@@ -155,13 +155,13 @@ input[type='reset']
 
 
 /*----*****---- << Moz Reset >> --****--*/
-input[type='submit']::-moz-focus-inner
-{
-    border: 0;
-    margin-bottom: -1px; 
-    margin-top: -1px;
-    padding: 0;
-}
+// input[type='submit']::-moz-focus-inner
+// {
+//     border: 0;
+//     margin-bottom: -1px; 
+//     margin-top: -1px;
+//     padding: 0;
+// }
 
 #searchform
 {

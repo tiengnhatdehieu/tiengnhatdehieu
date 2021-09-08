@@ -739,30 +739,5 @@ jQuery(document).ready(function($){
 	dtBlogRelatedPostsWidgetHandler(jQuery('body'), jQuery);
 	dtLightboxWidgetHandler(jQuery('body'), jQuery);
 
-    // https://jplayer.org/latest/demo-07/
-    $("#mp3Full_0").jPlayer({
-
-        ready: function (event) {
-            let test = this;
-            
-            $(this).jPlayer("setMedia", {
-                mp3:this.dataset.src,
-                oga: "public/lesson/giaotrinh/Minna/Audio/Minna_Bai1_bk.ogg"
-            });
-
-            var volumeBtn = $('.volume-btn').get(0);
-            var volumeControls = $('.volume-controls').get(0);
-            
-            volumeBtn.addEventListener('click', () => {
-                volumeBtn.classList.toggle('open');
-            volumeControls.classList.toggle('hidden');
-            })
-        },
-        swfPath: "public/js/Jplayer.swf",
-        supplied:"mp3,oga",
-        wmode:"window",
-        solution:"html",
-        cssSelectorAncestor: "#mp3FullPlayer_0"
-    });
     
 })(jQuery);

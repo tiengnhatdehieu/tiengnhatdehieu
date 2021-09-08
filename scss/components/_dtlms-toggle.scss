@@ -1,0 +1,236 @@
+
+.dtlms-toggle-group-set {
+    float: left;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 20px; 
+    .dtlms-toggle-content {
+        float: left;
+        border-style: solid;
+        border-width: 0 0 1px;
+        width: 100%;
+
+        .block {
+            display: block;
+            margin: 0 -20px;
+            padding: 30px 20px 20px;
+            width: auto;
+        }
+    }
+
+    h5.dtlms-toggle {
+        float: left;
+        width: 100%;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: normal;
+        margin-bottom: 0;
+        padding: 10px;
+        position: relative;
+        text-transform: capitalize;
+    }
+}
+
+
+
+.dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set h5.dtlms-toggle>a {
+    display: block;
+    padding-right: 25px;
+}
+
+.dtlms-course-detail.type5 .dtlms-tabs-horizontal-container .dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set h5.dtlms-toggle.active>a,
+.dtlms-course-detail.type5 .dtlms-tabs-horizontal-container .dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set h5.dtlms-toggle.active:before {
+    color: #FFF;
+}
+
+.dtlms-toggle-group-set h5.dtlms-toggle:before {
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-size: 20px;
+    font-weight: 900;
+    height: 30px;
+    line-height: 30px;
+    pointer-events: auto;
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    width: 25px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.dtlms-toggle-group-set h5.dtlms-toggle.active::before {
+    content: "\f106";
+}
+
+.dtlms-toggle-group-set:last-child>.dtlms-toggle-content {
+    border-color: transparent;
+}
+
+.dtlms-toggle-group-set .dtlms-class-course-curriculum-holder {
+    display: inline-block;
+    width: 100%;
+}
+
+.dtlms-toggle-group-set .dtlms-curriculum-list,
+.dtlms-toggle-group-set .dtlms-curriculum-list li {
+    float: none;
+}
+
+.dtlms-toggle-group-set .dtlms-curriculum-list {
+    display: table;
+    margin: -10px 0;
+    width: 100%;
+}
+
+.dtlms-toggle-group-set .dtlms-curriculum-list li {
+    display: inline-block;
+    float: left;
+    line-height: normal;
+    padding: 20px 10px;
+}
+
+
+
+.dtlms-toggle-group-set .dtlms-curriculum-list li.purchased-item.locked>div[class*="dtlms-curriculum-meta"],
+.dtlms-toggle-group-set .dtlms-curriculum-list li.purchased-item.drip-locked>div[class*="dtlms-curriculum-meta"],
+.dtlms-toggle-group-set .dtlms-curriculum-list li.locked>div[class*="dtlms-curriculum-meta"],
+.dtlms-toggle-group-set .dtlms-curriculum-list li.drip-locked>div[class*="dtlms-curriculum-meta"] {
+    opacity: 0.5;
+}
+
+.dtlms-toggle-group-set .dtlms-curriculum-list li.preview-item>div[class*="dtlms-curriculum-meta"],
+.dtlms-toggle-group-set .dtlms-curriculum-list li.purchased-item>div[class*="dtlms-curriculum-meta"] {
+    opacity: 1;
+}
+
+.dtlms-toggle-group-set .dtlms-curriculum-list li ul li.locked:last-child,
+.dtlms-toggle-group-set .dtlms-curriculum-list li ul li.drip-locked:last-child {
+    padding-bottom: 20px;
+}
+
+.dtlms-toggle-group-set .dtlms-toggle-group-set {
+    border-width: 0;
+    margin: 30px 0 0;
+    padding: 0 20px;
+}
+
+.dtlms-toggle-group-set .dtlms-toggle-group-set h5.dtlms-toggle {
+    font-size: 17px;
+    padding: 10px;
+}
+
+.dtlms-toggle-group-set .dtlms-toggle-group-set .dtlms-toggle-content .block {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    width: 100%;
+    padding: 20px 0 0;
+}
+
+.dtlms-toggle-group-set .dtlms-toggle-group-set .dtlms-toggle-group-set .dtlms-toggle-content .block {
+    padding: 10px 0;
+}
+
+.dtlms-toggle-group-set .dtlms-toggle-group-set .dtlms-curriculum-list {
+    margin: 0;
+    padding-left: 0;
+}
+
+.dtlms-toggle-group-set .dtlms-toggle-group-set .dtlms-curriculum-list li {
+    padding: 15px 10px;
+}
+
+.dtlms-toggle-group-set:last-child>h5.dtlms-toggle.active,
+.dtlms-toggle-group-set .dtlms-toggle-group-set .dtlms-toggle-content,
+.dtlms-toggle-group-set .dtlms-course-curriculum-toggle-group-holder>.dtlms-toggle-group-set:last-child h5.dtlms-toggle:not(.active) {
+    border-color: transparent;
+}
+
+.dtlms-toggle-group-set .dtlms-toggle-group-set .dtlms-toggle-group-set .dtlms-curriculum-list li:last-child {
+    padding-bottom: 0;
+}
+
+.dtlms-toggle-group-set .dtlms-toggle-group-set .dtlms-toggle-group-set .dtlms-curriculum-list li {
+    padding: 15px 10px;
+}
+
+.dtlms-toggle-group-set .dtlms-toggle-group-set .dtlms-toggle-group-set h5.dtlms-toggle {
+    font-size: 16px;
+    padding: 8px 20px;
+}
+
+.dtlms-tabs-horizontal-container .dtlms-toggle-group-set .dtlms-toggle-group-set .dtlms-toggle-group-set .dtlms-toggle-content {
+    font-size: 14px;
+}
+
+.dtlms-toggle-content .block .dtlms-course-curriculum-overview {
+    display: block;
+    width: auto;
+}
+
+.dtlms-toggle-content .block .dtlms-course-dynamic-section-holder {
+    padding: 30px 20px;
+}
+
+.dtlms-toggle-content .block .dtlms-course-dynamic-section-holder:empty {
+    display: none;
+}
+
+.dtlms-toggle-content .block .dtlms-course-curriculum-overview li {
+    border-style: solid;
+    border-width: 0 0 1px;
+    display: table;
+    font-size: 18px;
+    padding: 15px 10px;
+    width: 100%;
+}
+
+.dtlms-toggle-content .block .dtlms-course-curriculum-overview li:last-child {
+    border-width: 0;
+}
+
+.dtlms-toggle-content .block .dtlms-course-curriculum-overview li span {
+    margin-right: 15px;
+}
+
+.dtlms-toggle-content .block>.dtlms-sidebar-container>div[class$="holder"],
+.dtlms-toggle-content .block>div[class*="dynamic-section-holder"],
+.dtlms-toggle-content .block>.dtlms-countdown-holder,
+.dtlms-toggle-content .block>.dtlms-class-course-curriculum-holder,
+.dtlms-toggle-content .block .dtlms-course-curriculum-overview {
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+div[class*="dynamic-section-holder"] div[class$="result-overview"]>p {
+    font-size: 16px;
+    text-align: left;
+}
+
+.dtlms-item-progress-details-holder .dtlms-item-progress-details>button:only-child,
+.dtlms-widget-item-submit-button-holder .dtlms-item-submit-button>button:only-child,
+.dtlms-toggle-content .block>.dtlms-sidebar-container>div[class$="holder"]:first-child,
+.dtlms-toggle-content .block>div[class*="dynamic-section-holder"]:first-child,
+.dtlms-toggle-content .block>.dtlms-countdown-holder:first-child,
+.dtlms-toggle-content .block>.dtlms-class-course-curriculum-holder,
+.dtlms-toggle-content .block .dtlms-course-curriculum-overview:first-child {
+    margin-top: 0;
+}
+
+.dtlms-course-single .dtlms-column>div:not(.dtlms-tabs-horizontal-container):last-child,
+.dtlms-course-single .dtlms-column>aside:last-child,
+.dtlms-course-details,
+.dtlms-class-single .dtlms-column>div:last-child,
+.dtlms-class-single .dtlms-column>aside:last-child,
+.dtlms-class-details,
+.dtlms-sidebar-container>div[class$="holder"]:last-child,
+div[class*="dynamic-section-holder"]>p,
+div[class$="details-holder"] ul li:last-child,
+.dtlms-item-progress-details-holder:only-child,
+div[class*="dynamic-section-holder"] div[class$="result-overview"] {
+    margin-bottom: 0;
+}
+

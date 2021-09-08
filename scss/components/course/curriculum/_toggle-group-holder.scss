@@ -2,8 +2,10 @@
 
 .dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder {
     padding: 0 0 0 45px;
-    counter-reset: course-counter
+    //counter-reset: course-counter
 }
+
+
 
 .dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set h5.dtlms-toggle > a {
     padding-left: 48px
@@ -13,9 +15,13 @@
     padding-left: 53px
 }
 
+.course-counter-reset {
+    counter-reset: course-counter;
+}
+
 .dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set h5.dtlms-toggle > a:before {
     counter-increment: course-counter;
-    content: counter(course-counter, decimal-leading-zero);
+    content: counter(course-counter, decimal-leading-zero) ". ";
     position: absolute;
     width: auto;
     height: auto;
@@ -26,29 +32,19 @@
     left: 30px
 }
 
-.dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set h5.dtlms-toggle > a:after {
-    content: "";
-    width: 5px;
-    height: 5px;
-    display: inline-block;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    position: absolute;
-    top: 40px;
-    left: 67px;
-    float: left;
-    background-color: #222
+
+.dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set {
+    &:first-child h5.dtlms-toggle > a:after {
+        left: 60px
+    }
+
+    h5.dtlms-toggle.active > a {
+        &:after,
+        &:before {
+            //background-color: #FFF
+            color: $white-color;
+        }
+        
+    }
 }
 
-.dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set h5.dtlms-toggle.active > a:after {
-    background-color: #FFF
-}
-
-.dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set h5.dtlms-toggle.active > a:before {
-    color: #FFF
-}
-
-.dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set:first-child h5.dtlms-toggle > a:after {
-    left: 60px
-}
