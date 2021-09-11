@@ -130,70 +130,7 @@ var dtLMSCommonUtils = {
 
 	},
 
-	dtLMSAjaxPagination : function() {
-
-		jQuery( 'body' ).delegate( '.dtlms-pagination a', 'click', function(e){	
-			
-			var this_item = jQuery(this);
-
-			if(jQuery(this).parent().hasClass('prev-post')) {
-				current_page = parseInt(jQuery(this).attr('data-currentpage'), 10)-1;
-			} else if(jQuery(this).parent().hasClass('next-post')) {
-				current_page = parseInt(jQuery(this).attr('data-currentpage'), 10)+1;
-			} else {
-				current_page = jQuery(this).text();
-			}
-
-			var post_per_page = jQuery(this).parents('.dtlms-pagination').attr('data-postperpage');
-
-			if(current_page == 1) { 
-				var offset = 0; 
-			} else if(current_page > 1) { 
-				var offset = ((current_page-1)*post_per_page); 
-			}
-
-			var function_call = jQuery(this).parents('.dtlms-pagination').attr('data-functioncall');
-			var output_div = jQuery(this).parents('.dtlms-pagination').attr('data-outputdiv');
-
-			var instructor_id = jQuery(this).parents('.dtlms-pagination').attr('data-instructorid');
-			var course_id = jQuery(this).parents('.dtlms-pagination').attr('data-courseid');
-			var class_id = jQuery(this).parents('.dtlms-pagination').attr('data-classid');
-			var student_id = jQuery(this).parents('.dtlms-pagination').attr('data-studentid');
-			var user_id = jQuery(this).parents('.dtlms-pagination').attr('data-userid');
-			var commission_content = jQuery(this).parents('.dtlms-pagination').attr('data-commissioncontent');
-
-
-			// ajax call
-			jQuery.ajax({
-				type: "POST",
-				url: lmscommonobject.ajaxurl,
-				data:
-				{
-					action: function_call,
-					ajax_call: true,
-					current_page: current_page,
-					offset: offset,
-					post_per_page: post_per_page,
-					function_call: function_call,
-					output_div: output_div,
-					instructor_id: instructor_id,
-					course_id: course_id,
-					class_id: class_id,
-					student_id: student_id,
-					user_id: user_id,
-					commission_content: commission_content,
-				},
-				success: function (response) {
-					this_item.parents('.'+output_div).html(response);
-					dtLMSBackendUtils.dtLMSCheckboxSwitch();
-				},
-			});
-
-			e.preventDefault();
-							
-		});	
-
-	},
+	dtLMSAjaxPagination : function() {},
 
 	dtLMSAjaxBeforeSend : function(this_item) {
 

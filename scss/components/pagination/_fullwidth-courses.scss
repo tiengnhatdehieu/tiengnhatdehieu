@@ -1,0 +1,58 @@
+@mixin green-color-mixin() {
+    background-color: $cadet-blue-color;
+    border-color: $cadet-blue-color;
+    color: #fff;
+}
+
+.dtlms-pagination.dtlms-ajax-pagination {
+    margin-top:30px;
+
+    ul.page-numbers {
+        li a,
+        li span {
+            font-size:18px; 
+            line-height:60px; 
+            height:60px; 
+            width:60px; 
+            font-weight:500; 
+            border-radius:60px;
+            @include transition-mixin();
+        }
+
+        li{
+            margin-left:-1px; margin-right:-1px;
+
+            span,
+            a:hover {
+                @include green-color-mixin();
+            }
+        }
+
+        li a{
+            background:none;
+        }
+    }
+
+    .prev-post a,
+    .next-post a {
+        @include transition-mixin();
+
+        font-size:18px;
+        line-height:60px; 
+        padding:0 28px; 
+        text-decoration:none; 
+        height:60px; 
+        background:none; 
+        border:none; 
+        width:auto; 
+        font-weight:500; 
+        border-radius:60px;
+
+        &:hover {
+            @include green-color-mixin();
+        }
+    }
+}
+
+//div[class$="details-holder"] .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li > span {
+//}

@@ -6,6 +6,8 @@
 @import "./bootstrap-5.0.2/variables";
 
 @import "./mixins/google-font";
+@import "./mixins/common";
+
 @import "./utils/mixin";
 @import "./utils/fonts";
 
@@ -24,6 +26,7 @@
 
 @import "base";
 @import "common";
+@import "./components/pagination/pagination";
 
 @import "gridlist-items";
 @import "single-items";

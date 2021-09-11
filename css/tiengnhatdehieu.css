@@ -6632,12 +6632,47 @@ input[type='search']:focus {
 /*--------------------------------------------------------------
 	Transitions
 --------------------------------------------------------------*/
-.dtlms-total-items, .dtlms-total-items .dtlms-total-item-title, .dtlms-total-items span, .dtlms-statistics-container .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a, .dtlms-statistics-container .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a, .page-template-default.page .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a, .page-template-default.page .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a, .dtlms-close-course-curriculum-popup, .dtlms-close-course-result-popup, .dtlms-close-class-result-popup, .dtlms-close-course-curriculum-popup:before, .dtlms-close-course-result-popup:before, .dtlms-close-class-result-popup:before, .dtlms-refresh-course-curriculum, .dtlms-refresh-course-result, .dtlms-refresh-class-result, .dtlms-course-result-popup-header, .dtlms-course-result-popup-container:before, .dtlms-class-result-popup-container:before, .dtlms-course-results-main-detail-wrapper, .dtlms-expand-course-result-main-details:before, .dtlms-expand-class-result-main-details:before, .dtlms-course-curriculum-table td.assignment:after, .dtlms-course-curriculum-table td.lesson:after, .dtlms-course-curriculum-table td.quiz:after, .dtlms-quiz-questions .dtlms-boolean span label, .dtlms-quiz-questions ul:not(.dtlms-question-image-options) li label, div[class*="listing-filters"] > div[class$="filter"] > ul > li > label, .dtlms-refresh-course-result:before, .dtlms-refresh-class-result:before, .dtlms-close-course-curriculum-popup:before, #dtlms-course-curriculum-popup #dtlms-ajax-load-image, .dtlms-course-result-curriculum-container .dtlms-curriculum-items td:last-child:after, .dtlms-course-result-curriculum-container .dtlms-curriculum-items td:last-child:before, .dtlms-class-result-curriculum-container .dtlms-class-curriculum-table td:last-child:before, .dtlms-class-result-curriculum-container .dtlms-class-curriculum-table td:last-child:after, .dtlms-pagination.dtlms-ajax-pagination .prev-post a, .dtlms-pagination.dtlms-ajax-pagination .next-post a, .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li span, .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li a, #dtlms-course-curriculum-popup .dtlms-curriculum-details .dtlms-curriculum-detailed-links .dtlms-toggle-group-set li:before {
+.dtlms-total-items,
+.dtlms-total-items .dtlms-total-item-title,
+.dtlms-total-items span
+.dtlms-statistics-container .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a,
+.dtlms-statistics-container .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a,
+.page-template-default.page .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a,
+.page-template-default.page .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a,
+.dtlms-close-course-curriculum-popup,
+.dtlms-close-course-result-popup,
+.dtlms-close-class-result-popup,
+.dtlms-close-course-curriculum-popup:before,
+.dtlms-close-course-result-popup:before,
+.dtlms-close-class-result-popup:before,
+.dtlms-refresh-course-curriculum,
+.dtlms-refresh-course-result,
+.dtlms-refresh-class-result,
+.dtlms-course-result-popup-header,
+.dtlms-course-result-popup-container:before,
+.dtlms-class-result-popup-container:before,
+.dtlms-course-results-main-detail-wrapper,
+.dtlms-expand-course-result-main-details:before,
+.dtlms-expand-class-result-main-details:before,
+.dtlms-course-curriculum-table td.assignment:after,
+.dtlms-course-curriculum-table td.lesson:after,
+.dtlms-course-curriculum-table td.quiz:after,
+.dtlms-quiz-questions .dtlms-boolean span label,
+.dtlms-quiz-questions ul:not(.dtlms-question-image-options) li label, div[class*="listing-filters"] > div[class$="filter"] > ul > li > label,
+.dtlms-refresh-course-result:before,
+.dtlms-refresh-class-result:before,
+.dtlms-close-course-curriculum-popup:before, #dtlms-course-curriculum-popup #dtlms-ajax-load-image,
+.dtlms-course-result-curriculum-container .dtlms-curriculum-items td:last-child:after,
+.dtlms-course-result-curriculum-container .dtlms-curriculum-items td:last-child:before,
+.dtlms-class-result-curriculum-container .dtlms-class-curriculum-table td:last-child:before,
+.dtlms-class-result-curriculum-container .dtlms-class-curriculum-table td:last-child:after,
+#dtlms-course-curriculum-popup .dtlms-curriculum-details .dtlms-curriculum-detailed-links .dtlms-toggle-group-set li:before {
   -moz-transition: all 0.3s linear 0s;
   -webkit-transition: all 0.3s linear 0s;
   transition: all 0.3s linear 0s; }
 
-.dtlms-course-results-main-detail-wrapper, .dtlms-class-results-main-detail-wrapper {
+.dtlms-course-results-main-detail-wrapper,
+.dtlms-class-results-main-detail-wrapper {
   -webkit-transition: all 0.3s linear 0s;
   transition: all 0.3s linear 0s; }
 
@@ -6653,40 +6688,69 @@ embed, iframe, object, video {
   width: 100%;
   margin: 20px 0px 0px; }
 
-.wp-admin #dtlms-course-result-popup *, .wp-admin #dtlms-course-result-popup *:before, .wp-admin #dtlms-course-result-popup *:after,
-.wp-admin #dtlms-class-result-popup *, .wp-admin #dtlms-class-result-popup *:before, .wp-admin #dtlms-class-result-popup *:after {
+.wp-admin #dtlms-course-result-popup *,
+.wp-admin #dtlms-course-result-popup *:before,
+.wp-admin #dtlms-course-result-popup *:after,
+.wp-admin #dtlms-class-result-popup *,
+.wp-admin #dtlms-class-result-popup *:before,
+.wp-admin #dtlms-class-result-popup *:after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-.wp-admin #dtlms-course-result-popup .hidden, .wp-admin #dtlms-class-result-popup .hidden {
+.wp-admin #dtlms-course-result-popup .hidden,
+.wp-admin #dtlms-class-result-popup .hidden {
   display: none !important; }
 
 .dtlms-curriculum-detailed-links {
   float: left; }
 
-.dtlms-curriculum-details, .dtlms-curriculum-detailed-intro, .dtlms-curriculum-detailed-links,
-.dtlms-curriculum-list, .dtlms-curriculum-list li, .dtlms-curriculum-content-holder, .dtlms-questions-list-container,
-.dtlms-dashboard-quiz-statistics, .dtlms-questions-list, .dtlms-questions-list .dtlms-question, .dtlms-question .dtlms-title,
-div[class$="answer-container"], .dtlms-quiz-questions, .dtlms-quiz-questions ul {
+.dtlms-curriculum-details,
+.dtlms-curriculum-detailed-intro,
+.dtlms-curriculum-detailed-links,
+.dtlms-curriculum-list,
+.dtlms-curriculum-list li,
+.dtlms-curriculum-content-holder,
+.dtlms-questions-list-container,
+.dtlms-dashboard-quiz-statistics,
+.dtlms-questions-list,
+.dtlms-questions-list .dtlms-question,
+.dtlms-question .dtlms-title,
+div[class$="answer-container"],
+.dtlms-quiz-questions,
+.dtlms-quiz-questions ul {
   float: left;
   width: 100%; }
 
 #dtlmsPurchasesOverviewChart, #dtlmsTotalItemsChart {
   width: 100%; }
 
-.wp-admin div[id*="result-popup"], .wp-admin div[id*="result-popup"] button, .wp-admin div[id*="result-popup"] input, .wp-admin div[id*="result-popup"] select, .wp-admin div[id*="result-popup"] textarea {
+.wp-admin div[id*="result-popup"],
+.wp-admin div[id*="result-popup"] button,
+.wp-admin div[id*="result-popup"] input,
+.wp-admin div[id*="result-popup"] select,
+.wp-admin div[id*="result-popup"] textarea {
   font-size: 15px;
   font-size: 0.9375rem;
   font-weight: 400;
   line-height: 1.66; }
 
-.wp-admin div[id*="result-popup"] h1, .wp-admin div[id*="result-popup"] h2, .wp-admin div[id*="result-popup"] h3, .wp-admin div[id*="result-popup"] h4, .wp-admin div[id*="result-popup"] h5, .wp-admin div[id*="result-popup"] h6 {
+.wp-admin div[id*="result-popup"] h1,
+.wp-admin div[id*="result-popup"] h2,
+.wp-admin div[id*="result-popup"] h3,
+.wp-admin div[id*="result-popup"] h4,
+.wp-admin div[id*="result-popup"] h5,
+.wp-admin div[id*="result-popup"] h6 {
   clear: both;
   line-height: 1.4;
   margin: 0 0 0.75em;
   padding: 1.5em 0 0; }
 
-.wp-admin div[id*="result-popup"] h1, .wp-admin div[id*="result-popup"] h2, .wp-admin div[id*="result-popup"] h3, .wp-admin div[id*="result-popup"] h4, .wp-admin div[id*="result-popup"] h5, .wp-admin div[id*="result-popup"] h6 {
+.wp-admin div[id*="result-popup"] h1,
+.wp-admin div[id*="result-popup"] h2,
+.wp-admin div[id*="result-popup"] h3,
+.wp-admin div[id*="result-popup"] h4,
+.wp-admin div[id*="result-popup"] h5,
+.wp-admin div[id*="result-popup"] h6 {
   padding-top: 0; }
 
 .wp-admin div[id*="result-popup"] h1 {
@@ -6730,7 +6794,11 @@ div[class$="answer-container"], .dtlms-quiz-questions, .dtlms-quiz-questions ul 
 
 @media screen and (min-width: 30em) {
   /* Typography */
-  .wp-admin div[id*="result-popup"], .wp-admin div[id*="result-popup"] button, .wp-admin div[id*="result-popup"] input, .wp-admin div[id*="result-popup"] select, .wp-admin div[id*="result-popup"] textarea {
+  .wp-admin div[id*="result-popup"],
+  .wp-admin div[id*="result-popup"] button,
+  .wp-admin div[id*="result-popup"] input,
+  .wp-admin div[id*="result-popup"] select,
+  .wp-admin div[id*="result-popup"] textarea {
     font-size: 18px;
     font-size: 1.125rem; }
   .wp-admin div[id*="result-popup"] h1 {
@@ -6754,7 +6822,11 @@ div[class$="answer-container"], .dtlms-quiz-questions, .dtlms-quiz-questions ul 
 
 @media screen and (min-width: 48em) {
   /* Typography */
-  .wp-admin div[id*="result-popup"], .wp-admin div[id*="result-popup"] button, .wp-admin div[id*="result-popup"] input, .wp-admin div[id*="result-popup"] select, .wp-admin div[id*="result-popup"] textarea {
+  .wp-admin div[id*="result-popup"],
+  .wp-admin div[id*="result-popup"] button,
+  .wp-admin div[id*="result-popup"] input,
+  .wp-admin div[id*="result-popup"] select,
+  .wp-admin div[id*="result-popup"] textarea {
     font-size: 16px;
     font-size: 1rem;
     line-height: 1.5; } }
@@ -7022,7 +7094,8 @@ body[class*="single-dtlms"] .dtlms-course-curriculum-table td:empty:first-child 
 .dtlms-custom-table-wrapper table {
   margin-bottom: 0; }
 
-table.dtlms-custom-table, .dtlms-custom-box table {
+table.dtlms-custom-table,
+.dtlms-custom-box table {
   border-collapse: separate;
   border-top: 1px solid;
   border-bottom: 1px solid;
@@ -7032,7 +7105,10 @@ table.dtlms-custom-table, .dtlms-custom-box table {
   text-align: center;
   width: 100%; }
 
-table.dtlms-custom-table th, .dtlms-custom-box table th, .woocommerce table.dtlms-custom-table th, .woocommerce .dtlms-custom-box table th {
+table.dtlms-custom-table th,
+.dtlms-custom-box table th,
+.woocommerce table.dtlms-custom-table th,
+.woocommerce .dtlms-custom-box table th {
   border-bottom: none;
   border-right: 1px solid;
   font-size: 13px;
@@ -7045,7 +7121,8 @@ table.dtlms-custom-table th, .dtlms-custom-box table th, .woocommerce table.dtlm
   background: #0074a2;
   color: #ffffff; }
 
-table.dtlms-custom-table td, .dtlms-custom-box table td {
+table.dtlms-custom-table td,
+.dtlms-custom-box table td {
   border-right: 1px solid;
   font-size: 13px;
   line-height: normal;
@@ -7060,17 +7137,21 @@ table.dtlms-custom-table td:empty {
 table.dtlms-custom-table td[colspan]:empty {
   display: none; }
 
-table.dtlms-custom-table tbody tr:nth-child(2n+1) td, .dtlms-custom-box table tbody tr:nth-child(2n+1) td {
+table.dtlms-custom-table tbody tr:nth-child(2n+1) td,
+.dtlms-custom-box table tbody tr:nth-child(2n+1) td {
   background: #ffffff; }
 
-table.dtlms-custom-table tbody tr td.section:first-child, .dtlms-custom-box table tbody tr td.section:first-child {
+table.dtlms-custom-table tbody tr td.section:first-child,
+.dtlms-custom-box table tbody tr td.section:first-child {
   text-align: left; }
 
-table.dtlms-custom-table tbody tr td:first-child, .dtlms-custom-box table tbody tr td:first-child {
+table.dtlms-custom-table tbody tr td:first-child,
+.dtlms-custom-box table tbody tr td:first-child {
   border-left: 1px solid;
   text-align: center; }
 
-table.dtlms-custom-table tbody tr th:last-child, .dtlms-custom-box table tbody tr th:last-child {
+table.dtlms-custom-table tbody tr th:last-child,
+.dtlms-custom-box table tbody tr th:last-child {
   border-right: 0px; }
 
 table.dtlms-custom-table tbody input.dtlms-date-field {
@@ -7118,7 +7199,8 @@ div[class*="listing-holder"] div[class*="listing-filters"] > div[class$="filter"
   min-width: 50%; }
 
 @media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, .dtlms-quiz-questions ul.dtlms-question-image-options li .dtlms-quiz-answers-container {
+  *::-ms-backdrop,
+  .dtlms-quiz-questions ul.dtlms-question-image-options li .dtlms-quiz-answers-container {
     width: 100%; } }
 
 .dtlms-quiz-questions .dtlms-boolean input[type="checkbox"],
@@ -7344,7 +7426,11 @@ div[class*="listing-holder"] div[class*="listing-filters"] > div[class$="filter"
 .wpb_column.dtlms-three-fifth {
   width: 60%; }
 
-.dtlms-one-half iframe, .dtlms-one-third iframe, .dtlms-one-fourth iframe, .dtlms-three-fourth iframe, .dtlms-two-third iframe, iframe {
+.dtlms-one-half iframe,
+.dtlms-one-third iframe,
+.dtlms-one-fourth iframe,
+.dtlms-three-fourth iframe,
+.dtlms-two-third iframe, iframe {
   max-width: 100%; }
 
 .dtlms-column.no-space {
@@ -7360,7 +7446,8 @@ div[class*="listing-holder"] div[class*="listing-filters"] > div[class$="filter"
 .dtlms-column.no-space.dtlms-one-half {
   width: 50%; }
 
-.dtlms-column.no-space.dtlms-one-fifth, .wpb_column.no-space.dtlms-one-fifth {
+.dtlms-column.no-space.dtlms-one-fifth,
+.wpb_column.no-space.dtlms-one-fifth {
   width: 20%; }
 
 .dtlms-column.no-space.dtlms-one-sixth {
@@ -7372,13 +7459,16 @@ div[class*="listing-holder"] div[class*="listing-filters"] > div[class$="filter"
 .dtlms-column.no-space.dtlms-two-third {
   width: 66.666666%; }
 
-.dtlms-column.no-space.dtlms-four-fifth, .wpb_column.no-space.dtlms-four-fifth {
+.dtlms-column.no-space.dtlms-four-fifth,
+.wpb_column.no-space.dtlms-four-fifth {
   width: 80%; }
 
-.dtlms-column.no-space.dtlms-three-fifth, .wpb_column.no-space.dtlms-three-fifth {
+.dtlms-column.no-space.dtlms-three-fifth,
+.wpb_column.no-space.dtlms-three-fifth {
   width: 60%; }
 
-.dtlms-column.no-space.dtlms-two-fifth, .wpb_column.no-space.dtlms-two-fifth {
+.dtlms-column.no-space.dtlms-two-fifth,
+.wpb_column.no-space.dtlms-two-fifth {
   width: 40%; }
 
 .dtlms-column.no-space.dtlms-two-sixth {
@@ -7396,9 +7486,19 @@ div[class*="listing-holder"] div[class*="listing-filters"] > div[class$="filter"
 /*--------------------------------------------------------------
 	Button
 --------------------------------------------------------------*/
-.dtlms-button, button.dtlms-button, input.dtlms-button, input.dtlms-button[type="button"], input.dtlms-button[type="submit"], .dtlms-badge-certificate-holder a.dtlms-generate-certificate-content,
-.dtlms-payment-details .dtlms-completed, .dtlms-payment-details .dtlms-purchased, .dtlms-payment-details .dtlms-undergoing, .dtlms-payment-details .dtlms-underevaluation, .dtlms-payment-details .dtlms-item-status-details .dtlms-proceed-button > a, .dtlms-toggle-group-set h5.dtlms-toggle > a > span.dtlms-completed,
-.dtlms-item-status-details > span, .dtlms-curriculum-intro-details-meta > span, .dtlms-view-class-result, .dtlms-view-course-result, .dtlms-package-pricing-details .dtlms-purchased {
+.dtlms-button, button.dtlms-button, input.dtlms-button, input.dtlms-button[type="button"], input.dtlms-button[type="submit"],
+.dtlms-badge-certificate-holder a.dtlms-generate-certificate-content,
+.dtlms-payment-details .dtlms-completed,
+.dtlms-payment-details .dtlms-purchased,
+.dtlms-payment-details .dtlms-undergoing,
+.dtlms-payment-details .dtlms-underevaluation,
+.dtlms-payment-details .dtlms-item-status-details .dtlms-proceed-button > a,
+.dtlms-toggle-group-set h5.dtlms-toggle > a > span.dtlms-completed,
+.dtlms-item-status-details > span,
+.dtlms-curriculum-intro-details-meta > span,
+.dtlms-view-class-result,
+.dtlms-view-course-result,
+.dtlms-package-pricing-details .dtlms-purchased {
   display: inline-block;
   font-size: 12px;
   font-weight: 600;
@@ -7413,19 +7513,32 @@ input.dtlms-button.dtlms-login-link, input.dtlms-button.dtlms-login-link[type="b
 .dtlms-badge-certificate-holder a.dtlms-generate-certificate-content {
   display: table; }
 
-.dtlms-payment-details .dtlms-completed, .dtlms-payment-details .dtlms-purchased, .dtlms-payment-details .dtlms-undergoing, .dtlms-payment-details .dtlms-underevaluation, .dtlms-payment-details .dtlms-item-status-details .dtlms-proceed-button > a, .dtlms-toggle-group-set h5.dtlms-toggle > a > span.dtlms-completed,
-.dtlms-item-status-details > span, .dtlms-curriculum-intro-details-meta > span, .dtlms-view-class-result, .dtlms-view-course-result, .dtlms-package-pricing-details .dtlms-purchased {
+.dtlms-payment-details .dtlms-completed,
+.dtlms-payment-details .dtlms-purchased,
+.dtlms-payment-details .dtlms-undergoing,
+.dtlms-payment-details .dtlms-underevaluation,
+.dtlms-payment-details .dtlms-item-status-details .dtlms-proceed-button > a,
+.dtlms-toggle-group-set h5.dtlms-toggle > a > span.dtlms-completed,
+.dtlms-item-status-details > span,
+.dtlms-curriculum-intro-details-meta > span,
+.dtlms-view-class-result,
+.dtlms-view-course-result,
+.dtlms-package-pricing-details .dtlms-purchased {
   margin-bottom: 0;
   margin-top: 0; }
 
-.dtlms-payment-details .dtlms-completed, .dtlms-payment-details .dtlms-purchased, .dtlms-payment-details .dtlms-undergoing, .dtlms-payment-details .dtlms-underevaluation,
+.dtlms-payment-details .dtlms-completed,
+.dtlms-payment-details .dtlms-purchased,
+.dtlms-payment-details .dtlms-undergoing,
+.dtlms-payment-details .dtlms-underevaluation,
 .dtlms-toggle-group-set h5.dtlms-toggle > a > span.dtlms-completed {
   line-height: normal; }
 
 .dtlms-button span {
   margin-right: 5px; }
 
-.dtlms-button.dtlms-view-quiz-result, .dtlms-button#dtlms-start-quiz {
+.dtlms-button.dtlms-view-quiz-result,
+.dtlms-button#dtlms-start-quiz {
   display: table;
   margin-left: auto;
   margin-right: auto; }
@@ -7434,9 +7547,13 @@ input.dtlms-button.dtlms-login-link, input.dtlms-button.dtlms-login-link[type="b
   margin-top: 25px;
   display: inline-block; }
 
-.dtlms-completed > span, .dtlms-purchased > span, .dtlms-undergoing > span, .dtlms-underevaluation > span,
+.dtlms-completed > span,
+.dtlms-purchased > span,
+.dtlms-undergoing > span,
+.dtlms-underevaluation > span,
 .dtlms-item-status-details > span span, div[class$="popup-intro"] .dtlms-item-status-details > span,
-.dtlms-main-title-section-wrapper .featured-post span:first-child, .dtlms-curriculum-intro-details-meta > span {
+.dtlms-main-title-section-wrapper .featured-post span:first-child,
+.dtlms-curriculum-intro-details-meta > span {
   font-size: 14px;
   margin-right: 10px; }
 
@@ -7445,7 +7562,8 @@ div[class$="popup-intro"] .dtlms-item-status-details > span {
   -webkit-transform: translateX(-15px) translateY(-50%);
   transform: translateX(-15px) translateY(-50%); }
 
-.dtlms-completed, .dtlms-toggle-group-set h5.dtlms-toggle > a > span.dtlms-completed {
+.dtlms-completed,
+.dtlms-toggle-group-set h5.dtlms-toggle > a > span.dtlms-completed {
   margin: 0 0 0 10px; }
 
 .dtlms-button {
@@ -7472,10 +7590,24 @@ div[class$="popup-intro"] .dtlms-item-status-details > span {
   font-size: 20px;
   padding: 26px 50px 24px; }
 
-.dtlms-courses-listing-holder input[type="submit"], .dtlms-courses-listing-holder input[type="reset"], .dtlms-courses-listing-holder button, .dtlms-courses-listing-holder input[type="button"], .dtlms-classes-listing-holder input[type="submit"], .dtlms-classes-listing-holder input[type="reset"], .dtlms-classes-listing-holder button, .dtlms-classes-listing-holder input[type="button"], #avatar-crop-actions a.button {
+.dtlms-courses-listing-holder input[type="submit"],
+.dtlms-courses-listing-holder input[type="reset"],
+.dtlms-courses-listing-holder button,
+.dtlms-courses-listing-holder input[type="button"],
+.dtlms-classes-listing-holder input[type="submit"],
+.dtlms-classes-listing-holder input[type="reset"],
+.dtlms-classes-listing-holder button,
+.dtlms-classes-listing-holder input[type="button"], #avatar-crop-actions a.button {
   color: #000000; }
 
-.dtlms-courses-listing-holder input[type="submit"]:hover, .dtlms-courses-listing-holder input[type="reset"]:hover, .dtlms-courses-listing-holder button:hover, .dtlms-courses-listing-holder input[type="button"]:hover, .dtlms-classes-listing-holder input[type="submit"]:hover, .dtlms-classes-listing-holder input[type="reset"]:hover, .dtlms-classes-listing-holder button:hover, .dtlms-classes-listing-holder input[type="button"]:hover, #avatar-crop-actions a.button:hover {
+.dtlms-courses-listing-holder input[type="submit"]:hover,
+.dtlms-courses-listing-holder input[type="reset"]:hover,
+.dtlms-courses-listing-holder button:hover,
+.dtlms-courses-listing-holder input[type="button"]:hover,
+.dtlms-classes-listing-holder input[type="submit"]:hover,
+.dtlms-classes-listing-holder input[type="reset"]:hover,
+.dtlms-classes-listing-holder button:hover,
+.dtlms-classes-listing-holder input[type="button"]:hover, #avatar-crop-actions a.button:hover {
   color: #ffffff; }
 
 /*--------------------------------------------------------------
@@ -7609,7 +7741,9 @@ div[class$="popup-intro"] .dtlms-item-status-details > span {
 .dtlms-course-curriculum-popup-header .dtlms-curriculum-intro > .dtlms-column:last-child {
   padding-right: 90px; }
 
-.dtlms-curriculum-intro h2, .dtlms-curriculum-intro h3, .dtlms-curriculum-intro h4 {
+.dtlms-curriculum-intro h2,
+.dtlms-curriculum-intro h3,
+.dtlms-curriculum-intro h4 {
   display: inline-block;
   font-weight: normal;
   margin: 5px 0;
@@ -7624,12 +7758,20 @@ div[class$="popup-intro"] .dtlms-item-status-details > span {
   font-weight: 300;
   text-transform: capitalize; }
 
-.dtlms-close-course-result-popup, .dtlms-close-class-result-popup, .dtlms-close-course-curriculum-popup,
-.dtlms-refresh-course-curriculum, .dtlms-refresh-course-result, .dtlms-refresh-class-result,
-.dtlms-expand-course-result-main-details:before, .dtlms-expand-class-result-main-details {
+.dtlms-close-course-result-popup,
+.dtlms-close-class-result-popup,
+.dtlms-close-course-curriculum-popup,
+.dtlms-refresh-course-curriculum,
+.dtlms-refresh-course-result,
+.dtlms-refresh-class-result,
+.dtlms-expand-course-result-main-details:before,
+.dtlms-expand-class-result-main-details {
   cursor: pointer; }
 
-.dtlms-close-course-curriculum-popup, .dtlms-refresh-course-result, .dtlms-refresh-class-result, .dtlms-refresh-course-curriculum {
+.dtlms-close-course-curriculum-popup,
+.dtlms-refresh-course-result,
+.dtlms-refresh-class-result,
+.dtlms-refresh-course-curriculum {
   font-size: 0;
   height: 75px;
   position: absolute;
@@ -7644,10 +7786,15 @@ div[class$="popup-intro"] .dtlms-item-status-details > span {
   -ms-transform: translateY(-50%);
   margin-top: 0; }
 
-.dtlms-refresh-course-result, .dtlms-refresh-class-result, .dtlms-refresh-course-curriculum {
+.dtlms-refresh-course-result,
+.dtlms-refresh-class-result,
+.dtlms-refresh-course-curriculum {
   right: 105px; }
 
-.dtlms-close-course-curriculum-popup:before, .dtlms-refresh-course-result:before, .dtlms-refresh-class-result:before, .dtlms-refresh-course-curriculum:before {
+.dtlms-close-course-curriculum-popup:before,
+.dtlms-refresh-course-result:before,
+.dtlms-refresh-class-result:before,
+.dtlms-refresh-course-curriculum:before {
   font-family: FontAwesome;
   position: absolute;
   left: 0;
@@ -7662,7 +7809,9 @@ div[class$="popup-intro"] .dtlms-item-status-details > span {
   content: "\f00d";
   font-size: 35px; }
 
-.dtlms-refresh-course-result:before, .dtlms-refresh-class-result:before, .dtlms-refresh-course-curriculum:before {
+.dtlms-refresh-course-result:before,
+.dtlms-refresh-class-result:before,
+.dtlms-refresh-course-curriculum:before {
   content: "\f01e";
   font-size: 30px; }
 
@@ -8138,7 +8287,8 @@ div[class$="popup-intro"] .dtlms-item-status-details > span {
 .dtlms-class-results-main-detail-wrapper .dtlms-author-title {
   border-width: 0; }
 
-.dtlms-course-results-main-detail-wrapper, .dtlms-class-results-main-detail-wrapper {
+.dtlms-course-results-main-detail-wrapper,
+.dtlms-class-results-main-detail-wrapper {
   padding: 50px 45px 65px;
   position: absolute;
   left: 0;
@@ -8151,10 +8301,12 @@ div[class$="popup-intro"] .dtlms-item-status-details > span {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px); }
 
-.dtlms-course-results-main-detail-wrapper .dtlms-course-review-holder, .dtlms-class-results-main-detail-wrapper .dtlms-course-review-holder {
+.dtlms-course-results-main-detail-wrapper .dtlms-course-review-holder,
+.dtlms-class-results-main-detail-wrapper .dtlms-course-review-holder {
   padding-right: 50px; }
 
-.dtlms-course-results-main-detail-wrapper.active, .dtlms-class-results-main-detail-wrapper.active {
+.dtlms-course-results-main-detail-wrapper.active,
+.dtlms-class-results-main-detail-wrapper.active {
   opacity: 1;
   visibility: visible;
   -webkit-transform: translateY(0px);
@@ -8254,7 +8406,8 @@ div[class$="details-holder"] .dtlms-curriculum-assignment-holder ul li {
   z-index: 1;
   background: #fafafa; }
 
-.dtlms-curriculum-result-intro > h3, .dtlms-curriculum-result-intro > .dtlms-curriculum-progress-details-holder {
+.dtlms-curriculum-result-intro > h3,
+.dtlms-curriculum-result-intro > .dtlms-curriculum-progress-details-holder {
   display: table-cell;
   padding: 0 15px;
   vertical-align: middle; }
@@ -8285,7 +8438,8 @@ div[class$="details-holder"] .dtlms-curriculum-assignment-holder ul li {
 .dtlms-progressbar {
   margin: 10px 0 0; }
 
-.dtlms-class-result-overview .dtlms-progressbar, .dtlms-course-result-overview .dtlms-progressbar,
+.dtlms-class-result-overview .dtlms-progressbar,
+.dtlms-course-result-overview .dtlms-progressbar,
 div[class*="dynamic-section-holder"] .dtlms-item-progress-details-holder .dtlms-progressbar {
   margin: 40px 0 0; }
 
@@ -8319,14 +8473,16 @@ div[class*="dynamic-section-holder"] .dtlms-item-progress-details-holder .dtlms-
   -webkit-transform: translateX(37px);
   transform: translateX(37px); }
 
-.dtlms-bar[data-value^="9"] .dtlms-bar-text, .dtlms-bar[data-value^="10"] .dtlms-bar-text {
+.dtlms-bar[data-value^="9"] .dtlms-bar-text,
+.dtlms-bar[data-value^="10"] .dtlms-bar-text {
   -webkit-transform: translateX(10px);
   transform: translateX(10px); }
 
 .dtlms-bar[data-value^="0"] .dtlms-bar-text > span::before {
   right: 30px; }
 
-.dtlms-bar[data-value^="9"] .dtlms-bar-text > span::before, .dtlms-bar[data-value^="10"] .dtlms-bar-text > span::before {
+.dtlms-bar[data-value^="9"] .dtlms-bar-text > span::before,
+.dtlms-bar[data-value^="10"] .dtlms-bar-text > span::before {
   left: 20px; }
 
 .dtlms-curriculum-details-container {
@@ -8344,13 +8500,17 @@ div[class*="dynamic-section-holder"] .dtlms-item-progress-details-holder .dtlms-
 #dtlms-class-result-popup .dtlms-course-result-popup-container .dtlms-view-curriculum-details-holder .dtlms-curriculum-details-container {
   margin-bottom: 50px; }
 
-ul.dtlms-quiz-statistics-counter li, .dtlms-quiz-features-list, .dtlms-question .dtlms-title-container {
+ul.dtlms-quiz-statistics-counter li,
+.dtlms-quiz-features-list,
+.dtlms-question .dtlms-title-container {
   border: 3px solid; }
 
 body[class*="single-dtlms"] table.dtlms-course-curriculum-table td.dtlms-course-curriculum-item {
   text-align: center; }
 
-.dtlms-author-details .dtlms-author-description h5, .dtlms-class-results-main-detail-wrapper .dtlms-author-title h5, .dtlms-course-results-main-detail-wrapper .dtlms-author-title h5 {
+.dtlms-author-details .dtlms-author-description h5,
+.dtlms-class-results-main-detail-wrapper .dtlms-author-title h5,
+.dtlms-course-results-main-detail-wrapper .dtlms-author-title h5 {
   font-weight: 600; }
 
 .dtlms-badge-certificate-holder {
@@ -8385,7 +8545,8 @@ body[class*="single-dtlms"] table.dtlms-course-curriculum-table td.dtlms-course-
 /*--------------------------------------------------------------
 	Popup / Overlay - Class & Course Results
 --------------------------------------------------------------*/
-.dtlms-course-result-popup-header, .dtlms-class-result-popup-header {
+.dtlms-course-result-popup-header,
+.dtlms-class-result-popup-header {
   padding: 62px 45px;
   position: relative;
   width: auto;
@@ -8395,7 +8556,8 @@ body[class*="single-dtlms"] table.dtlms-course-curriculum-table td.dtlms-course-
   background-position: center;
   overflow-y: visible; }
 
-.dtlms-course-result-popup-header:after, .dtlms-class-result-popup-header:after {
+.dtlms-course-result-popup-header:after,
+.dtlms-class-result-popup-header:after {
   content: "";
   background: rgba(255, 255, 255, 0.7);
   position: absolute;
@@ -8410,11 +8572,14 @@ body[class*="single-dtlms"] table.dtlms-course-curriculum-table td.dtlms-course-
 .dtlms-class-result-popup-container {
   z-index: 2; }
 
-.dtlms-course-result-popup-header .dtlms-author-details .dtlms-author-desc, .dtlms-class-result-popup-header .dtlms-author-details .dtlms-author-desc {
+.dtlms-course-result-popup-header .dtlms-author-details .dtlms-author-desc,
+.dtlms-class-result-popup-header .dtlms-author-details .dtlms-author-desc {
   display: inline-block;
   position: relative; }
 
-.dtlms-curriculum-intro, .dtlms-course-result-popup-intro, .dtlms-class-result-popup-intro {
+.dtlms-curriculum-intro,
+.dtlms-course-result-popup-intro,
+.dtlms-class-result-popup-intro {
   display: table;
   width: 100%;
   position: relative;
@@ -8430,21 +8595,29 @@ body[class*="single-dtlms"] table.dtlms-course-curriculum-table td.dtlms-course-
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   /* Safari 5+ ONLY */
   /*::i-block-chrome, */
-  .dtlms-curriculum-intro, .dtlms-course-result-popup-intro, .dtlms-class-result-popup-intro {
+  .dtlms-curriculum-intro,
+  .dtlms-course-result-popup-intro,
+  .dtlms-class-result-popup-intro {
     position: static;
     top: auto;
     display: inline-block; } }
 
-.dtlms-course-result-popup-intro p, .dtlms-class-result-popup-intro p {
+.dtlms-course-result-popup-intro p,
+.dtlms-class-result-popup-intro p {
   margin-bottom: 10px; }
 
-.dtlms-course-result-popup-intro h2, .dtlms-course-result-popup-intro h3, .dtlms-course-result-popup-intro h4,
-.dtlms-class-result-popup-intro h2, .dtlms-class-result-popup-intro h3, .dtlms-class-result-popup-intro h4 {
+.dtlms-course-result-popup-intro h2,
+.dtlms-course-result-popup-intro h3,
+.dtlms-course-result-popup-intro h4,
+.dtlms-class-result-popup-intro h2,
+.dtlms-class-result-popup-intro h3,
+.dtlms-class-result-popup-intro h4 {
   font-size: 30px;
   text-transform: inherit;
   line-height: 36px; }
 
-.dtlms-close-course-result-popup, .dtlms-close-class-result-popup {
+.dtlms-close-course-result-popup,
+.dtlms-close-class-result-popup {
   font-size: 0;
   height: 75px;
   position: absolute;
@@ -8459,7 +8632,8 @@ body[class*="single-dtlms"] table.dtlms-course-curriculum-table td.dtlms-course-
   -ms-transform: translateY(-50%);
   margin-top: 0; }
 
-.dtlms-close-course-result-popup:before, .dtlms-close-class-result-popup:before {
+.dtlms-close-course-result-popup:before,
+.dtlms-close-class-result-popup:before {
   font-family: FontAwesome;
   font-size: 50px;
   position: absolute;
@@ -8469,24 +8643,32 @@ body[class*="single-dtlms"] table.dtlms-course-curriculum-table td.dtlms-course-
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%); }
 
-.dtlms-close-course-result-popup:before, .dtlms-close-class-result-popup:before {
+.dtlms-close-course-result-popup:before,
+.dtlms-close-class-result-popup:before {
   content: "\f00d"; }
 
-.dtlms-close-course-result-popup:before, .dtlms-close-class-result-popup:before {
+.dtlms-close-course-result-popup:before,
+.dtlms-close-class-result-popup:before {
   font-size: 35px; }
 
-.dtlms-course-result-popup-intro h2, .dtlms-course-result-popup-intro .dtlms-item-status-details, .dtlms-class-result-popup-intro h2, .dtlms-class-result-popup-intro .dtlms-item-status-details {
+.dtlms-course-result-popup-intro h2,
+.dtlms-course-result-popup-intro .dtlms-item-status-details,
+.dtlms-class-result-popup-intro h2,
+.dtlms-class-result-popup-intro .dtlms-item-status-details {
   display: table-cell;
   vertical-align: middle;
   font-weight: bold; }
 
-.dtlms-course-result-popup-intro .dtlms-item-status-details, .dtlms-class-result-popup-intro .dtlms-item-status-details {
+.dtlms-course-result-popup-intro .dtlms-item-status-details,
+.dtlms-class-result-popup-intro .dtlms-item-status-details {
   text-align: right; }
 
-.dtlms-course-result-popup-intro .dtlms-item-status-details > span, .dtlms-class-result-popup-intro .dtlms-item-status-details > span {
+.dtlms-course-result-popup-intro .dtlms-item-status-details > span,
+.dtlms-class-result-popup-intro .dtlms-item-status-details > span {
   margin: 0 15px; }
 
-.dtlms-course-result-popup-container, .dtlms-class-result-popup-container {
+.dtlms-course-result-popup-container,
+.dtlms-class-result-popup-container {
   display: inline-block;
   position: relative;
   width: 100%;
@@ -8519,7 +8701,8 @@ body[class*="single-dtlms"] table.dtlms-course-curriculum-table td.dtlms-course-
   width: auto;
   z-index: 1; }
 
-.dtlms-course-result-popup-container.active:before, .dtlms-class-result-popup-container.active:before {
+.dtlms-course-result-popup-container.active:before,
+.dtlms-class-result-popup-container.active:before {
   opacity: 1;
   visibility: visible; }
 
@@ -8547,7 +8730,9 @@ body[class*="single-dtlms"] table.dtlms-course-curriculum-table td.dtlms-course-
   padding: 0;
   margin: 0; }
 
-#dtlms-class-result-popup .dtlms-class-result-popup-container .dtlms-view-class-curriculum-details-holder #dtlms-course-result-popup .dtlms-course-result-popup-intro, .wp-admin #dtlms-class-result-popup .dtlms-class-result-popup-container .dtlms-view-class-curriculum-details-holder #dtlms-course-result-popup .dtlms-course-result-popup-intro, .admin-bar #dtlms-class-result-popup .dtlms-class-result-popup-container .dtlms-view-class-curriculum-details-holder #dtlms-course-result-popup .dtlms-course-result-popup-intro {
+#dtlms-class-result-popup .dtlms-class-result-popup-container .dtlms-view-class-curriculum-details-holder #dtlms-course-result-popup .dtlms-course-result-popup-intro,
+.wp-admin #dtlms-class-result-popup .dtlms-class-result-popup-container .dtlms-view-class-curriculum-details-holder #dtlms-course-result-popup .dtlms-course-result-popup-intro,
+.admin-bar #dtlms-class-result-popup .dtlms-class-result-popup-container .dtlms-view-class-curriculum-details-holder #dtlms-course-result-popup .dtlms-course-result-popup-intro {
   padding: 0 20px; }
 
 #dtlms-class-result-popup .dtlms-course-result-popup-container,
@@ -8627,14 +8812,18 @@ body[class*="single-dtlms"] table.dtlms-course-curriculum-table td.dtlms-course-
 .dtlms-class-result-popup-container .dtlms-question.dtlms-wrong .dtlms-quiz-questions ul li .dtlms-quiz-answers-container {
   min-width: 75%; }
 
-.dtlms-course-result-popup-container .dtlms-curriculum-details-container .dtlms-column .dtlms-curriculum-result-review-holder, .dtlms-questions-list-container, .dtlms-course-result-popup-container .dtlms-curriculum-details-container .dtlms-column .dtlms-curriculum-assignment-holder {
+.dtlms-course-result-popup-container .dtlms-curriculum-details-container .dtlms-column .dtlms-curriculum-result-review-holder,
+.dtlms-questions-list-container,
+.dtlms-course-result-popup-container .dtlms-curriculum-details-container .dtlms-column .dtlms-curriculum-assignment-holder {
   margin: 0;
   padding: 0 13%;
   text-align: initial; }
 
 @media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, .dtlms-course-result-popup-container .dtlms-curriculum-details-container .dtlms-column .dtlms-curriculum-result-review-holder,
-  .dtlms-questions-list-container, .dtlms-course-result-popup-container .dtlms-curriculum-details-container .dtlms-column .dtlms-curriculum-assignment-holder {
+  *::-ms-backdrop,
+  .dtlms-course-result-popup-container .dtlms-curriculum-details-container .dtlms-column .dtlms-curriculum-result-review-holder,
+  .dtlms-questions-list-container,
+  .dtlms-course-result-popup-container .dtlms-curriculum-details-container .dtlms-column .dtlms-curriculum-assignment-holder {
     text-align: left; } }
 
 .dtlms-class-result-popup-container .dtlms-course-result-popup-header {
@@ -8657,9 +8846,12 @@ body[class*="single-dtlms"] table.dtlms-course-curriculum-table td.dtlms-course-
   opacity: 0;
   visibility: hidden; }
 
-.single > #dtlms-class-result-popup, .single > #dtlms-course-result-popup,
-.wp-admin #dtlms-course-result-popup, .wp-admin #dtlms-class-result-popup,
-.admin-bar #dtlms-course-result-popup, .admin-bar #dtlms-class-result-popup {
+.single > #dtlms-class-result-popup,
+.single > #dtlms-course-result-popup,
+.wp-admin #dtlms-course-result-popup,
+.wp-admin #dtlms-class-result-popup,
+.admin-bar #dtlms-course-result-popup,
+.admin-bar #dtlms-class-result-popup {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -8669,14 +8861,16 @@ body[class*="single-dtlms"] table.dtlms-course-curriculum-table td.dtlms-course-
   overflow: hidden; }
 
 @media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, .nicescroll-rails.nicescroll-rails-hr {
+  *::-ms-backdrop,
+  .nicescroll-rails.nicescroll-rails-hr {
     display: none !important; } }
 
 #dtlms-course-result-popup .nicescroll-rails.nicescroll-rails-hr,
 #dtlms-class-result-popup .nicescroll-rails.nicescroll-rails-hr {
   display: none !important; }
 
-.admin-bar #dtlms-course-result-popup, .admin-bar #dtlms-class-result-popup {
+.admin-bar #dtlms-course-result-popup,
+.admin-bar #dtlms-class-result-popup {
   top: 31px; }
 
 .dtlms-view-class-curriculum-details-holder #dtlms-course-result-popup,
@@ -8749,8 +8943,10 @@ body[class*="single-dtlms"] table.dtlms-course-curriculum-table td.dtlms-course-
   visibility: visible; }
 
 @media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, .dtlms-class-result-curriculum-container .dtlms-class-curriculum-table tr.active td:last-child:after,
-  *::-ms-backdrop, .dtlms-course-result-curriculum-container .dtlms-curriculum-items.active td:last-child:after {
+  *::-ms-backdrop,
+  .dtlms-class-result-curriculum-container .dtlms-class-curriculum-table tr.active td:last-child:after,
+  *::-ms-backdrop,
+  .dtlms-course-result-curriculum-container .dtlms-curriculum-items.active td:last-child:after {
     height: 105%; } }
 
 .dtlms-course-result-popup-container ul.dtlms-quiz-statistics-counter li {
@@ -8840,25 +9036,37 @@ body[class*="single-dtlms"] table.dtlms-course-curriculum-table td.dtlms-course-
 .dtlms-course-curriculum-table .dtlms-view-curriculum-details {
   display: block; }
 
-.dtlms-course-curriculum-table td.completed, .dtlms-course-curriculum-table .dtlms-view-curriculum-details, .dtlms-class-curriculum-table .dtlms-view-class-curriculum-details, .dtlms-class-curriculum-table td.completed,
-.dtlms-course-curriculum-table td.assignment, .dtlms-course-curriculum-table td.lesson, .dtlms-course-curriculum-table td.quiz {
+.dtlms-course-curriculum-table td.completed,
+.dtlms-course-curriculum-table .dtlms-view-curriculum-details,
+.dtlms-class-curriculum-table .dtlms-view-class-curriculum-details,
+.dtlms-class-curriculum-table td.completed,
+.dtlms-course-curriculum-table td.assignment,
+.dtlms-course-curriculum-table td.lesson,
+.dtlms-course-curriculum-table td.quiz {
   font-size: 0;
   position: relative; }
 
-.dtlms-course-curriculum-table td.completed:before, .dtlms-course-curriculum-table .dtlms-view-curriculum-details:before, .dtlms-class-curriculum-table .dtlms-view-class-curriculum-details:before, .dtlms-class-curriculum-table td.completed:before {
+.dtlms-course-curriculum-table td.completed:before,
+.dtlms-course-curriculum-table .dtlms-view-curriculum-details:before,
+.dtlms-class-curriculum-table .dtlms-view-class-curriculum-details:before,
+.dtlms-class-curriculum-table td.completed:before {
   display: inline-block;
   font-family: FontAwesome;
   font-size: 16px; }
 
-.dtlms-course-curriculum-table td.assignment:before, .dtlms-course-curriculum-table td.lesson:before, .dtlms-course-curriculum-table td.quiz:before {
+.dtlms-course-curriculum-table td.assignment:before,
+.dtlms-course-curriculum-table td.lesson:before,
+.dtlms-course-curriculum-table td.quiz:before {
   display: inline-block;
   font-family: 'IcoMoon-Ultimate';
   font-size: 16px; }
 
-.dtlms-course-curriculum-table td.completed:before, .dtlms-class-curriculum-table td.completed:before {
+.dtlms-course-curriculum-table td.completed:before,
+.dtlms-class-curriculum-table td.completed:before {
   content: "\f058"; }
 
-.dtlms-course-curriculum-table .dtlms-view-curriculum-details:before, .dtlms-class-curriculum-table .dtlms-view-class-curriculum-details:before {
+.dtlms-course-curriculum-table .dtlms-view-curriculum-details:before,
+.dtlms-class-curriculum-table .dtlms-view-class-curriculum-details:before {
   content: "\f14c"; }
 
 .dtlms-course-curriculum-table td.assignment:before {
@@ -8870,7 +9078,9 @@ body[class*="single-dtlms"] table.dtlms-course-curriculum-table td.dtlms-course-
 .dtlms-course-curriculum-table td.quiz:before {
   content: "\ed54"; }
 
-.dtlms-course-curriculum-table td.assignment:after, .dtlms-course-curriculum-table td.lesson:after, .dtlms-course-curriculum-table td.quiz:after {
+.dtlms-course-curriculum-table td.assignment:after,
+.dtlms-course-curriculum-table td.lesson:after,
+.dtlms-course-curriculum-table td.quiz:after {
   content: attr(data-title);
   font-size: 11px;
   margin-left: -12px;
@@ -8890,7 +9100,9 @@ body[class*="single-dtlms"] table.dtlms-course-curriculum-table td.dtlms-course-
   background-color: #000;
   color: #fff; }
 
-.dtlms-course-curriculum-table td.assignment:hover:after, .dtlms-course-curriculum-table td.lesson:hover:after, .dtlms-course-curriculum-table td.quiz:hover:after {
+.dtlms-course-curriculum-table td.assignment:hover:after,
+.dtlms-course-curriculum-table td.lesson:hover:after,
+.dtlms-course-curriculum-table td.quiz:hover:after {
   opacity: 1;
   visibility: visible; }
 
@@ -9013,7 +9225,8 @@ body[class*="single-dtlms"] table.dtlms-course-curriculum-table td.dtlms-course-
   padding-top: 5px;
   padding-bottom: 5px; }
 
-.dtlms-quiz-features-list li span, .dtlms-quiz-features-list li label {
+.dtlms-quiz-features-list li span,
+.dtlms-quiz-features-list li label {
   display: table-cell;
   vertical-align: middle; }
 
@@ -9026,7 +9239,8 @@ body[class*="single-dtlms"] table.dtlms-course-curriculum-table td.dtlms-course-
   text-align: initial; }
 
 @media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, .dtlms-quiz-features-list li label {
+  *::-ms-backdrop,
+  .dtlms-quiz-features-list li label {
     text-align: left; } }
 
 .dtlms-quiz-features-list li label > i {
@@ -9183,7 +9397,13 @@ body[class*="single-dtlms"] table.dtlms-course-curriculum-table td.dtlms-course-
   left: 0;
   bottom: 0; }
 
-.dtlms-questions-list .dtlms-question-title h1, .dtlms-questions-list .dtlms-question-title h2, .dtlms-questions-list .dtlms-question-title h3, .dtlms-questions-list .dtlms-question-title h4, .dtlms-questions-list .dtlms-question-title h5, .dtlms-questions-list .dtlms-question-title h6, .dtlms-questions-list .dtlms-question-title p {
+.dtlms-questions-list .dtlms-question-title h1,
+.dtlms-questions-list .dtlms-question-title h2,
+.dtlms-questions-list .dtlms-question-title h3,
+.dtlms-questions-list .dtlms-question-title h4,
+.dtlms-questions-list .dtlms-question-title h5,
+.dtlms-questions-list .dtlms-question-title h6,
+.dtlms-questions-list .dtlms-question-title p {
   clear: both;
   display: table;
   line-height: 24px;
@@ -9250,7 +9470,8 @@ body[class*="single-dtlms"] table.dtlms-course-curriculum-table td.dtlms-course-
   margin-bottom: 0;
   position: relative; }
 
-.dtlms-question div[class$="container"] > h5, .wp-admin div[id*="result-popup"] .dtlms-question div[class$="container"] > h5 {
+.dtlms-question div[class$="container"] > h5,
+.wp-admin div[id*="result-popup"] .dtlms-question div[class$="container"] > h5 {
   padding: 16px 28px 16px 68px;
   font-size: 26px;
   font-weight: 300;
@@ -9272,7 +9493,8 @@ body[class*="single-dtlms"] table.dtlms-course-curriculum-table td.dtlms-course-
   -ms-transform: translateY(-50%);
   margin-top: -2px; }
 
-.dtlms-question .dtlms-user-answer-container > h5:before, .dtlms-question .dtlms-correct-answer-container > h5:before {
+.dtlms-question .dtlms-user-answer-container > h5:before,
+.dtlms-question .dtlms-correct-answer-container > h5:before {
   content: "\f00c"; }
 
 .dtlms-question.dtlms-wrong .dtlms-user-answer-container > h5:before {
@@ -9317,16 +9539,21 @@ body[class*="single-dtlms"] table.dtlms-course-curriculum-table td.dtlms-course-
   font-weight: normal;
   text-transform: capitalize; }
 
-.dtlms-quiz-questions-container, .dtlms-question div[class$="answer-container"], .dtlms-question .dtlms-answer-explanation-container {
+.dtlms-quiz-questions-container,
+.dtlms-question div[class$="answer-container"],
+.dtlms-question .dtlms-answer-explanation-container {
   clear: both;
   float: left;
   width: 100%;
   margin: 0; }
 
-.dtlms-quiz-questions-container, .dtlms-question .dtlms-answer-explantion-holder {
+.dtlms-quiz-questions-container,
+.dtlms-question .dtlms-answer-explantion-holder {
   padding: 20px; }
 
-.dtlms-quiz-questions-container:last-child, .dtlms-question div[class$="answer-container"]:last-child, .dtlms-question .dtlms-answer-explanation-container:last-child {
+.dtlms-quiz-questions-container:last-child,
+.dtlms-question div[class$="answer-container"]:last-child,
+.dtlms-question .dtlms-answer-explanation-container:last-child {
   margin-bottom: 0; }
 
 .dtlms-question div[class$="answer-container"] {
@@ -9347,11 +9574,16 @@ body[class*="single-dtlms"] table.dtlms-course-curriculum-table td.dtlms-course-
   background: #f9f9f9;
   margin-bottom: 12px; }
 
-.dtlms-quiz-questions-container > p:only-child, .dtlms-question .dtlms-answer-explantion-holder > p:only-child {
+.dtlms-quiz-questions-container > p:only-child,
+.dtlms-question .dtlms-answer-explantion-holder > p:only-child {
   margin-bottom: 0; }
 
-.dtlms-questions-list .dtlms-question-title p:blank, .dtlms-question div[class$="answer-container"] p:blank, .dtlms-question .dtlms-answer-explantion-holder p:blank,
-.dtlms-questions-list .dtlms-question-title p:empty, .dtlms-question div[class$="answer-container"] p:empty, .dtlms-question .dtlms-answer-explantion-holder p:empty {
+.dtlms-questions-list .dtlms-question-title p:blank,
+.dtlms-question div[class$="answer-container"] p:blank,
+.dtlms-question .dtlms-answer-explantion-holder p:blank,
+.dtlms-questions-list .dtlms-question-title p:empty,
+.dtlms-question div[class$="answer-container"] p:empty,
+.dtlms-question .dtlms-answer-explantion-holder p:empty {
   display: none;
   font-size: 0;
   margin: 0; }
@@ -9406,7 +9638,18 @@ div[class$="details-holder"] .dtlms-quiz-questions ul:not(.dtlms-question-image-
 .dtlms-curriculum-content-holder .dtlms-quiz-questions .dtlms-gapfill {
   margin-left: -20px; }
 
-.dtlms-curriculum-content-holder .dtlms-gapfill input[type="text"], .dtlms-curriculum-content-holder .dtlms-gapfill input[type="password"], .dtlms-curriculum-content-holder .dtlms-gapfill input[type="email"], .dtlms-curriculum-content-holder .dtlms-gapfill input[type="url"], .dtlms-curriculum-content-holder .dtlms-gapfill input[type="tel"], .dtlms-curriculum-content-holder .dtlms-gapfill input[type="number"], .dtlms-curriculum-content-holder .dtlms-gapfill input[type="range"], .dtlms-curriculum-content-holder .dtlms-gapfill input[type="date"], .dtlms-curriculum-content-holder .dtlms-gapfill textarea, .dtlms-curriculum-content-holder .dtlms-gapfill input.text, .dtlms-curriculum-content-holder .dtlms-gapfill input[type="search"], .dtlms-curriculum-content-holder .dtlms-gapfill select {
+.dtlms-curriculum-content-holder .dtlms-gapfill input[type="text"],
+.dtlms-curriculum-content-holder .dtlms-gapfill input[type="password"],
+.dtlms-curriculum-content-holder .dtlms-gapfill input[type="email"],
+.dtlms-curriculum-content-holder .dtlms-gapfill input[type="url"],
+.dtlms-curriculum-content-holder .dtlms-gapfill input[type="tel"],
+.dtlms-curriculum-content-holder .dtlms-gapfill input[type="number"],
+.dtlms-curriculum-content-holder .dtlms-gapfill input[type="range"],
+.dtlms-curriculum-content-holder .dtlms-gapfill input[type="date"],
+.dtlms-curriculum-content-holder .dtlms-gapfill textarea,
+.dtlms-curriculum-content-holder .dtlms-gapfill input.text,
+.dtlms-curriculum-content-holder .dtlms-gapfill input[type="search"],
+.dtlms-curriculum-content-holder .dtlms-gapfill select {
   margin: 0 10px;
   width: 225px; }
 
@@ -9430,7 +9673,8 @@ div[class$="details-holder"] .dtlms-quiz-questions ul:not(.dtlms-question-image-
   width: 100%;
   z-index: 1; }
 
-.dtlms-questions-list .dtlms-question.dtlms-correct:after, .dtlms-questions-list .dtlms-question.dtlms-wrong:after {
+.dtlms-questions-list .dtlms-question.dtlms-correct:after,
+.dtlms-questions-list .dtlms-question.dtlms-wrong:after {
   content: "";
   font-family: FontAwesome;
   font-size: 20px;
@@ -9481,7 +9725,8 @@ a#dtlms-complete-quiz.dtlms-button,
 .dtlms-questions-list > a.dtlms-button#dtlms-next-question {
   margin-top: 30px; }
 
-.dtlms-question table th, .dtlms-question table td {
+.dtlms-question table th,
+.dtlms-question table td {
   border-right: 1px solid;
   padding: 5px 10px; }
 
@@ -9521,7 +9766,8 @@ a#dtlms-complete-quiz.dtlms-button,
   text-align: center;
   line-height: 80px; }
 
-.dtlms-quiz-results-container h2, .dtlms-quiz-results-container .dtlms-quiz-results h3 {
+.dtlms-quiz-results-container h2,
+.dtlms-quiz-results-container .dtlms-quiz-results h3 {
   font-weight: normal;
   line-height: normal; }
 
@@ -9567,7 +9813,8 @@ a#dtlms-complete-quiz.dtlms-button,
 .dtlms-progressbar li:last-child {
   margin-bottom: 0; }
 
-.dtlms-quiz-question-result, .dtlms-course-result-popup-container .dtlms-quiz-statistics-counter-progressbar li .dtlms-quiz-question-result {
+.dtlms-quiz-question-result,
+.dtlms-course-result-popup-container .dtlms-quiz-statistics-counter-progressbar li .dtlms-quiz-question-result {
   float: right;
   text-align: right;
   width: 10%;
@@ -9865,7 +10112,8 @@ ul.dtlms-quiz-statistics-counter li .dtlms-quiz-sepeartor {
   width: 100%;
   padding: 20px; }
 
-.dtlms-timer-container, .dtlms-timer-container .dtlms-quiz-timer {
+.dtlms-timer-container,
+.dtlms-timer-container .dtlms-quiz-timer {
   display: block; }
 
 .dtlms-timer-container > h4 span {
@@ -9943,13 +10191,15 @@ ul.dtlms-quiz-statistics-counter li .dtlms-quiz-sepeartor {
   float: left;
   background: #f9f9f9; }
 
-.dtlms-quiz-sidebar .dtlms-timer-container, .dtlms-quiz-sidebar .dtlms-question-counter-holder {
+.dtlms-quiz-sidebar .dtlms-timer-container,
+.dtlms-quiz-sidebar .dtlms-question-counter-holder {
   background: none; }
 
 .dtlms-quiz-sidebar .dtlms-question-counter-holder {
   margin-bottom: 30px; }
 
-.dtlms-quiz-sidebar .dtlms-timer-container h4, .dtlms-quiz-sidebar .dtlms-question-counter-holder h4 {
+.dtlms-quiz-sidebar .dtlms-timer-container h4,
+.dtlms-quiz-sidebar .dtlms-question-counter-holder h4 {
   text-align: left;
   width: 100%;
   float: left;
@@ -9960,7 +10210,8 @@ ul.dtlms-quiz-statistics-counter li .dtlms-quiz-sepeartor {
   position: relative;
   color: currentColor; }
 
-.dtlms-quiz-sidebar .dtlms-timer-container h4:before, .dtlms-quiz-sidebar .dtlms-question-counter-holder h4:before {
+.dtlms-quiz-sidebar .dtlms-timer-container h4:before,
+.dtlms-quiz-sidebar .dtlms-question-counter-holder h4:before {
   position: absolute;
   width: 47px;
   height: 4px;
@@ -10078,7 +10329,8 @@ ul.assignment-file-types li {
   width: 100%;
   position: relative; }
 
-.dtlms-assignment-details-container #dtlms-upload-assignment, .dtlms-assignment-details-container .dtlms-view-assignment {
+.dtlms-assignment-details-container #dtlms-upload-assignment,
+.dtlms-assignment-details-container .dtlms-view-assignment {
   display: table;
   margin: 20px auto 0; }
 
@@ -10268,7 +10520,8 @@ ul.assignment-file-types li {
   font-weight: 600;
   margin: 5px 10px 5px 0; }
 
-.dtlms-chart-container #dtlms-ajax-load-image, .dtlms-statistics-container #dtlms-ajax-load-image {
+.dtlms-chart-container #dtlms-ajax-load-image,
+.dtlms-statistics-container #dtlms-ajax-load-image {
   display: block;
   position: absolute;
   left: 0;
@@ -10278,7 +10531,8 @@ ul.assignment-file-types li {
   text-align: center;
   z-index: 9; }
 
-.dtlms-chart-container #dtlms-ajax-load-image img, .dtlms-statistics-container #dtlms-ajax-load-image img {
+.dtlms-chart-container #dtlms-ajax-load-image img,
+.dtlms-statistics-container #dtlms-ajax-load-image img {
   position: absolute;
   left: 0;
   right: 0;
@@ -10341,12 +10595,14 @@ table.dtlms-custom-table tbody.dtlms-custom-dashboard-table ul li:last-child:bef
 .dtlms-statistics-container .dtlms-custom-table td:hover {
   z-index: 9; }
 
-.dtlms-statistics-container .dtlms-custom-table td p.dtlms-statistics-count, .dtlms-statistics-container .dtlms-custom-table td p.dtlms-total_subscriptions {
+.dtlms-statistics-container .dtlms-custom-table td p.dtlms-statistics-count,
+.dtlms-statistics-container .dtlms-custom-table td p.dtlms-total_subscriptions {
   float: none;
   display: inline-block;
   margin: 0; }
 
-.dtlms-statistics-container .dtlms-custom-table td p.dtlms-statistics-count span, .dtlms-statistics-container .dtlms-custom-table td p.dtlms-total_subscriptions span, #dtlms-payment-default-metabox .dtlms-custom-box td p.dtlms-total_subscriptions span {
+.dtlms-statistics-container .dtlms-custom-table td p.dtlms-statistics-count span,
+.dtlms-statistics-container .dtlms-custom-table td p.dtlms-total_subscriptions span, #dtlms-payment-default-metabox .dtlms-custom-box td p.dtlms-total_subscriptions span {
   display: inline-block;
   float: none;
   height: 25px;
@@ -10488,7 +10744,8 @@ table.dtlms-custom-table tbody.dtlms-custom-dashboard-table ul li:last-child:bef
   text-align: center;
   margin-top: 10px; }
 
-.dtlms-pagination.dtlms-ajax-pagination ul.page-numbers, .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li {
+.dtlms-pagination.dtlms-ajax-pagination ul.page-numbers,
+.dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li {
   float: none;
   display: inline-block;
   margin: 0 2px 7px;
@@ -10498,28 +10755,16 @@ table.dtlms-custom-table tbody.dtlms-custom-dashboard-table ul li:last-child:bef
 .dtlms-pagination.dtlms-ajax-pagination .prev-post {
   margin-right: 4px; }
 
-.dtlms-pagination.dtlms-ajax-pagination .prev-post, .dtlms-pagination.dtlms-ajax-pagination .next-post {
+.dtlms-pagination.dtlms-ajax-pagination .prev-post,
+.dtlms-pagination.dtlms-ajax-pagination .next-post {
   width: auto;
   float: none;
   display: inline-block;
   margin-bottom: 34px; }
 
-.dtlms-pagination.dtlms-ajax-pagination .prev-post a, .dtlms-pagination.dtlms-ajax-pagination .next-post a,
-.dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li span, .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li a,
-div[class$="details-holder"] .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li > span {
-  display: inline-block;
-  float: none;
-  font-size: 16px;
-  line-height: 35px;
-  padding: 0 15px;
-  text-decoration: none;
-  height: 35px;
-  background: rgba(0, 0, 0, 0.08);
-  border: none;
-  position: static;
-  width: auto; }
-
-.dt-sc-skin-highlight .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li a, .dt-sc-skin-highlight .dtlms-pagination.dtlms-ajax-pagination .prev-post a, .dt-sc-skin-highlight .dtlms-pagination.dtlms-ajax-pagination .next-post a {
+.dt-sc-skin-highlight .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li a,
+.dt-sc-skin-highlight .dtlms-pagination.dtlms-ajax-pagination .prev-post a,
+.dt-sc-skin-highlight .dtlms-pagination.dtlms-ajax-pagination .next-post a {
   background: #fff;
   border-color: #fff; }
 
@@ -10568,7 +10813,8 @@ div[class$="details-holder"] .dtlms-pagination.dtlms-ajax-pagination ul.page-num
   background-color: rgba(0, 0, 0, 0.075); }
 
 /* Courses Detail - Sidebar Section */
-.dt_widget_media_attachments .dtlms-media-attachments li a:hover, .dt_widget_media_attachments .dtlms-media-attachments li a:focus {
+.dt_widget_media_attachments .dtlms-media-attachments li a:hover,
+.dt_widget_media_attachments .dtlms-media-attachments li a:focus {
   color: #999; }
 
 /* Frontend Dashboard */
@@ -10597,13 +10843,18 @@ div[class*="listing-filters"] > div[class$="filter"] > ul > li > input[type="rad
   color: #673ab7; }
 
 /*----*****---- << BG >> ----*****----*/
-.dtlms-info-box, ul.dtlms-quiz-statistics-counter li.dtlms-quiz-total-questions, .dtlms-sc-post-quiz-msg {
+.dtlms-info-box, ul.dtlms-quiz-statistics-counter li.dtlms-quiz-total-questions,
+.dtlms-sc-post-quiz-msg {
   background-color: #e1f5fe; }
 
-.dtlms-success-box, ul.dtlms-quiz-statistics-counter li.dtlms-quiz-correct-answers, .dtlms-question.dtlms-correct .dtlms-title .dtlms-title-container:before, .dtlms-question.dtlms-correct .dtlms-user-answer-container > h5, .dtlms-question .dtlms-correct-answer-container > h5 {
+.dtlms-success-box, ul.dtlms-quiz-statistics-counter li.dtlms-quiz-correct-answers,
+.dtlms-question.dtlms-correct .dtlms-title .dtlms-title-container:before,
+.dtlms-question.dtlms-correct .dtlms-user-answer-container > h5,
+.dtlms-question .dtlms-correct-answer-container > h5 {
   background-color: #e8f5e9; }
 
-.dtlms-error-box, ul.dtlms-quiz-statistics-counter li.dtlms-quiz-wrong-answers, .dtlms-question.dtlms-wrong .dtlms-title .dtlms-title-container:before {
+.dtlms-error-box, ul.dtlms-quiz-statistics-counter li.dtlms-quiz-wrong-answers,
+.dtlms-question.dtlms-wrong .dtlms-title .dtlms-title-container:before {
   background-color: #ffebee; }
 
 .dtlms-question .dtlms-user-answer-container > h5,
@@ -10633,16 +10884,21 @@ div[class*="list-item-wrapper"] div[class*="list-thumb"] .featured-tag,
   background-color: #ffd23c; }
 
 div[class*="list-item-wrapper"] div[class*="list-details"] .dtlms-ratings,
-.dtlms-comment-rating span:not(.dtlms-rating-label), .comment-rating,
-.dtlms-review-box .dtlms-star-review, .ratings-holder .ratings {
+.dtlms-comment-rating span:not(.dtlms-rating-label),
+.comment-rating,
+.dtlms-review-box .dtlms-star-review,
+.ratings-holder .ratings {
   color: #ffd23c; }
 
-.dtlms-toggle-group-set .dtlms-toggle, .dtlms-post-quiz-msg {
+.dtlms-toggle-group-set .dtlms-toggle,
+.dtlms-post-quiz-msg {
   background-color: #f9f9f9; }
 
-table.dtlms-custom-table td, .dtlms-custom-box table td, table.dtlms-custom-table tbody input.dtlms-date-field,
+table.dtlms-custom-table td,
+.dtlms-custom-box table td, table.dtlms-custom-table tbody input.dtlms-date-field,
 .dtlms-statistics-container table.dtlms-custom-table tbody:not(.dtlms-custom-dashboard-table) tr td,
-.dtlms-class-curriculum-table td.section, .dtlms-course-curriculum-table td.section,
+.dtlms-class-curriculum-table td.section,
+.dtlms-course-curriculum-table td.section,
 .wp-admin div[id*="result-popup"] table tbody tr:nth-child(2n+1) td.section,
 body[class*="single-dtlms"] table tbody tr:nth-child(2n+1) td.section,
 ul.assignment-file-types li,
@@ -10650,11 +10906,14 @@ ul.assignment-file-types li,
 .dtlms-question .dtlms-title,
 .dtlms-quiz-statistics-timetaken:after,
 .dtlms-quiz-curriculum-result-intro > .dtlms-curriculum-progress-details-holder,
-.dtlms-class-curriculum-table td.section, .dtlms-course-curriculum-table td.section {
+.dtlms-class-curriculum-table td.section,
+.dtlms-course-curriculum-table td.section {
   background-color: #f5f5f5; }
 
 /*----*****---- << Borders >> ----*****----*/
-.dtlms-lessons-menu ul li.dtlms-lesson-complete.current::before, .dtlms-quiz-questions ul.dtlms-question-image-options li.selected, .dtlms-sc-post-quiz-msg {
+.dtlms-lessons-menu ul li.dtlms-lesson-complete.current::before,
+.dtlms-quiz-questions ul.dtlms-question-image-options li.selected,
+.dtlms-sc-post-quiz-msg {
   border-color: #81c77f; }
 
 ul.dtlms-quiz-statistics-counter li.dtlms-quiz-total-questions .dtlms-quiz-sepeartor {
@@ -10670,13 +10929,20 @@ ul.dtlms-quiz-statistics-counter li.dtlms-quiz-skipped-questions .dtlms-quiz-sep
   border-color: #ff9800; }
 
 /*----*****---- << Colors >> ----*****----*/
-.dtlms-success-box, ul.dtlms-quiz-statistics-counter li.dtlms-quiz-correct-answers, .dtlms-question.dtlms-correct .dtlms-title .dtlms-title-container:before, .dtlms-question.dtlms-correct .dtlms-user-answer-container > h5, .dtlms-question.dtlms-correct .dtlms-user-answer-container > h5:before, .dtlms-question .dtlms-correct-answer-container > h5, .dtlms-question .dtlms-correct-answer-container > h5:before,
+.dtlms-success-box, ul.dtlms-quiz-statistics-counter li.dtlms-quiz-correct-answers,
+.dtlms-question.dtlms-correct .dtlms-title .dtlms-title-container:before,
+.dtlms-question.dtlms-correct .dtlms-user-answer-container > h5,
+.dtlms-question.dtlms-correct .dtlms-user-answer-container > h5:before,
+.dtlms-question .dtlms-correct-answer-container > h5,
+.dtlms-question .dtlms-correct-answer-container > h5:before,
 .dtlms-quiz-results-container.dtlms-user-result-pass .dtlms-quiz-results h5 span,
 .dtlms-course-results-main-detail-wrapper .dtlms-item-progress-details-holder .dtlms-quiz-results h5 span,
 .dtlms-class-results-main-detail-wrapper .dtlms-item-progress-details-holder .dtlms-quiz-results h5 span {
   color: #71d251; }
 
-.dtlms-error-box, ul.dtlms-quiz-statistics-counter li.dtlms-quiz-wrong-answers, .dtlms-question.dtlms-wrong .dtlms-title .dtlms-title-container:before, .dtlms-question.dtlms-wrong .dtlms-user-answer-container > h5:before {
+.dtlms-error-box, ul.dtlms-quiz-statistics-counter li.dtlms-quiz-wrong-answers,
+.dtlms-question.dtlms-wrong .dtlms-title .dtlms-title-container:before,
+.dtlms-question.dtlms-wrong .dtlms-user-answer-container > h5:before {
   color: #f44336; }
 
 .dtlms-warning-box, ul.dtlms-quiz-statistics-counter li.dtlms-quiz-skipped-questions {
@@ -10687,13 +10953,24 @@ ul.dtlms-quiz-statistics-counter li.dtlms-quiz-skipped-questions .dtlms-quiz-sep
 .dtlms-quiz-results-container.dtlms-user-result-fail .dtlms-quiz-results h5 span {
   color: #eb0000; }
 
-.dtlms-completed, .dtlms-curriculum-list li .dtlms-completed, .dtlms-questions-list .dtlms-question.dtlms-correct:after, .dtlms-questions-list .dtlms-question.dtlms-wrong:after, .dtlms-course-curriculum-table td.completed:before, .dtlms-class-curriculum-table td.completed:before {
+.dtlms-completed,
+.dtlms-curriculum-list li .dtlms-completed,
+.dtlms-questions-list .dtlms-question.dtlms-correct:after,
+.dtlms-questions-list .dtlms-question.dtlms-wrong:after,
+.dtlms-course-curriculum-table td.completed:before,
+.dtlms-class-curriculum-table td.completed:before {
   color: #71d251; }
 
 /*----*****---- << BG >> ----*****----*/
 /* Buttons & Links */
-.dtlms-button, .dtlms-badge-certificate-holder a.dtlms-generate-certificate-content, .dtlms-item-status-details > .dtlms-package-proceed-button > a, .dtlms-package-pricing-details > .dtlms-package-proceed-button > a, .dtlms-payment-details .dtlms-item-status-details .dtlms-proceed-button > a, .dtlms-tabs-vertical-content .course-group-section .action > .group-button,
-.dtlms-total-items .dtlms-total-item-title, .dtlms-total-items span,
+.dtlms-button,
+.dtlms-badge-certificate-holder a.dtlms-generate-certificate-content,
+.dtlms-item-status-details > .dtlms-package-proceed-button > a,
+.dtlms-package-pricing-details > .dtlms-package-proceed-button > a,
+.dtlms-payment-details .dtlms-item-status-details .dtlms-proceed-button > a,
+.dtlms-tabs-vertical-content .course-group-section .action > .group-button,
+.dtlms-total-items .dtlms-total-item-title,
+.dtlms-total-items span,
 .dtlms-statistics-container .dtlms-custom-table td p.dtlms-statistics-count span,
 .dtlms-statistics-container .dtlms-custom-table td p.dtlms-total_subscriptions span,
 #dtlms-payment-default-metabox .dtlms-custom-box td p.dtlms-total_subscriptions span,
@@ -10704,17 +10981,22 @@ ul.dtlms-quiz-statistics-counter li.dtlms-quiz-skipped-questions .dtlms-quiz-sep
 .dtlms-statistics-container .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a,
 .page-template-default.page .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a,
 .page-template-default.page .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a,
-.dtlms-pagination.dtlms-ajax-pagination .prev-post a:hover, .dtlms-pagination.dtlms-ajax-pagination .next-post a:hover,
-.dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li span, .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li a:hover,
-.dtlms-curriculum-list .dtlms-curriculum-meta-preview, .dtlms-progressbar .dtlms-bar-text > span,
+.dtlms-pagination.dtlms-ajax-pagination .prev-post a:hover,
+.dtlms-pagination.dtlms-ajax-pagination .next-post a:hover,
+.dtlms-curriculum-list .dtlms-curriculum-meta-preview,
+.dtlms-progressbar .dtlms-bar-text > span,
 .dtlms-quiz-questions .dtlms-boolean input[type="checkbox"]:checked + label:before,
 .dtlms-quiz-questions ul:not(.dtlms-question-image-options) li input[type="checkbox"]:checked + label:before,
-div[class*="listing-filters"] > div[class$="filter"] > ul > li > input[type="checkbox"]:checked + label:before, .dtlms-course-detail .dtlms-coursedetail-cart-details .added_to_cart {
+div[class*="listing-filters"] > div[class$="filter"] > ul > li > input[type="checkbox"]:checked + label:before,
+.dtlms-course-detail .dtlms-coursedetail-cart-details .added_to_cart {
   background: #000; }
 
 /* Buttons & Links */
-.dtlms-button:hover, .dtlms-badge-certificate-holder a.dtlms-generate-certificate-content:hover, .dtlms-author-details .dtlms-author-description .dtlms-author-contact-details > li > a:hover,
-.dtlms-social-logins-container a[class^="dtlms-social"]:hover, div[class$="share-holder"] ul li a:hover, .dtlms-payment-details .dtlms-item-status-details .dtlms-proceed-button > a:hover {
+.dtlms-button:hover,
+.dtlms-badge-certificate-holder a.dtlms-generate-certificate-content:hover,
+.dtlms-author-details .dtlms-author-description .dtlms-author-contact-details > li > a:hover,
+.dtlms-social-logins-container a[class^="dtlms-social"]:hover, div[class$="share-holder"] ul li a:hover,
+.dtlms-payment-details .dtlms-item-status-details .dtlms-proceed-button > a:hover {
   background-color: rgba(0, 0, 0, 0.8); }
 
 .page-template-default.page .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a:hover,
@@ -10727,17 +11009,32 @@ div[class*="listing-filters"] > div[class$="filter"] > ul > li > input[type="che
 .dtlms-statistics-container .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a.active {
   background-color: #757575; }
 
-.dtlms-course-result-popup-header, .dtlms-class-result-popup-header, .dtlms-close-course-result-popup:hover, .dtlms-close-class-result-popup:hover,
-.dtlms-close-course-curriculum-popup:hover, .dtlms-refresh-course-curriculum:hover, .dtlms-refresh-course-result:hover, .dtlms-refresh-class-result:hover,
+.dtlms-course-result-popup-header,
+.dtlms-class-result-popup-header,
+.dtlms-close-course-result-popup:hover,
+.dtlms-close-class-result-popup:hover,
+.dtlms-close-course-curriculum-popup:hover,
+.dtlms-refresh-course-curriculum:hover,
+.dtlms-refresh-course-result:hover,
+.dtlms-refresh-class-result:hover,
 .dtlms-course-curriculum-popup-header {
   background-color: #ededed; }
 
-.dtlms-class-curriculum-table th, .dtlms-course-curriculum-table th, .dtlms-package-items table th, .dtlms-question table thead th {
+.dtlms-class-curriculum-table th,
+.dtlms-course-curriculum-table th,
+.dtlms-package-items table th,
+.dtlms-question table thead th {
   background-color: #f3f3f3; }
 
 /* Quiz */
-ul.dtlms-quiz-statistics-counter li .dtlms-quiz-question-result, ul.dtlms-quiz-statistics-counter li .dtlms-quiz-sepeartor, .dtlms-question div[class$="answer-container"], .dtlms-question div[class$="explanation-container"], .dtlms-quiz-underprogess .dtlms-quiz-questions-container,
-#dtlms-course-curriculum-popup, #dtlms-course-result-popup, #dtlms-class-result-popup, .dtlms-course-results-main-detail-wrapper, .dtlms-class-results-main-detail-wrapper, .dtlms-quiz-curriculum-result-intro {
+ul.dtlms-quiz-statistics-counter li .dtlms-quiz-question-result, ul.dtlms-quiz-statistics-counter li .dtlms-quiz-sepeartor,
+.dtlms-question div[class$="answer-container"],
+.dtlms-question div[class$="explanation-container"],
+.dtlms-quiz-underprogess .dtlms-quiz-questions-container,
+#dtlms-course-curriculum-popup, #dtlms-course-result-popup, #dtlms-class-result-popup,
+.dtlms-course-results-main-detail-wrapper,
+.dtlms-class-results-main-detail-wrapper,
+.dtlms-quiz-curriculum-result-intro {
   background-color: #ffffff; }
 
 /* Quiz answers */
@@ -10749,15 +11046,19 @@ div[class*="listing-filters"] > div[class$="filter"] > ul > li > input[type="rad
 .dtlms-course-curriculum-popup-header:after {
   background-color: rgba(255, 255, 255, 0.75); }
 
-.dtlms-course-result-popup-container:before, .dtlms-class-result-popup-container:before {
+.dtlms-course-result-popup-container:before,
+.dtlms-class-result-popup-container:before {
   background-color: rgba(255, 255, 255, 0.9); }
 
-.dtlms-class-result-popup-intro .dtlms-item-status-details > span.dtlms-completed, .dtlms-course-result-popup-intro .dtlms-item-status-details > span.dtlms-completed {
+.dtlms-class-result-popup-intro .dtlms-item-status-details > span.dtlms-completed,
+.dtlms-course-result-popup-intro .dtlms-item-status-details > span.dtlms-completed {
   background-color: #71d251; }
 
 /*----*****---- << Borders >> ----*****----*/
-.dtlms-pagination.dtlms-ajax-pagination .prev-post a:hover, .dtlms-pagination.dtlms-ajax-pagination .next-post a:hover,
-.dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li span, .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li a:hover {
+.dtlms-pagination.dtlms-ajax-pagination .prev-post a:hover,
+.dtlms-pagination.dtlms-ajax-pagination .next-post a:hover,
+.dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li span,
+.dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li a:hover {
   border-color: #000; }
 
 .dtlms-class-result-curriculum-container .dtlms-class-curriculum-table tr.active td:last-child:before,
@@ -10785,7 +11086,8 @@ div[class$="answer-container"],
 table.dtlms-custom-table td:empty,
 .dtlms-statistics-container .dtlms-chart-holder .dtlms-overview-chart-container table,
 .dtlms-statistics-container table.dtlms-custom-table tbody:not(.dtlms-custom-dashboard-table) tr td,
-table.dtlms-custom-table, .dtlms-custom-box table {
+table.dtlms-custom-table,
+.dtlms-custom-box table {
   border-bottom-color: rgba(0, 0, 0, 0.08); }
 
 .dtlms-custom-box table th,
@@ -10804,13 +11106,19 @@ table.dtlms-custom-table tbody tr td:first-child {
   border-left-color: rgba(0, 0, 0, 0.08); }
 
 /* Quiz */
-.dtlms-question table thead th, .dtlms-question div[class$="container"] table td,
-.dtlms-assignment-submission li, .dtlms-assignment-submission li .dtlms-column ~ .dtlms-column, .dtlms-quiz-features-list li,
-.dtlms-curriculum-result-intro, .dtlms-curriculum-details-container {
+.dtlms-question table thead th,
+.dtlms-question div[class$="container"] table td,
+.dtlms-assignment-submission li,
+.dtlms-assignment-submission li .dtlms-column ~ .dtlms-column,
+.dtlms-quiz-features-list li,
+.dtlms-curriculum-result-intro,
+.dtlms-curriculum-details-container {
   border-color: #eee; }
 
-.dtlms-expand-course-result-main-details:after, .dtlms-expand-class-result-main-details:after,
-.dtlms-expand-course-result-main-details.active:after, .dtlms-expand-class-result-main-details.active:after {
+.dtlms-expand-course-result-main-details:after,
+.dtlms-expand-class-result-main-details:after,
+.dtlms-expand-course-result-main-details.active:after,
+.dtlms-expand-class-result-main-details.active:after {
   border-top-color: #eee; }
 
 .dtlms-question .dtlms-title-container .dtlms-question-title .dtlms-question-title-counter:after {
@@ -10822,10 +11130,12 @@ table.dtlms-custom-table tbody tr td:first-child {
 .dtlms-class-result-popup-container .dtlms-questions-list .dtlms-question:before {
   border-color: rgba(0, 0, 0, 0.075); }
 
-.dtlms-course-results-main-detail-wrapper, .dtlms-class-results-main-detail-wrapper {
+.dtlms-course-results-main-detail-wrapper,
+.dtlms-class-results-main-detail-wrapper {
   border-top-color: #fff; }
 
-.dtlms-course-results-main-detail-wrapper, .dtlms-class-results-main-detail-wrapper {
+.dtlms-course-results-main-detail-wrapper,
+.dtlms-class-results-main-detail-wrapper {
   -webkit-box-shadow: 0 0px 0px 10px #fafafa inset;
   box-shadow: 0 0px 0px 10px #fafafa inset; }
 
@@ -10841,28 +11151,114 @@ table.dtlms-custom-table tbody tr td:first-child {
   left: 10px;
   right: 10px; }
 
-.dtlms-class-curriculum-table .dtlms-view-class-curriculum-details, .dtlms-class-curriculum-table .dtlms-view-class-curriculum-details:hover, .dtlms-class-curriculum-table .dtlms-view-class-curriculum-details:focus,
-.dtlms-statistics-container .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a, .dtlms-statistics-container .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a, .page-template-default.page .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a, .page-template-default.page .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a, .dtlms-statistics-container .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a:hover, .dtlms-statistics-container .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a:hover, .page-template-default.page .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a:hover, .page-template-default.page .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a:hover, .dtlms-course-curriculum-table .dtlms-view-curriculum-details, .dtlms-course-curriculum-table .dtlms-view-curriculum-details:hover, .dtlms-course-curriculum-table .dtlms-view-curriculum-details:focus, .dtlms-pagination.dtlms-ajax-pagination a, .dtlms-pagination.dtlms-ajax-pagination a:hover, .dtlms-pagination.dtlms-ajax-pagination a:focus {
+.dtlms-class-curriculum-table .dtlms-view-class-curriculum-details,
+.dtlms-class-curriculum-table .dtlms-view-class-curriculum-details:hover,
+.dtlms-class-curriculum-table .dtlms-view-class-curriculum-details:focus,
+.dtlms-statistics-container .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a,
+.dtlms-statistics-container .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a,
+.page-template-default.page .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a,
+.page-template-default.page .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a,
+.dtlms-statistics-container .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a:hover,
+.dtlms-statistics-container .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a:hover,
+.page-template-default.page .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a:hover,
+.page-template-default.page .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a:hover,
+.dtlms-course-curriculum-table .dtlms-view-curriculum-details,
+.dtlms-course-curriculum-table .dtlms-view-curriculum-details:hover,
+.dtlms-course-curriculum-table .dtlms-view-curriculum-details:focus,
+.dtlms-pagination.dtlms-ajax-pagination a,
+.dtlms-pagination.dtlms-ajax-pagination a:hover,
+.dtlms-pagination.dtlms-ajax-pagination a:focus {
   -webkit-box-shadow: none;
   box-shadow: none; }
 
 /*----*****---- << Colors >> ----*****----*/
 /* Buttons & Links */
-.dtlms-button, .dtlms-author-details .dtlms-author-description .dtlms-author-contact-details > li > a, .dtlms-payment-details .dtlms-item-status-details .dtlms-proceed-button > a, .dtlms-badge-certificate-holder a.dtlms-generate-certificate-content, .dtlms-view-class-result, .dtlms-view-course-result, .dtlms-social-logins-container a[class^="dtlms-social"], body[class*="single-dtlms"] #respond p.form-submit input[type="submit"],
-.dtlms-button:hover, .dtlms-author-details .dtlms-author-description .dtlms-author-contact-details > li > a:hover, .dtlms-payment-details .dtlms-item-status-details .dtlms-proceed-button > a:hover, .dtlms-badge-certificate-holder a.dtlms-generate-certificate-content:hover, .dtlms-view-class-result:hover, .dtlms-view-course-result:hover, .dtlms-social-logins-container a[class^="dtlms-social"]:hover, body[class*="single-dtlms"] #respond p.form-submit input[type="submit"]:hover,
-.dtlms-button:focus, .dtlms-item-pricing-details a.dtlms-cart-link:focus, .dtlms-item-pricing-details a.dtlms-checkout-link:focus, .dtlms-item-pricing-details a.added_to_cart:focus, .dtlms-package-pricing-details > .dtlms-package-proceed-button > a:focus, .dtlms-item-pricing-details a:focus, .dtlms-item-pricing-details a.dtlms-button:focus, .dtlms-badge-certificate-holder a.dtlms-generate-certificate-content:focus,
-.dtlms-curriculum-intro-details-meta .dtlms-curriculum-duration, .dtlms-curriculum-intro-details-meta > span, .dtlms-toggle-group-set h5.dtlms-toggle > a > span.dtlms-completed, .dtlms-curriculum-list li .dtlms-completed span, .dtlms-curriculum-list .dtlms-curriculum-meta-preview, .dtlms-progressbar .dtlms-bar-text > span, .dtlms-total-items .dtlms-total-item-title, .dtlms-total-items span, .dtlms-total-items:hover .dtlms-total-item-title, .dtlms-total-items:hover span, .dtlms-statistics-container.statistics-intro table.dtlms-custom-table td, .dtlms-statistics-container.statistics-intro table.dtlms-custom-table tbody tr td:first-child, .dtlms-statistics-container.statistics-intro table.dtlms-custom-table tbody:not(.dtlms-custom-dashboard-table) tr td, .dtlms-statistics-container .dtlms-custom-table td p.dtlms-statistics-count span, .dtlms-statistics-container .dtlms-custom-table td p.dtlms-total_subscriptions span, #dtlms-payment-default-metabox .dtlms-custom-box td p.dtlms-total_subscriptions span, .page-template-default.page .dtlms-admin-dashboard table th, .dtlms-admin-dashboard table tr td a.dtlms-view-class-result, .dtlms-admin-dashboard table tr td a.dtlms-view-course-result, .page-template-default.page .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a, .page-template-default.page .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a, .dtlms-statistics-container .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a, .dtlms-statistics-container .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a, .dtlms-admin-dashboard table tr td a.dtlms-view-class-result:hover, .dtlms-admin-dashboard table tr td a.dtlms-view-course-result:hover, .page-template-default.page .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a:hover, .page-template-default.page .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a:hover, .dtlms-statistics-container .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a:hover, .dtlms-statistics-container .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a:hover, .page-template-default.page .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a.active, .page-template-default.page .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a.active, .dtlms-statistics-container .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a.active, .dtlms-statistics-container .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a.active, div[class*="list-item-wrapper"] .dtlms-item-status-details .dtlms-item-pricing-details, div[class*="listing-containers"] .dtlms-item-status-details .dtlms-item-pricing-details, .dtlms-item-status-details > del, .dtlms-item-status-details .dtlms-item-pricing-details > del, .dtlms-item-status-details > ins, .dtlms-item-status-details .dtlms-item-pricing-details > ins, .dtlms-item-status-details > span, .dtlms-item-status-details .dtlms-item-pricing-details > span, div[class*="listing-containers"] .dtlms-package-pricing-details .dtlms-item-pricing-details, .dtlms-packagelist-item .dtlms-package-pricing-details .dtlms-item-pricing-details, .dtlms-package-pricing-details > span, .dtlms-package-pricing-details .dtlms-item-pricing-details > span, .dtlms-questions-list-container .dtlms-questions-list .dtlms-question .dtlms-answer-hint span, .dtlms-quiz-questions ul.dtlms-question-image-options li.selected:after, .dtlms-pagination.dtlms-ajax-pagination .prev-post a:hover, .dtlms-pagination.dtlms-ajax-pagination .next-post a:hover, .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li span, .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li a:hover, #dtlms-course-curriculum-popup .dtlms-course-curriculum-popup-container .dtlms-four-fifth .dtlms-curriculum-content-holder ul.dtlms-assignment-submission li .dtlms-four-fifth > ul > li a:hover, #dtlms-course-result-popup .dtlms-course-result-popup-container .dtlms-three-fifth .dtlms-curriculum-assignment-holder ul.dtlms-assignment-submission li .dtlms-four-fifth > ul > li a:hover, .dtlms-course-detail .dtlms-coursedetail-cart-details .added_to_cart {
+.dtlms-button,
+.dtlms-author-details .dtlms-author-description .dtlms-author-contact-details > li > a,
+.dtlms-payment-details .dtlms-item-status-details .dtlms-proceed-button > a,
+.dtlms-badge-certificate-holder a.dtlms-generate-certificate-content,
+.dtlms-view-class-result,
+.dtlms-view-course-result,
+.dtlms-social-logins-container a[class^="dtlms-social"], body[class*="single-dtlms"] #respond p.form-submit input[type="submit"],
+.dtlms-button:hover,
+.dtlms-author-details .dtlms-author-description .dtlms-author-contact-details > li > a:hover,
+.dtlms-payment-details .dtlms-item-status-details .dtlms-proceed-button > a:hover,
+.dtlms-badge-certificate-holder a.dtlms-generate-certificate-content:hover,
+.dtlms-view-class-result:hover,
+.dtlms-view-course-result:hover,
+.dtlms-social-logins-container a[class^="dtlms-social"]:hover, body[class*="single-dtlms"] #respond p.form-submit input[type="submit"]:hover,
+.dtlms-button:focus,
+.dtlms-item-pricing-details a.dtlms-cart-link:focus,
+.dtlms-item-pricing-details a.dtlms-checkout-link:focus,
+.dtlms-item-pricing-details a.added_to_cart:focus,
+.dtlms-package-pricing-details > .dtlms-package-proceed-button > a:focus,
+.dtlms-item-pricing-details a:focus,
+.dtlms-item-pricing-details a.dtlms-button:focus,
+.dtlms-badge-certificate-holder a.dtlms-generate-certificate-content:focus,
+.dtlms-curriculum-intro-details-meta .dtlms-curriculum-duration,
+.dtlms-curriculum-intro-details-meta > span,
+.dtlms-toggle-group-set h5.dtlms-toggle > a > span.dtlms-completed,
+.dtlms-curriculum-list li .dtlms-completed span,
+.dtlms-curriculum-list .dtlms-curriculum-meta-preview,
+.dtlms-progressbar .dtlms-bar-text > span,
+.dtlms-total-items .dtlms-total-item-title,
+.dtlms-total-items span,
+.dtlms-total-items:hover .dtlms-total-item-title,
+.dtlms-total-items:hover span,
+.dtlms-statistics-container.statistics-intro table.dtlms-custom-table td,
+.dtlms-statistics-container.statistics-intro table.dtlms-custom-table tbody tr td:first-child,
+.dtlms-statistics-container.statistics-intro table.dtlms-custom-table tbody:not(.dtlms-custom-dashboard-table) tr td,
+.dtlms-statistics-container .dtlms-custom-table td p.dtlms-statistics-count span,
+.dtlms-statistics-container .dtlms-custom-table td p.dtlms-total_subscriptions span, #dtlms-payment-default-metabox .dtlms-custom-box td p.dtlms-total_subscriptions span,
+.page-template-default.page .dtlms-admin-dashboard table th,
+.dtlms-admin-dashboard table tr td a.dtlms-view-class-result,
+.dtlms-admin-dashboard table tr td a.dtlms-view-course-result,
+.page-template-default.page .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a,
+.page-template-default.page .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a,
+.dtlms-statistics-container .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a,
+.dtlms-statistics-container .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a,
+.dtlms-admin-dashboard table tr td a.dtlms-view-class-result:hover,
+.dtlms-admin-dashboard table tr td a.dtlms-view-course-result:hover,
+.page-template-default.page .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a:hover,
+.page-template-default.page .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a:hover,
+.dtlms-statistics-container .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a:hover,
+.dtlms-statistics-container .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a:hover,
+.page-template-default.page .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a.active,
+.page-template-default.page .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a.active,
+.dtlms-statistics-container .dtlms-chart-holder ul.dtlms-purchases-overview-chart-options li a.active,
+.dtlms-statistics-container .dtlms-chart-holder ul.dtlms-commissions-overview-chart-options li a.active, div[class*="list-item-wrapper"] .dtlms-item-status-details .dtlms-item-pricing-details, div[class*="listing-containers"] .dtlms-item-status-details .dtlms-item-pricing-details,
+.dtlms-item-status-details > del,
+.dtlms-item-status-details .dtlms-item-pricing-details > del,
+.dtlms-item-status-details > ins,
+.dtlms-item-status-details .dtlms-item-pricing-details > ins,
+.dtlms-item-status-details > span,
+.dtlms-item-status-details .dtlms-item-pricing-details > span, div[class*="listing-containers"] .dtlms-package-pricing-details .dtlms-item-pricing-details,
+.dtlms-packagelist-item .dtlms-package-pricing-details .dtlms-item-pricing-details,
+.dtlms-package-pricing-details > span,
+.dtlms-package-pricing-details .dtlms-item-pricing-details > span,
+.dtlms-questions-list-container .dtlms-questions-list .dtlms-question .dtlms-answer-hint span,
+.dtlms-quiz-questions ul.dtlms-question-image-options li.selected:after,
+#dtlms-course-curriculum-popup .dtlms-course-curriculum-popup-container .dtlms-four-fifth .dtlms-curriculum-content-holder ul.dtlms-assignment-submission li .dtlms-four-fifth > ul > li a:hover, #dtlms-course-result-popup .dtlms-course-result-popup-container .dtlms-three-fifth .dtlms-curriculum-assignment-holder ul.dtlms-assignment-submission li .dtlms-four-fifth > ul > li a:hover,
+.dtlms-course-detail .dtlms-coursedetail-cart-details .added_to_cart {
   color: #fff; }
 
-.dtlms-close-course-result-popup:before, .dtlms-close-class-result-popup:before, .dtlms-close-course-curriculum-popup:before,
-.dtlms-refresh-course-result:before, .dtlms-refresh-class-result:before, .dtlms-refresh-course-curriculum:before {
+.dtlms-close-course-result-popup:before,
+.dtlms-close-class-result-popup:before,
+.dtlms-close-course-curriculum-popup:before,
+.dtlms-refresh-course-result:before,
+.dtlms-refresh-class-result:before,
+.dtlms-refresh-course-curriculum:before {
   color: rgba(0, 0, 0, 0.8); }
 
-table.dtlms-custom-table td, .dtlms-custom-box table td, table.dtlms-custom-table tbody input.dtlms-date-field,
-table.dtlms-custom-table td a, .dtlms-custom-box table td a, table.dtlms-custom-table tbody.dtlms-custom-dashboard-table ul li a,
-table.dtlms-custom-table tbody tr td:first-child, .dtlms-custom-box table tbody tr td:first-child,
+table.dtlms-custom-table td,
+.dtlms-custom-box table td, table.dtlms-custom-table tbody input.dtlms-date-field,
+table.dtlms-custom-table td a,
+.dtlms-custom-box table td a, table.dtlms-custom-table tbody.dtlms-custom-dashboard-table ul li a,
+table.dtlms-custom-table tbody tr td:first-child,
+.dtlms-custom-box table tbody tr td:first-child,
 table.dtlms-custom-table td.section, table.dtlms-custom-table tbody tr:nth-child(2n+1) td.section,
-.dtlms-assignment-submission li .dtlms-column a, .dtlms-add-upload-assignment-field,
+.dtlms-assignment-submission li .dtlms-column a,
+.dtlms-add-upload-assignment-field,
 .dtlms-course-results-main-detail-wrapper .dtlms-author-title h5 a:hover {
   color: #757575; }
 
@@ -11252,11 +11648,23 @@ table.dtlms-custom-table td.section, table.dtlms-custom-table tbody tr:nth-child
     margin: 0 15px 15px 0;
     float: left;
     color: #FFF; }
-  .dtlms-curriculum-content-holder .dtlms-gapfill input[type="text"], .dtlms-curriculum-content-holder .dtlms-gapfill input[type="password"], .dtlms-curriculum-content-holder .dtlms-gapfill input[type="email"], .dtlms-curriculum-content-holder .dtlms-gapfill input[type="url"], .dtlms-curriculum-content-holder .dtlms-gapfill input[type="tel"], .dtlms-curriculum-content-holder .dtlms-gapfill input[type="number"], .dtlms-curriculum-content-holder .dtlms-gapfill input[type="range"], .dtlms-curriculum-content-holder .dtlms-gapfill input[type="date"], .dtlms-curriculum-content-holder .dtlms-gapfill textarea, .dtlms-curriculum-content-holder .dtlms-gapfill input.text, .dtlms-curriculum-content-holder .dtlms-gapfill input[type="search"], .dtlms-curriculum-content-holder .dtlms-gapfill select {
+  .dtlms-curriculum-content-holder .dtlms-gapfill input[type="text"],
+  .dtlms-curriculum-content-holder .dtlms-gapfill input[type="password"],
+  .dtlms-curriculum-content-holder .dtlms-gapfill input[type="email"],
+  .dtlms-curriculum-content-holder .dtlms-gapfill input[type="url"],
+  .dtlms-curriculum-content-holder .dtlms-gapfill input[type="tel"],
+  .dtlms-curriculum-content-holder .dtlms-gapfill input[type="number"],
+  .dtlms-curriculum-content-holder .dtlms-gapfill input[type="range"],
+  .dtlms-curriculum-content-holder .dtlms-gapfill input[type="date"],
+  .dtlms-curriculum-content-holder .dtlms-gapfill textarea,
+  .dtlms-curriculum-content-holder .dtlms-gapfill input.text,
+  .dtlms-curriculum-content-holder .dtlms-gapfill input[type="search"],
+  .dtlms-curriculum-content-holder .dtlms-gapfill select {
     width: 150px; }
   .dtlms-quiz-questions ul li .dtlms-quiz-answers-container {
     min-width: 100%; }
-  .dtlms-quiz-questions .dtlms-boolean > span, .dtlms-quiz-questions ul:not(.dtlms-question-image-options) li,
+  .dtlms-quiz-questions .dtlms-boolean > span,
+  .dtlms-quiz-questions ul:not(.dtlms-question-image-options) li,
   div[class*="listing-filters"] > div[class$="filter"] > ul > li, #dtlms-course-result-popup .dtlms-questions-list-container.dtlms-dashboard-questions-list .dtlms-quiz-questions ul:not(.dtlms-question-image-options) li,
   #dtlms-class-result-popup .dtlms-questions-list-container.dtlms-dashboard-questions-list .dtlms-quiz-questions ul:not(.dtlms-question-image-options) li {
     width: 100%; }
@@ -11315,8 +11723,10 @@ table.dtlms-custom-table td.section, table.dtlms-custom-table tbody tr:nth-child
     float: left;
     display: block; }
   #dtlms-class-result-popup .dtlms-course-result-popup-container .dtlms-column.dtlms-three-fifth.dtlms-view-curriculum-details-holder .dtlms-curriculum-result-intro > .dtlms-curriculum-progress-details-holder, #dtlms-class-result-popup .dtlms-class-result-popup-container .dtlms-column.dtlms-three-fifth.dtlms-view-curriculum-details-holder .dtlms-curriculum-result-intro > .dtlms-curriculum-progress-details-holder,
-  .wp-admin #dtlms-class-result-popup .dtlms-course-result-popup-container .dtlms-column.dtlms-three-fifth.dtlms-view-curriculum-details-holder .dtlms-curriculum-result-intro > .dtlms-curriculum-progress-details-holder, .wp-admin #dtlms-class-result-popup .dtlms-class-result-popup-container .dtlms-column.dtlms-three-fifth.dtlms-view-curriculum-details-holder .dtlms-curriculum-result-intro > .dtlms-curriculum-progress-details-holder,
-  .admin-bar #dtlms-class-result-popup .dtlms-course-result-popup-container .dtlms-column.dtlms-three-fifth.dtlms-view-curriculum-details-holder .dtlms-curriculum-result-intro > .dtlms-curriculum-progress-details-holder, .admin-bar #dtlms-class-result-popup .dtlms-class-result-popup-container .dtlms-column.dtlms-three-fifth.dtlms-view-curriculum-details-holder .dtlms-curriculum-result-intro > .dtlms-curriculum-progress-details-holder {
+  .wp-admin #dtlms-class-result-popup .dtlms-course-result-popup-container .dtlms-column.dtlms-three-fifth.dtlms-view-curriculum-details-holder .dtlms-curriculum-result-intro > .dtlms-curriculum-progress-details-holder,
+  .wp-admin #dtlms-class-result-popup .dtlms-class-result-popup-container .dtlms-column.dtlms-three-fifth.dtlms-view-curriculum-details-holder .dtlms-curriculum-result-intro > .dtlms-curriculum-progress-details-holder,
+  .admin-bar #dtlms-class-result-popup .dtlms-course-result-popup-container .dtlms-column.dtlms-three-fifth.dtlms-view-curriculum-details-holder .dtlms-curriculum-result-intro > .dtlms-curriculum-progress-details-holder,
+  .admin-bar #dtlms-class-result-popup .dtlms-class-result-popup-container .dtlms-column.dtlms-three-fifth.dtlms-view-curriculum-details-holder .dtlms-curriculum-result-intro > .dtlms-curriculum-progress-details-holder {
     width: 100%;
     float: left;
     display: block; }
@@ -11427,7 +11837,34 @@ table.dtlms-custom-table td.section, table.dtlms-custom-table tbody tr:nth-child
   .dtlms-column {
     margin-bottom: 20px;
     margin-left: 0; }
-  .dtlms-one-fourth, .dtlms-one-half, .dtlms-one-third, .dtlms-three-fourth, .dtlms-two-third, .dtlms-one-fifth, .dtlms-four-fifth, .dtlms-three-fifth, .dtlms-two-fifth, .dtlms-one-sixth, .dtlms-two-sixth, .dtlms-three-sixth, .dtlms-four-sixth, .dtlms-five-sixth, .column.no-space.dtlms-one-fourth, .column.no-space.dtlms-one-third, .column.no-space.dtlms-one-half, .column.no-space.dtlms-one-fifth, .column.no-space.dtlms-one-sixth, .column.no-space.dtlms-three-fourth, .column.no-space.dtlms-two-third, .column.no-space.dtlms-four-fifth, .column.no-space.dtlms-three-fifth, .column.no-space.dtlms-two-fifth, .column.no-space.dtlms-two-sixth, .column.no-space.dtlms-three-sixth, .column.no-space.dtlms-four-sixth, .column.no-space.dtlms-five-sixth {
+  .dtlms-one-fourth,
+  .dtlms-one-half,
+  .dtlms-one-third,
+  .dtlms-three-fourth,
+  .dtlms-two-third,
+  .dtlms-one-fifth,
+  .dtlms-four-fifth,
+  .dtlms-three-fifth,
+  .dtlms-two-fifth,
+  .dtlms-one-sixth,
+  .dtlms-two-sixth,
+  .dtlms-three-sixth,
+  .dtlms-four-sixth,
+  .dtlms-five-sixth,
+  .column.no-space.dtlms-one-fourth,
+  .column.no-space.dtlms-one-third,
+  .column.no-space.dtlms-one-half,
+  .column.no-space.dtlms-one-fifth,
+  .column.no-space.dtlms-one-sixth,
+  .column.no-space.dtlms-three-fourth,
+  .column.no-space.dtlms-two-third,
+  .column.no-space.dtlms-four-fifth,
+  .column.no-space.dtlms-three-fifth,
+  .column.no-space.dtlms-two-fifth,
+  .column.no-space.dtlms-two-sixth,
+  .column.no-space.dtlms-three-sixth,
+  .column.no-space.dtlms-four-sixth,
+  .column.no-space.dtlms-five-sixth {
     width: 100%; }
   .dtlms-main-title-section-wrapper .featured-post {
     margin-top: 20px;
@@ -11449,14 +11886,18 @@ table.dtlms-custom-table td.section, table.dtlms-custom-table tbody tr:nth-child
   .dtlms-course-curriculum-popup-header .dtlms-curriculum-intro > .dtlms-column:last-child {
     display: table;
     padding-right: 22px; }
-  .dtlms-curriculum-intro > .dtlms-one-fourth, .dtlms-curriculum-intro > .dtlms-three-fourth {
+  .dtlms-curriculum-intro > .dtlms-one-fourth,
+  .dtlms-curriculum-intro > .dtlms-three-fourth {
     width: 100%; }
   .dtlms-curriculum-intro .dtlms-curriculum-intro-details {
     width: 100%; }
-  .dtlms-curriculum-intro h2, .dtlms-curriculum-intro .dtlms-curriculum-intro-details h2 {
+  .dtlms-curriculum-intro h2,
+  .dtlms-curriculum-intro .dtlms-curriculum-intro-details h2 {
     font-size: 22px; }
-  .dtlms-curriculum-intro h3, .dtlms-curriculum-intro .dtlms-curriculum-intro-details h3,
-  .dtlms-curriculum-intro h4, .dtlms-curriculum-intro .dtlms-curriculum-intro-details h4 {
+  .dtlms-curriculum-intro h3,
+  .dtlms-curriculum-intro .dtlms-curriculum-intro-details h3,
+  .dtlms-curriculum-intro h4,
+  .dtlms-curriculum-intro .dtlms-curriculum-intro-details h4 {
     display: none; }
   .dtlms-curriculum-intro .dtlms-curriculum-intro-details h2,
   .dtlms-curriculum-intro .dtlms-curriculum-intro-details .dtlms-curriculum-intro-details-meta {
@@ -11464,7 +11905,9 @@ table.dtlms-custom-table td.section, table.dtlms-custom-table tbody tr:nth-child
     text-align: center;
     width: 100%;
     position: relative; }
-  .dtlms-curriculum-intro, .dtlms-course-result-popup-intro, .dtlms-class-result-popup-intro,
+  .dtlms-curriculum-intro,
+  .dtlms-course-result-popup-intro,
+  .dtlms-class-result-popup-intro,
   .dtlms-curriculum-intro .dtlms-curriculum-intro-details .dtlms-curriculum-intro-details-meta .dtlms-completed,
   .dtlms-curriculum-intro .dtlms-curriculum-intro-details .dtlms-curriculum-intro-details-meta .dtlms-purchased,
   .dtlms-curriculum-intro .dtlms-curriculum-intro-details .dtlms-curriculum-intro-details-meta .dtlms-undergoing,
@@ -11487,7 +11930,11 @@ table.dtlms-custom-table td.section, table.dtlms-custom-table tbody tr:nth-child
     text-align: center;
     font-size: 0;
     position: absolute; }
-  .dtlms-close-course-curriculum-popup, .dtlms-refresh-course-curriculum, .dtlms-refresh-course-result, .dtlms-refresh-class-result, .dtlms-close-course-result-popup {
+  .dtlms-close-course-curriculum-popup,
+  .dtlms-refresh-course-curriculum,
+  .dtlms-refresh-course-result,
+  .dtlms-refresh-class-result,
+  .dtlms-close-course-result-popup {
     height: 35px;
     top: 4px;
     bottom: auto;
@@ -11498,7 +11945,9 @@ table.dtlms-custom-table td.section, table.dtlms-custom-table tbody tr:nth-child
     -ms-transform: none;
     -webkit-transform: none;
     border: 1px solid #ddd; }
-  .dtlms-refresh-course-curriculum, .dtlms-refresh-course-result, .dtlms-refresh-class-result {
+  .dtlms-refresh-course-curriculum,
+  .dtlms-refresh-course-result,
+  .dtlms-refresh-class-result {
     right: 38px; }
   .dtlms-course-result-popup-intro .dtlms-item-status-details > span.dtlms-completed,
   .dtlms-course-result-popup-intro .dtlms-item-status-details > span.dtlms-purchased,
@@ -11554,13 +12003,24 @@ table.dtlms-custom-table td.section, table.dtlms-custom-table tbody tr:nth-child
     right: 0;
     left: 0;
     margin: 0 auto; }
-  .dtlms-close-course-curriculum-popup:before, .dtlms-close-course-result-popup:before {
+  .dtlms-close-course-curriculum-popup:before,
+  .dtlms-close-course-result-popup:before {
     font-size: 16px; }
-  .dtlms-refresh-course-curriculum:before, .dtlms-refresh-course-result:before, .dtlms-refresh-class-result:before {
+  .dtlms-refresh-course-curriculum:before,
+  .dtlms-refresh-course-result:before,
+  .dtlms-refresh-class-result:before {
     font-size: 14px; }
-  .dtlms-close-course-curriculum-popup, .dtlms-refresh-course-curriculum, .dtlms-refresh-course-result, .dtlms-refresh-class-result, .dtlms-close-course-result-popup {
+  .dtlms-close-course-curriculum-popup,
+  .dtlms-refresh-course-curriculum,
+  .dtlms-refresh-course-result,
+  .dtlms-refresh-class-result,
+  .dtlms-close-course-result-popup {
     background-color: #eee; }
-  .dtlms-close-course-curriculum-popup:hover, .dtlms-refresh-course-curriculum:hover, .dtlms-refresh-course-result:hover, .dtlms-refresh-class-result:hover, .dtlms-close-course-result-popup:hover {
+  .dtlms-close-course-curriculum-popup:hover,
+  .dtlms-refresh-course-curriculum:hover,
+  .dtlms-refresh-course-result:hover,
+  .dtlms-refresh-class-result:hover,
+  .dtlms-close-course-result-popup:hover {
     background-color: #e9e9e9; }
   #dtlms-course-curriculum-popup:not(.dtlms-curriculum-quiz-lock) .dtlms-course-curriculum-popup-container .dtlms-four-fifth .dtlms-curriculum-content-holder {
     width: 100%;
@@ -11591,7 +12051,8 @@ table.dtlms-custom-table td.section, table.dtlms-custom-table tbody tr:nth-child
   #dtlms-course-curriculum-popup .dtlms-course-curriculum-popup-container .dtlms-four-fifth .dtlms-curriculum-content-holder > div.dtlms-dashboard-quiz-statistics .dtlms-column.dtlms-one-half.first {
     margin-bottom: 50px; }
   /*#dtlms-course-curriculum-popup .dtlms-course-curriculum-popup-container .dtlms-four-fifth .dtlms-curriculum-content-holder > div.dtlms-one-fourth { width: 100%; float: right; position: absolute; top: 0; left: 0; } */
-  .dtlms-quiz-sidebar .dtlms-timer-container, .dtlms-quiz-sidebar .dtlms-question-counter-holder {
+  .dtlms-quiz-sidebar .dtlms-timer-container,
+  .dtlms-quiz-sidebar .dtlms-question-counter-holder {
     background: none;
     width: 50%;
     float: left; }
@@ -11602,7 +12063,8 @@ table.dtlms-custom-table td.section, table.dtlms-custom-table tbody tr:nth-child
     margin-right: 4%; }
   #dtlms-course-curriculum-popup .dtlms-course-curriculum-popup-container .dtlms-four-fifth .dtlms-curriculum-content-holder > div.dtlms-quiz-results-container {
     width: 75%; }
-  .dtlms-quiz-questions .dtlms-boolean > span, .dtlms-quiz-questions ul:not(.dtlms-question-image-options) li, div[class*="listing-filters"] > div[class$="filter"] > ul > li, #dtlms-course-result-popup .dtlms-questions-list-container.dtlms-dashboard-questions-list .dtlms-quiz-questions ul:not(.dtlms-question-image-options) li, #dtlms-class-result-popup .dtlms-questions-list-container.dtlms-dashboard-questions-list .dtlms-quiz-questions ul:not(.dtlms-question-image-options) li {
+  .dtlms-quiz-questions .dtlms-boolean > span,
+  .dtlms-quiz-questions ul:not(.dtlms-question-image-options) li, div[class*="listing-filters"] > div[class$="filter"] > ul > li, #dtlms-course-result-popup .dtlms-questions-list-container.dtlms-dashboard-questions-list .dtlms-quiz-questions ul:not(.dtlms-question-image-options) li, #dtlms-class-result-popup .dtlms-questions-list-container.dtlms-dashboard-questions-list .dtlms-quiz-questions ul:not(.dtlms-question-image-options) li {
     width: 100%;
     margin-right: 0; }
   .dtlms-quiz-questions .dtlms-boolean > span:first-child {
@@ -11622,7 +12084,12 @@ table.dtlms-custom-table td.section, table.dtlms-custom-table tbody tr:nth-child
     clear: none;
     margin-bottom: 50px;
     margin-left: 0; }
-  .dtlms-course-result-popup-intro h2, .dtlms-course-result-popup-intro h3, .dtlms-course-result-popup-intro h4, .dtlms-class-result-popup-intro h2, .dtlms-class-result-popup-intro h3, .dtlms-class-result-popup-intro h4 {
+  .dtlms-course-result-popup-intro h2,
+  .dtlms-course-result-popup-intro h3,
+  .dtlms-course-result-popup-intro h4,
+  .dtlms-class-result-popup-intro h2,
+  .dtlms-class-result-popup-intro h3,
+  .dtlms-class-result-popup-intro h4 {
     font-size: 24px; }
   .dtlms-title, #dtlms-course-curriculum-popup .dtlms-course-curriculum-popup-container .dtlms-four-fifth .dtlms-curriculum-content-holder > div.dtlms-title,
   .dtlms-curriculum-result-intro > h3,
@@ -11697,7 +12164,8 @@ table.dtlms-custom-table td.section, table.dtlms-custom-table tbody tr:nth-child
   .dtlms-class-result-popup-container .dtlms-course-results-main-detail-wrapper .dtlms-title,
   .dtlms-course-result-popup-container .dtlms-course-results-main-detail-wrapper .dtlms-title {
     margin-bottom: 20px; }
-  .dtlms-course-results-main-detail-wrapper, .dtlms-class-results-main-detail-wrapper {
+  .dtlms-course-results-main-detail-wrapper,
+  .dtlms-class-results-main-detail-wrapper {
     padding: 50px 45px 25px; }
   #dtlms-class-result-popup .dtlms-class-result-popup-container .dtlms-course-results-main-detail-wrapper .dtlms-one-fifth.first,
   #dtlms-class-result-popup .dtlms-course-result-popup-container .dtlms-course-results-main-detail-wrapper .dtlms-one-fifth.first,
@@ -11729,7 +12197,8 @@ table.dtlms-custom-table td.section, table.dtlms-custom-table tbody tr:nth-child
   #dtlms-course-curriculum-popup.dtlms-course-curriculum-popup-assignment .dtlms-course-curriculum-popup-container .dtlms-four-fifth .dtlms-curriculum-content-holder > div.dtlms-assignment-file-size {
     width: 100%;
     float: left; }
-  .dtlms-expand-course-result-main-details, .dtlms-expand-class-result-main-details {
+  .dtlms-expand-course-result-main-details,
+  .dtlms-expand-class-result-main-details {
     display: none; } }
 
 /*----*****---- << Mobile (Landscape) >> ----*****----*/
@@ -11754,7 +12223,8 @@ table.dtlms-custom-table td.section, table.dtlms-custom-table tbody tr:nth-child
     text-align: center; }
   #dtlms-course-curriculum-popup .dtlms-course-curriculum-popup-container .dtlms-four-fifth .dtlms-curriculum-content-holder > div.dtlms-quiz-results-container {
     width: 100%; }
-  .dtlms-quiz-sidebar .dtlms-timer-container, .dtlms-quiz-sidebar .dtlms-question-counter-holder {
+  .dtlms-quiz-sidebar .dtlms-timer-container,
+  .dtlms-quiz-sidebar .dtlms-question-counter-holder {
     width: 100%; }
   .dtlms-course-result-popup-container .dtlms-curriculum-result-intro > h3,
   .dtlms-course-result-popup-container .dtlms-curriculum-result-intro > .dtlms-curriculum-progress-details-holder,
@@ -11768,7 +12238,12 @@ table.dtlms-custom-table td.section, table.dtlms-custom-table tbody tr:nth-child
     width: 100%;
     float: left;
     overflow-x: scroll; }
-  .dtlms-course-result-popup-intro h2, .dtlms-course-result-popup-intro h3, .dtlms-course-result-popup-intro h4, .dtlms-class-result-popup-intro h2, .dtlms-class-result-popup-intro h3, .dtlms-class-result-popup-intro h4 {
+  .dtlms-course-result-popup-intro h2,
+  .dtlms-course-result-popup-intro h3,
+  .dtlms-course-result-popup-intro h4,
+  .dtlms-class-result-popup-intro h2,
+  .dtlms-class-result-popup-intro h3,
+  .dtlms-class-result-popup-intro h4 {
     font-size: 20px; }
   .dtlms-title, #dtlms-course-curriculum-popup .dtlms-course-curriculum-popup-container .dtlms-four-fifth .dtlms-curriculum-content-holder > div.dtlms-title,
   .dtlms-curriculum-result-intro > h3,
@@ -11803,9 +12278,11 @@ table.dtlms-custom-table td.section, table.dtlms-custom-table tbody tr:nth-child
     font-size: 14px; }
   .dtlms-questions-list .dtlms-question-title .aio-icon {
     font-size: 13px !important; }
-  .dtlms-quiz-questions-container, .dtlms-question .dtlms-answer-explantion-holder {
+  .dtlms-quiz-questions-container,
+  .dtlms-question .dtlms-answer-explantion-holder {
     padding: 10px 10px 10px 20px; }
-  .dtlms-question table thead th, .dtlms-question table tbody td {
+  .dtlms-question table thead th,
+  .dtlms-question table tbody td {
     width: 100%;
     display: block; }
   .dtlms-quiz-questions .dtlms-gapfill input[type="text"] {
@@ -11821,6 +12298,66 @@ table.dtlms-custom-table td.section, table.dtlms-custom-table tbody tr:nth-child
 @media only screen and (max-width: 319px) {
   .dtlms-container {
     width: 200px; } }
+
+.dtlms-pagination.dtlms-ajax-pagination .prev-post a,
+.dtlms-pagination.dtlms-ajax-pagination .next-post a,
+.dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li span,
+.dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li a {
+  display: inline-block;
+  float: none;
+  font-size: 16px;
+  line-height: 35px;
+  padding: 0 15px;
+  text-decoration: none;
+  height: 35px;
+  background: rgba(0, 0, 0, 0.08);
+  border: none;
+  position: static;
+  width: auto; }
+
+.fullwidth-courses .dtlms-pagination.dtlms-ajax-pagination {
+  margin-top: 30px; }
+  .fullwidth-courses .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li a,
+  .fullwidth-courses .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li span {
+    font-size: 18px;
+    line-height: 60px;
+    height: 60px;
+    width: 60px;
+    font-weight: 500;
+    border-radius: 60px;
+    -moz-transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s; }
+  .fullwidth-courses .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li {
+    margin-left: -1px;
+    margin-right: -1px; }
+    .fullwidth-courses .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li span,
+    .fullwidth-courses .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li a:hover {
+      background-color: #00eda4;
+      border-color: #00eda4;
+      color: #fff; }
+  .fullwidth-courses .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li a {
+    background: none; }
+  .fullwidth-courses .dtlms-pagination.dtlms-ajax-pagination .prev-post a,
+  .fullwidth-courses .dtlms-pagination.dtlms-ajax-pagination .next-post a {
+    -moz-transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+    font-size: 18px;
+    line-height: 60px;
+    padding: 0 28px;
+    text-decoration: none;
+    height: 60px;
+    background: none;
+    border: none;
+    width: auto;
+    font-weight: 500;
+    border-radius: 60px; }
+    .fullwidth-courses .dtlms-pagination.dtlms-ajax-pagination .prev-post a:hover,
+    .fullwidth-courses .dtlms-pagination.dtlms-ajax-pagination .next-post a:hover {
+      background-color: #00eda4;
+      border-color: #00eda4;
+      color: #fff; }
 
 /*
  Course Styles 
@@ -12572,38 +13109,6 @@ div[class*="listing-containers"].list .dtlms-column.type6 {
 
 .type6.dtlms-courselist-item-wrapper.list-item {
   border-radius: 10px; }
-
-.fullwidth-courses .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li a,
-.fullwidth-courses .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li span {
-  font-size: 18px;
-  line-height: 60px;
-  height: 60px;
-  width: 60px;
-  font-weight: 500;
-  border-radius: 60px; }
-
-.fullwidth-courses .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li a {
-  background: none; }
-
-.fullwidth-courses .dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li {
-  margin-left: -1px;
-  margin-right: -1px; }
-
-.fullwidth-courses .dtlms-pagination.dtlms-ajax-pagination .prev-post a,
-.fullwidth-courses .dtlms-pagination.dtlms-ajax-pagination .next-post a {
-  font-size: 18px;
-  line-height: 60px;
-  padding: 0 28px;
-  text-decoration: none;
-  height: 60px;
-  background: none;
-  border: none;
-  width: auto;
-  font-weight: 500;
-  border-radius: 60px; }
-
-.fullwidth-courses .dtlms-pagination.dtlms-ajax-pagination {
-  margin-top: 30px; }
 
 #primary.page-with-sidebar.with-both-sidebar .type7.dtlms-courselist-item-wrapper .dtlms-courselist-duration {
   float: right; }
@@ -18800,10 +19305,6 @@ div[class$="header-inner-content"] div[class$="featured"] span:after {
 .dtlms-course-category-item.type5 .dtlms-category-total-items, div[class*="listing-holder"] div[class*="display-filter"] a[class*="display-type"].active,
 .dtlms-apply-isotope div[class*="listing-isotope-filter"] a:hover:after,
 .dtlms-apply-isotope div[class*="listing-isotope-filter"] a.active-sort:after,
-.dtlms-pagination.dtlms-ajax-pagination .prev-post a:hover,
-.dtlms-pagination.dtlms-ajax-pagination .next-post a:hover,
-.dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li span,
-.dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li a:hover,
 .swiper-container-horizontal .dtlms-swiper-pagination-holder .dtlms-swiper-arrow-pagination a:hover, #dtlms-course-curriculum-popup .dtlms-curriculum-details .dtlms-curriculum-detailed-links .dtlms-toggle-group-set li.active:before, #dtlms-course-curriculum-popup .dtlms-curriculum-details .dtlms-curriculum-detailed-links .dtlms-toggle-group-set li:hover:before,
 .dtlms-info-box, ul.dtlms-quiz-statistics-counter li.dtlms-quiz-total-questions,
 .dtlms-course-detail .dtlms-coursedetail-cart-link,
@@ -18897,10 +19398,6 @@ div[class$="header-inner-content"] div[class$="featured"] span:after {
 .dtlms-instructor-item.type3:hover,
 .dtlms-course-category-item.type1:hover:before,
 .dtlms-course-category-item.type6:after,
-.dtlms-pagination.dtlms-ajax-pagination .prev-post a:hover,
-.dtlms-pagination.dtlms-ajax-pagination .next-post a:hover,
-.dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li span,
-.dtlms-pagination.dtlms-ajax-pagination ul.page-numbers li a:hover,
 .swiper-container-horizontal .dtlms-swiper-pagination-holder .dtlms-swiper-arrow-pagination a,
 .dtlms-tabs-horizontal-content #comments .reply .comment-reply-link,
 .dtlms-tabs-vertical-content #comments .reply .comment-reply-link,
