@@ -7,3 +7,10 @@ div[class*="listing-filters"]>div[class$="filter"]>ul>li {
 div[class*="listing-filters"]>div[class$="filter"]>ul>li:last-child {
     margin-bottom: 0;
 }
+
+.dtlms-courses-listing-filters {
+    .list-group > .list-group-item.active {
+        background-color:unset;
+        border-color:unset;
+    }
+}

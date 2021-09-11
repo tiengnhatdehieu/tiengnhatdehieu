@@ -4347,20 +4347,20 @@ div[class*="listing-containers"] .dtlms-column.no-space.dtlms-one-tenth {
 .wpb_column.dtlms-slider-overlay form {
     position: relative;
     text-align: center;
-}
 
-.wpb_column.dtlms-slider-overlay form .dtlms-courses-listing-filters {
-    background: none;
-    float: left;
-    text-align: left;
-    width: 100%;
-}
+    .dtlms-courses-listing-filters {
+        background: none;
+        float: left;
+        text-align: left;
+        width: 100%;
 
-.wpb_column.dtlms-slider-overlay form .dtlms-courses-listing-filters .dtlms-column {
-    margin-top: 0;
-    width: 100%;
-    margin-bottom: 20px;
-    margin-left: 0;
+        .dtlms-column {
+            margin-top: 0;
+            width: 100%;
+            margin-bottom: 20px;
+            margin-left: 0;
+        }
+    }
 }
 
 .wpb_column.dtlms-slider-overlay form input[type='text'] {
@@ -4400,44 +4400,50 @@ div[class*="listing-containers"] .dtlms-column.no-space.dtlms-one-tenth {
     width: 100%;
 }
 
-.wpb_column.dtlms-slider-overlay .dtlms-courses-listing-holder form[name='dtlmsCoursesListingSearchForm'] .dtlms-courses-listing-filters .chosen-container-multi .chosen-choices {
-    border: 0;
-    border-radius: 30px 6px 6px 6px;
-    font-size: 16px;
-    padding: 16px 50px 16px 22px;
+.wpb_column.dtlms-slider-overlay .dtlms-courses-listing-holder form[name='dtlmsCoursesListingSearchForm'] {
+    .dtlms-courses-listing-filters .chosen-container-multi .chosen-choices {
+        border: 0;
+        border-radius: 30px 6px 6px 6px;
+        font-size: 16px;
+        padding: 16px 50px 16px 22px;
+
+        li {
+            background: none;
+            border: 0;
+            box-shadow: none;
+            font-weight: 400;
+            line-height: normal;
+            padding: 0 22px 0 0;
+            -moz-box-shadow: none;
+            -webkit-box-shadow: none;
+
+            &.search-choice .search-choice-close {
+                right: 2px;
+            }
+        }
+    }
 }
 
-.wpb_column.dtlms-slider-overlay .dtlms-courses-listing-holder form[name='dtlmsCoursesListingSearchForm'] .dtlms-courses-listing-filters .chosen-container-multi .chosen-choices li {
-    background: none;
-    border: 0;
-    box-shadow: none;
-    font-weight: 400;
-    line-height: normal;
-    padding: 0 22px 0 0;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
+
+.wpb_column.dtlms-slider-overlay .dtlms-courses-listing-holder {
+    .chosen-container .chosen-drop {
+        background: none;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+        padding: 5px;
+    }
+
+    .chosen-container-single .chosen-single {
+        background: #fff;
+        border: 0;
+        border-radius: 0;
+        font-size: 16px;
+        height: auto;
+        padding: 13px 15px;
+    }
 }
 
-.wpb_column.dtlms-slider-overlay .dtlms-courses-listing-holder form[name='dtlmsCoursesListingSearchForm'] .dtlms-courses-listing-filters .chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
-    right: 2px;
-}
-
-.wpb_column.dtlms-slider-overlay .dtlms-courses-listing-holder .chosen-container .chosen-drop {
-    background: none;
-    border: 0;
-    border-radius: 0;
-    box-shadow: none;
-    padding: 5px;
-}
-
-.wpb_column.dtlms-slider-overlay .dtlms-courses-listing-holder .chosen-container-single .chosen-single {
-    background: #fff;
-    border: 0;
-    border-radius: 0;
-    font-size: 16px;
-    height: auto;
-    padding: 13px 15px;
-}
 
 .wpb_column.dtlms-slider-overlay .dtlms-courses-listing-holder .chosen-container-single .chosen-single div b {
     background-image: none;
