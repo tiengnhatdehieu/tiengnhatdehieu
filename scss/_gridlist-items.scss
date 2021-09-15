@@ -1658,23 +1658,7 @@ float: left;}
 		.type8.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-section .dtlms-coursedetail-price-details{float:none; display:inline-block;}
 		.grid-item.type8.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-section{padding-bottom:20px;}
 		
-.type10.dtlms-courselist-item-wrapper.grid-item:before{
-    box-shadow:0px 10px 25px 10px rgba(0,0,0,0.1); 
-    -moz-box-shadow:0px 10px 25px 10px rgba(0,0,0,0.1); 
-    -webkit-box-shadow:0px 10px 25px 10px rgba(0,0,0,0.1); 
-    width:calc(100% - 16px); 
-    height:calc(100% - 20px); 
-    width:-webkit-calc(100% - 16px); 
-    height:-webkit-calc(100% - 20px); 
-    width:-moz-calc(100% - 16px); 
-    height:-moz-calc(100% - 20px); 
-    left:8px; top:0px;
-}
-		.type10.dtlms-courselist-item-wrapper.grid-item .dtlms-courselist-metadata-holder{margin:10px 0px 25px; width:100%;}
-		.type10.dtlms-courselist-item-wrapper .dtlms-courselist-author-description{margin:0px;}
-		.type10.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-section,
-.type10.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-left-section{display:inline-block;}
-		.type10.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-right-section{display:inline-block; width:100%; float:left;}
+
 		
 		.dtlms-courselist-item-wrapper.dtlms-column.list-item, div[class*="list-item-wrapper"].list-item {display:inline-block;}
 		.dtlms-courselist-item-wrapper.dtlms-column.list-item .dtlms-courselist-thumb, 

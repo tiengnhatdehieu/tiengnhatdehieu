@@ -1,4 +1,9 @@
 
+$course-counter:course-counter;
+
+.course-counter-reset {
+    counter-reset: $course-counter;
+}
 
 .dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder {
     padding: 0 0 0 45px;
@@ -7,44 +12,48 @@
 
 
 
-.dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set h5.dtlms-toggle > a {
-    padding-left: 48px
-}
+.dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder {
+    .dtlms-toggle-group-set {
 
-.dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set h5.dtlms-toggle:first-child > a {
-    padding-left: 53px
-}
-
-.course-counter-reset {
-    counter-reset: course-counter;
-}
-
-.dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set h5.dtlms-toggle > a:before {
-    counter-increment: course-counter;
-    content: counter(course-counter, decimal-leading-zero) ". ";
-    position: absolute;
-    width: auto;
-    height: auto;
-    color: #222;
-    background-color: transparent;
-    padding-right: 10px;
-    background: none;
-    left: 30px
-}
-
-
-.dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set {
-    &:first-child h5.dtlms-toggle > a:after {
-        left: 60px
-    }
-
-    h5.dtlms-toggle.active > a {
-        &:after,
-        &:before {
-            //background-color: #FFF
-            color: $white-color;
+        &:first-child h5.dtlms-toggle > a:after {
+            left: 60px
         }
+    
+        h5.dtlms-toggle.active > a {
+            &:after,
+            &:before {
+                //background-color: #FFF
+                color: $white-color;
+            }
+            
+        }
+
+        h5.dtlms-toggle {
+            > a {
+                display: inline;
+            }
+
+            > a:first-child {
+                padding-left: 48px;
         
+                &:before {
+                    counter-increment: $course-counter;
+                    content: counter($course-counter, decimal-leading-zero) ". ";
+                    position: absolute;
+                    width: auto;
+                    height: auto;
+                    color: #222;
+                    background-color: transparent;
+                    padding-right: 10px;
+                    background: none;
+                    left: 30px
+                }
+            }
+        
+            &:first-child > a {
+                padding-left: 53px
+            }
+          
+        }
     }
 }
-

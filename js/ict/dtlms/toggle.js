@@ -2,7 +2,7 @@ jQuery.fn.dtLMSToggleItems = function () {
 
     return this.each(function () {
         const elm = this
-        console.log('click dtlms-toggle', { elm });
+        //console.log('click dtlms-toggle', { elm });
 
         // jQuery(elm).toggleClick(function () {
         //     jQuery(this).removeClass('active');  

@@ -1,3 +1,8 @@
+$question-number : question-list;
+$answer-number : answer-list;
+
+//color:var(--fa-primary-color,inherit);
+
 .dtlms-toggle-content {
     counter-reset: questions;
 }
@@ -97,12 +102,12 @@
 
 
 .question-group-list {
-    counter-reset: question-list;
+    counter-reset: $question-number;
 
     .question-number {
         &:before {
-            counter-increment: question-list;
-            content: counter(question-list, decimal-leading-zero);
+            counter-increment: $question-number;
+            content: counter($question-number, decimal-leading-zero);
         }
     }
 }
@@ -137,6 +142,129 @@
                 &::after {
                     content: '-1';
                 }
+            }
+        }
+    }
+}
+
+.quiz-items {
+    counter-reset: $question-number;
+}
+
+.quiz-group {
+    @include jp-font();
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+
+    .quiz-question {
+        margin-bottom: 1rem;
+        .q-num {
+            padding: 7px 10px;
+            border: 1px solid #000;
+            &:before {
+                counter-increment: $question-number;
+                content: counter($question-number, decimal-leading-zero);
+            }
+        }
+        .q-con,
+        .q-ctr {
+            display: inline;
+            margin: 0 5px;
+            &:first {
+                margin-right: 0;
+            }
+        }
+
+        .q-ctr {
+            float: right;
+        }
+
+        .q-collapse {
+            //position: relative;
+            // font-family: "Font Awesome 5 Duotone";
+            // font-weight: 900;
+            
+            .fad {
+                &:after{
+                    content: "\10f146";
+                }
+                &:before {
+                    content: "\f146";
+                }
+            }
+
+            
+            // .fad::after{
+            //         content: "\10f146";
+            // }
+
+            &.collapsed .fad {
+                &:after{
+                    content: "\10f0fe";
+                }
+
+                &:before{
+                    content: "\f0fe";
+                }
+            }
+
+            // .fad::before {
+            //     position: absolute;
+            //     color: red;
+            //     opacity: 0.8;
+            //     margin-top: 5px;
+            // }
+        }
+
+        .q-con {
+            font-size: 1.5rem;
+            .question-underline:after {
+                background-color: #000;
+                position: absolute;
+                width: 100%;
+                height: 2px;
+                content: "";
+                display: block;
+                left: 0;
+                bottom: -2px;
+            }
+        }
+        
+    }
+
+    
+    .q-ans {
+        padding-left: 55px;
+        counter-reset: $answer-number;
+        //.a-num {}
+
+        .form-check {
+            &:before {
+                counter-increment: $answer-number;
+                content: counter($answer-number, decimal-leading-zero) ") ";
+                position: absolute;
+                left: 65px;
+            }
+        }
+    }
+
+    .q-guild {
+        padding-left: 55px;
+        font-size: 0.9rem;
+        
+
+        .alert {
+            margin: 0;
+            padding: 0.2rem;
+
+            > i.fas {
+                position: absolute;
+                font-size: 1.5rem;
+                top: 7px;
+            }
+            > p {
+                margin-left: 35px;
+                margin-bottom: 0.2rem;
             }
         }
     }

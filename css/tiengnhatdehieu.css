@@ -15710,30 +15710,6 @@ div[class*="list-item-wrapper"].list-item div[class*="list-details"] {
     display: inline-block; }
   .grid-item.type8.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-section {
     padding-bottom: 20px; }
-  .type10.dtlms-courselist-item-wrapper.grid-item:before {
-    box-shadow: 0px 10px 25px 10px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0px 10px 25px 10px rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 0px 10px 25px 10px rgba(0, 0, 0, 0.1);
-    width: calc(100% - 16px);
-    height: calc(100% - 20px);
-    width: -webkit-calc(100% - 16px);
-    height: -webkit-calc(100% - 20px);
-    width: -moz-calc(100% - 16px);
-    height: -moz-calc(100% - 20px);
-    left: 8px;
-    top: 0px; }
-  .type10.dtlms-courselist-item-wrapper.grid-item .dtlms-courselist-metadata-holder {
-    margin: 10px 0px 25px;
-    width: 100%; }
-  .type10.dtlms-courselist-item-wrapper .dtlms-courselist-author-description {
-    margin: 0px; }
-  .type10.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-section,
-  .type10.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-left-section {
-    display: inline-block; }
-  .type10.dtlms-courselist-item-wrapper .dtlms-courselist-bottom-right-section {
-    display: inline-block;
-    width: 100%;
-    float: left; }
   .dtlms-courselist-item-wrapper.dtlms-column.list-item, div[class*="list-item-wrapper"].list-item {
     display: inline-block; }
   .dtlms-courselist-item-wrapper.dtlms-column.list-item .dtlms-courselist-thumb,
@@ -17087,35 +17063,37 @@ article.dtlms-course-detail.type3 .dtlms-course-detail-header .dtlms-course-deta
   .dtlms-course-detail.type5 .dtlms-countdown-holder .dtlms-countdown-wrapper .dtlms-countdown-title {
     font-size: 14px; }
 
-.dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder {
-  padding: 0 0 0 45px; }
-
-.dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set h5.dtlms-toggle > a {
-  padding-left: 48px; }
-
-.dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set h5.dtlms-toggle:first-child > a {
-  padding-left: 53px; }
-
 .course-counter-reset {
   counter-reset: course-counter; }
 
-.dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set h5.dtlms-toggle > a:before {
-  counter-increment: course-counter;
-  content: counter(course-counter, decimal-leading-zero) ". ";
-  position: absolute;
-  width: auto;
-  height: auto;
-  color: #222;
-  background-color: transparent;
-  padding-right: 10px;
-  background: none;
-  left: 30px; }
+.dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder {
+  padding: 0 0 0 45px; }
 
 .dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set:first-child h5.dtlms-toggle > a:after {
   left: 60px; }
 
 .dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set h5.dtlms-toggle.active > a:after, .dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set h5.dtlms-toggle.active > a:before {
   color: #ffffff; }
+
+.dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set h5.dtlms-toggle > a {
+  display: inline; }
+
+.dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set h5.dtlms-toggle > a:first-child {
+  padding-left: 48px; }
+  .dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set h5.dtlms-toggle > a:first-child:before {
+    counter-increment: course-counter;
+    content: counter(course-counter, decimal-leading-zero) ". ";
+    position: absolute;
+    width: auto;
+    height: auto;
+    color: #222;
+    background-color: transparent;
+    padding-right: 10px;
+    background: none;
+    left: 30px; }
+
+.dtlms-course-detail.type5 .dtlms-course-curriculum-toggle-group-holder .dtlms-toggle-group-set h5.dtlms-toggle:first-child > a {
+  padding-left: 53px; }
 
 .dtlms-course-detail.type5 .dtlms-toggle-group-set h5.dtlms-toggle.active {
   background-color: #3b5998; }
@@ -41712,6 +41690,71 @@ table .text-jp {
       color: #900; }
       .answer-group .form-check .answer-effect.incorrect::after {
         content: '-1'; }
+
+.quiz-items {
+  counter-reset: question-list; }
+
+.quiz-group {
+  font-family: MS PMincho,MS Mincho;
+  font-size: 1.2rem;
+  margin-bottom: 2rem; }
+  .quiz-group .quiz-question {
+    margin-bottom: 1rem; }
+    .quiz-group .quiz-question .q-num {
+      padding: 7px 10px;
+      border: 1px solid #000; }
+      .quiz-group .quiz-question .q-num:before {
+        counter-increment: question-list;
+        content: counter(question-list, decimal-leading-zero); }
+    .quiz-group .quiz-question .q-con,
+    .quiz-group .quiz-question .q-ctr {
+      display: inline;
+      margin: 0 5px; }
+      .quiz-group .quiz-question .q-con:first,
+      .quiz-group .quiz-question .q-ctr:first {
+        margin-right: 0; }
+    .quiz-group .quiz-question .q-ctr {
+      float: right; }
+    .quiz-group .quiz-question .q-collapse .fad:after {
+      content: "\10f146"; }
+    .quiz-group .quiz-question .q-collapse .fad:before {
+      content: "\f146"; }
+    .quiz-group .quiz-question .q-collapse.collapsed .fad:after {
+      content: "\10f0fe"; }
+    .quiz-group .quiz-question .q-collapse.collapsed .fad:before {
+      content: "\f0fe"; }
+    .quiz-group .quiz-question .q-con {
+      font-size: 1.5rem; }
+      .quiz-group .quiz-question .q-con .question-underline:after {
+        background-color: #000;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        content: "";
+        display: block;
+        left: 0;
+        bottom: -2px; }
+  .quiz-group .q-ans {
+    padding-left: 55px;
+    counter-reset: answer-list; }
+    .quiz-group .q-ans .form-check:before {
+      counter-increment: answer-list;
+      content: counter(answer-list, decimal-leading-zero) ") ";
+      position: absolute;
+      left: 65px; }
+  .quiz-group .q-guild {
+    padding-left: 55px;
+    font-size: 0.9rem; }
+    .quiz-group .q-guild .alert {
+      margin: 0;
+      padding: 0.2rem; }
+      .quiz-group .q-guild .alert > i.fas {
+        position: absolute;
+        font-size: 1.5rem;
+        top: 7px; }
+      .quiz-group .q-guild .alert > p {
+        margin-left: 35px;
+        margin-bottom: 0.2rem; }
 
 /**
 https://www.bootdey.com/snippets/view/card-chat-list

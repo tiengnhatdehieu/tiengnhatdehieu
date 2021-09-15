@@ -3,7 +3,7 @@
 // }
 
 .text-jp {
-    font-family: MS PMincho,MS Mincho;
+    @include jp-font();
 }
 
 .text-ucword {
