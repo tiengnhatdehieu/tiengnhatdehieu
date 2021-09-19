@@ -41641,13 +41641,27 @@ table .text-jp {
   .question-content > span.underline {
     margin: 0 5px; }
 
-.sentence .sentence-trans {
-  font-size: 80%;
-  line-height: 80%; }
+.group-number-reset {
+  counter-reset: group-number; }
 
-.sentence-text .text-underline {
-  text-decoration: underline;
-  color: #6c757d; }
+.sentence-group {
+  position: relative; }
+  .sentence-group.group-number {
+    padding-left: 25px; }
+    .sentence-group.group-number:before {
+      counter-increment: group-number;
+      content: counter(group-number, decimal-leading-zero) ") ";
+      position: absolute;
+      left: 0; }
+  .sentence-group .sentence-text {
+    margin-bottom: 0; }
+    .sentence-group .sentence-text .text-underline {
+      text-decoration: underline;
+      color: #6c757d; }
+  .sentence-group .sentence-trans {
+    font-size: 80%;
+    line-height: 80%;
+    color: #999; }
 
 .question-underline {
   padding: 0 10px;
@@ -41755,6 +41769,13 @@ table .text-jp {
       .quiz-group .q-guild .alert > p {
         margin-left: 35px;
         margin-bottom: 0.2rem; }
+
+.examples .example-group {
+  padding: 15px; }
+  .examples .example-group:nth-child(odd) {
+    background-color: #fff; }
+  .examples .example-group:nth-child(even) {
+    background-color: darkgray; }
 
 /**
 https://www.bootdey.com/snippets/view/card-chat-list
