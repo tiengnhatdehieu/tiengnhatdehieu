@@ -41711,18 +41711,20 @@ table .text-jp {
 .quiz-group {
   font-family: MS PMincho,MS Mincho;
   font-size: 1.2rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  position: relative; }
   .quiz-group .quiz-question {
     margin-bottom: 1rem; }
     .quiz-group .quiz-question .q-num {
       padding: 7px 10px;
-      border: 1px solid #000; }
+      border: 1px solid #000;
+      position: absolute; }
       .quiz-group .quiz-question .q-num:before {
         counter-increment: question-list;
         content: counter(question-list, decimal-leading-zero); }
     .quiz-group .quiz-question .q-con,
     .quiz-group .quiz-question .q-ctr {
-      display: inline;
+      display: inline-block;
       margin: 0 5px; }
       .quiz-group .quiz-question .q-con:first,
       .quiz-group .quiz-question .q-ctr:first {
@@ -41738,7 +41740,11 @@ table .text-jp {
     .quiz-group .quiz-question .q-collapse.collapsed .fad:before {
       content: "\f0fe"; }
     .quiz-group .quiz-question .q-con {
-      font-size: 1.5rem; }
+      font-size: 1.2rem;
+      display: block;
+      margin-left: 60px; }
+      .quiz-group .quiz-question .q-con > p {
+        margin-bottom: 0; }
       .quiz-group .quiz-question .q-con .question-underline:after {
         background-color: #000;
         position: absolute;
@@ -41748,6 +41754,17 @@ table .text-jp {
         display: block;
         left: 0;
         bottom: -2px; }
+      .quiz-group .quiz-question .q-con input.missing-word {
+        width: auto;
+        display: inline-block;
+        padding: 0 5px;
+        border: 0;
+        border-radius: 0;
+        font-size: inherit;
+        background-color: #e5e5e5;
+        box-shadow: unset;
+        color: #000000;
+        text-align: center; }
   .quiz-group .q-ans {
     padding-left: 55px;
     counter-reset: answer-list; }
