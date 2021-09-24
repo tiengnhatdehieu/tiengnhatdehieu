@@ -277,6 +277,8 @@ $group-number : group-number;
                 color: $gray-600;
                 margin: auto 2px;
                 position: relative;
+                display: inline-block;
+                min-width: 25px;
 
                 &:after {
                     content: '';

@@ -41768,7 +41768,9 @@ table .text-jp {
       .quiz-group .quiz-question .q-con .text-underline {
         color: #6c757d;
         margin: auto 2px;
-        position: relative; }
+        position: relative;
+        display: inline-block;
+        min-width: 25px; }
         .quiz-group .quiz-question .q-con .text-underline:after {
           content: '';
           position: absolute;
