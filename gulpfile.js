@@ -45,24 +45,25 @@ gulp.task('sass:watch', function () {
 
 const scripts = series(cleanJs, function(cb) {
   let files = [
-    './jquery/jquery.print.js',
+    './js/jquery/jquery.print.js',
     './js/jquery/jquery.easing.js',
-    './jquery/jquery.caroufredsel.js',
-    './jquery/jquery.debouncedresize.js',
-    './jquery/jquery.prettyphoto.js',
-    './jquery/jquery.touchswipe.js',
-    './jquery/jquery.parallax.js',
-    './jquery/jquery.downcount.js',
-    './jquery/jquery.nicescroll.js',
-    './jquery/jquery.bxslider.js',
-    './jquery/jquery.fitvids.js',
-    './jquery/jquery.sticky.js',
-    './jquery/jquery.simple-sidebar.js',
-    './jquery/jquery.classie.js',
-    './jquery/jquery.placeholder.js',
-    './jquery/matchHeight.js'
+    './js/jquery/jquery.caroufredsel.js',
+    './js/jquery/jquery.debouncedresize.js',
+    './js/jquery/jquery.prettyphoto.js',
+    './js/jquery/jquery.touchswipe.js',
+    './js/jquery/jquery.parallax.js',
+    './js/jquery/jquery.downcount.js',
+    './js/jquery/jquery.nicescroll.js',
+    './js/jquery/jquery.bxslider.js',
+    './js/jquery/jquery.fitvids.js',
+    './js/jquery/jquery.sticky.js',
+    './js/jquery/jquery.simple-sidebar.js',
+    './js/jquery/jquery.classie.js',
+    './js/jquery/jquery.placeholder.js',
+    './js/jquery/matchHeight.js'
   ];
   gulp.src([
+    ...files,
     './js/jquery/jquery.jplayer.js',
     
     './js/ict/question.js',
