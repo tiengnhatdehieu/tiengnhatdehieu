@@ -45,6 +45,12 @@ gulp.task('sass:watch', function () {
 
 const scripts = series(cleanJs, function(cb) {
   let files = [
+    './js/jquery/jquery.ui.totop.min.js',
+    './js/jquery/jquery.tipTip.minified.js',
+    './js/jquery/jquery.inview.js',
+    './js/jquery/jquery.toggle.click.js',
+    './js/jquery/shortcodes.js',
+
     './js/jquery/jquery.print.js',
     './js/jquery/jquery.easing.js',
     './js/jquery/jquery.caroufredsel.js',
