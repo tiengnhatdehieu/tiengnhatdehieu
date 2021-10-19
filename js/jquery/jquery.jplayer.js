@@ -3566,7 +3566,7 @@ jQuery.fn.jpPlayer = function() {
 		
 		const media = jQuery('source', elm).get(0);
 		player.jPlayer("destroy");
-		console.log(`media player:[${media.src}]`);
+		//console.log(`media player:[${media.src}]`);
 		
 		player = jQuery('#jp-player').jPlayer({
 			ready: function (event) {
