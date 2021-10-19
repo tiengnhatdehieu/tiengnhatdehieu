@@ -38,6 +38,7 @@ gulp.task('sass:watch', function () {
       './scss/*.scss',
       './scss/**/*.scss',
       './scss/**/**/*.scss',
+      './js/**/*.scss',
     ],
     gulp.series('sass')
   );

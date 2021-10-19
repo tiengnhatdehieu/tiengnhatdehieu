@@ -3614,6 +3614,6 @@ jQuery.fn.jpPlayer = function() {
 
 jQuery(document).ready(function ($) {
 	//$('.jp-audio-play').jpPlayer();
-	$('.jp-media-mini, .jp-media-player').jpPlayer();
+	$('.jp-media-mini, .jp-media-player, .jp-media-video').jpPlayer();
 	
 });
