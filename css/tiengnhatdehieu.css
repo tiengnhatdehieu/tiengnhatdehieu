@@ -1,7 +1,7 @@
 @charset "UTF-8";
-@import url("http://fonts.googleapis.com/css?family=Poppins&#038;ver=5.6");
-@import url("http://fonts.googleapis.com/css?family=Poppins:700%2C800%2C600%7CRoboto:400%2C300%2C700%7COpen+Sans:400");
-@import url("http://fonts.googleapis.com/css?family=Great+Vibes");
+@import url("//fonts.googleapis.com/css?family=Poppins&#038;ver=5.6");
+@import url("//fonts.googleapis.com/css?family=Poppins:700%2C800%2C600%7CRoboto:400%2C300%2C700%7COpen+Sans:400");
+@import url("//fonts.googleapis.com/css?family=Great+Vibes");
 @import url(../css/theme.min.css);
 @import url(../css/member.min.css);
 @import url(../css/members.min.css);
