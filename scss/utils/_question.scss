@@ -215,11 +215,6 @@ $group-number : group-number;
                 }
             }
 
-            
-            // .fad::after{
-            //         content: "\10f146";
-            // }
-
             &.collapsed .fad {
                 &:after{
                     content: "\10f0fe";
@@ -230,12 +225,6 @@ $group-number : group-number;
                 }
             }
 
-            // .fad::before {
-            //     position: absolute;
-            //     color: red;
-            //     opacity: 0.8;
-            //     margin-top: 5px;
-            // }
         }
 
         
