@@ -1,0 +1,151 @@
+.badge-circle {
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: $badge-circle-border-radius;
+    padding: 0 !important;
+    width: $badge-circle-width;
+    height: $badge-circle-height;
+    font-size: $badge-circle-font-size;
+    font-weight: $badge-circle-font-weight;
+
+    &.badge-md {
+        width: $badge-circle-md-width;
+        height: $badge-circle-md-height;
+    }
+
+    &.badge-lg {
+      width: $badge-circle-lg-width;
+      height: $badge-circle-lg-height;
+    }
+}
+
+.badge-dot {
+    padding-left: 0;
+    padding-right: 0;
+    background: transparent;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-sm;
+    text-transform: none;
+
+    strong {
+        color: $gray-800;
+    }
+
+    i {
+        display: inline-block;
+        vertical-align: middle;
+        width: $badge-dot-icon-width;
+        height: $badge-dot-icon-height;
+        border-radius: $badge-dot-icon-radius;
+        margin-right: $badge-dot-icon-margin-right;
+    }
+
+    &.badge-md {
+        i {
+            width: $badge-dot-md-icon-width;
+            height: $badge-dot-md-icon-height;
+        }
+    }
+
+    &.badge-lg {
+        i {
+            width: $badge-dot-lg-icon-width;
+            height: $badge-dot-lg-icon-height;
+        }
+    }
+}
+
+.btn,
+.card-header {
+    position: relative;
+    .badge-floating {
+        // position: absolute;
+        // top: -$badge-floating-top;
+        // transform: translateY($badge-floating-top);
+        border: $badge-floating-border solid;
+        float: right;
+        transform: translateY(20%) translateX(50%);;
+
+        &.badge:not(.badge-circle) {
+            transform: $badge-floating-transform;
+        }
+    }
+}
+
+.badge {
+
+    a {
+        color: $white;
+    }
+}
+
+
+// Size variations
+
+.badge-sm{
+  padding: $badge-sm-padding;
+  font-size: $badge-sm-font-size;
+  border-radius: $border-radius-sm;
+}
+
+.badge-md {
+    padding: $badge-md-padding;
+}
+
+.badge-lg {
+    padding: $badge-lg-padding;
+}
+
+
+// Multiple inline badges
+
+.badge-inline {
+    margin-right: $badge-inline-margin-right;
+
+    + span {
+        top: $badge-inline-span-top;
+        position: relative;
+
+        > a {
+            text-decoration: underline;
+        }
+    }
+}
+
+
+// Color fixes
+
+.badge-default {
+    color: $white;
+}
+
+.badge-secondary {
+    background-color: theme-color("secondary");
+    color: color-yiq(theme-color("secondary"));
+}
+
+
+// Badge spacing inside a btn with some text
+
+.btn {
+    .badge {
+        &:not(:first-child) {
+            margin-left: $badge-btn-margin;
+        }
+        &:not(:last-child) {
+            margin-right: $badge-btn-margin;
+        }
+    }
+}
+
+// Colors
+//
+// Contextual variations (linked badges get darker on :hover).
+
+@each $color, $value in $theme-colors {
+  .badge-#{$color} {
+    @include badge-variant($value);
+  }
+}
