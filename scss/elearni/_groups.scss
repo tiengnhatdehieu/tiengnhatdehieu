@@ -35,9 +35,7 @@
     right: 2px
 }
 
-[data-type="bp/groups"] .columns-2 .group-content .group-description,
-[data-type="bp/groups"] .columns-3 .group-content .group-description,
-[data-type="bp/groups"] .columns-4 .group-content .group-description {
+[data-type="bp/groups"] .columns-2 .group-content .group-description, [data-type="bp/groups"] .columns-3 .group-content .group-description, [data-type="bp/groups"] .columns-4 .group-content .group-description {
     padding-left: 44px;
     width: calc(100% - 44px)
 }
@@ -65,18 +63,23 @@
     .bp-block-groups.columns-2 .group-content {
         width: calc((100% / 2) - 1.25em + (1.25em / 2))
     }
+
     .bp-block-groups.columns-2 .group-content:nth-child(2n) {
         margin-right: 0
     }
+
     .bp-block-groups.columns-3 .group-content {
         width: calc((100% / 3) - 1.25em + (1.25em / 3))
     }
+
     .bp-block-groups.columns-3 .group-content:nth-child(3n) {
         margin-right: 0
     }
+
     .bp-block-groups.columns-4 .group-content {
         width: calc((100% / 4) - 1.25em + (1.25em / 4))
     }
+
     .bp-block-groups.columns-4 .group-content:nth-child(4n) {
         margin-right: 0
     }
@@ -89,8 +92,7 @@
     text-align: center
 }
 
-.bp-block-groups .group-content .group-description,
-.bp-block-groups .group-content .item-header-avatar {
+.bp-block-groups .group-content .group-description, .bp-block-groups .group-content .item-header-avatar {
     width: 100%
 }
 
@@ -107,10 +109,11 @@
         flex-direction: row;
         text-align: left
     }
-    .bp-block-groups .group-content .group-description,
-    .bp-block-groups .group-content .item-header-avatar {
+
+    .bp-block-groups .group-content .group-description, .bp-block-groups .group-content .item-header-avatar {
         width: auto
     }
+
     .bp-block-groups .group-content .item-header-avatar {
         margin: 0
     }
@@ -142,16 +145,12 @@
     width: 70px
 }
 
-.bp-block-groups.columns-2 .group-content,
-.bp-block-groups.columns-3 .group-content,
-.bp-block-groups.columns-4 .group-content {
+.bp-block-groups.columns-2 .group-content, .bp-block-groups.columns-3 .group-content, .bp-block-groups.columns-4 .group-content {
     display: block;
     text-align: center
 }
 
-.bp-block-groups.columns-2 .group-content .item-header-avatar,
-.bp-block-groups.columns-3 .group-content .item-header-avatar,
-.bp-block-groups.columns-4 .group-content .item-header-avatar {
+.bp-block-groups.columns-2 .group-content .item-header-avatar, .bp-block-groups.columns-3 .group-content .item-header-avatar, .bp-block-groups.columns-4 .group-content .item-header-avatar {
     margin: 0 auto
 }
 
