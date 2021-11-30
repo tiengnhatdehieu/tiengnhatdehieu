@@ -1,11 +1,10 @@
-fieldset
-{
+fieldset {
     border: 1px solid;
-    margin: 0 0 20px 0; 
+    margin: 0 0 20px 0;
     padding: 15px;
 }
-legend
-{
+
+legend {
     font-weight: bold;
 }
 
@@ -21,48 +20,47 @@ textarea,
 input.text,
 input[type='search'],
 select,
-textarea
-{
+textarea {
     font-size: 16px;
 }
 
-input[type='text'],
-input[type='password'],
-input[type='email'],
-input[type='url'],
-input[type='tel'],
-input[type='number'],
-input[type='range'],
-input[type='date'],
-textarea,
-input.text,
-input[type='search'],
-input[type='password']
-{
-    border: 1px solid #f4f4f4;
-            border-radius: 30px 5px 5px 5px;
-    display: block;
-    margin: 0;
-    padding: 14px 12px 14px 32px;
-    transition: all .3s linear;
-    width: 100%;
-    -webkit-border-radius: 30px 5px 5px 5px;
-
-    -webkit-appearance: none;
-            appearance: none;
+// input[type='text'],
+// input[type='password'],
+// input[type='email'],
+// input[type='url'],
+// input[type='tel'],
+// input[type='number'],
+// input[type='range'],
+// input[type='date'],
+// textarea,
+// input.text,
+// input[type='search'],
+// input[type='password'] {}
+input,
+textarea {
+    &.form-control-elearn {
+        display: block;
+        margin: 0;
+        // padding: 14px 12px 14px 32px;
+        transition: all .3s linear;
+        width: 100%;
+        border: 1px solid #f4f4f4;
+        border-radius: 30px 5px 5px 5px;
+        -webkit-border-radius: 30px 5px 5px 5px;
+        -webkit-appearance: none;
+        appearance: none;
+    }
 }
 
-textarea
-{
+textarea {
     height: 115px;
     overflow: auto;
     resize: none;
 }
 
-select
-{
+select {
     border: 1px solid;
-            border-radius: 30px 5px 5px 5px;
+    border-radius: 30px 5px 5px 5px;
     cursor: pointer;
     height: 49px;
     margin: 0;
@@ -70,12 +68,11 @@ select
     text-indent: .01px;
     text-overflow: '';
     width: 100%;
-       -moz-border-radius: 30px 5px 5px 5px;
+    -moz-border-radius: 30px 5px 5px 5px;
     -webkit-border-radius: 30px 5px 5px 5px;
-
     -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 // input[type='submit'],
@@ -93,11 +90,9 @@ select
 //     margin: 10px 0 0;
 //     padding: 16px 30px 14px;
 //     text-transform: capitalize;
-
 //     -webkit-appearance: none;
 // }
-.aligncenter input[type='submit']
-{
+.aligncenter input[type='submit'] {
     float: none;
 }
 
@@ -121,40 +116,36 @@ select
 .buddypress-wrap .standard-form input[type=url],
 .buddypress-wrap .standard-form input[type=week],
 .buddypress-wrap .standard-form select,
-.buddypress-wrap .standard-form textarea
-{
+.buddypress-wrap .standard-form textarea {
     border-radius: 30px 5px 5px 5px;
     border-width: 1px;
 }
 
-.bp-messages-filters li
-{
+.bp-messages-filters li {
     display: inline-block;
 }
 
-#bp-message-content .mce-btn button
-{
+#bp-message-content .mce-btn button {
     background: none;
     background-color: transparent;
     border-radius: 0 !important;
 }
 
-.bp-messages-content #send_message_form .submit input[type=button]
-{
+.bp-messages-content #send_message_form .submit input[type=button] {
     margin-right: 10px;
 }
 
-.dt_ajax_subscribe_msg .success-msg
-{
+.dt_ajax_subscribe_msg .success-msg {
     color: #15d401;
 }
-.dt_ajax_subscribe_msg .error-msg
-{
+
+.dt_ajax_subscribe_msg .error-msg {
     color: #bd0404;
 }
 
 
 /*----*****---- << Moz Reset >> --****--*/
+
 // input[type='submit']::-moz-focus-inner
 // {
 //     border: 0;
@@ -162,29 +153,26 @@ select
 //     margin-top: -1px;
 //     padding: 0;
 // }
-
-#searchform
-{
+#searchform {
     clear: both;
 }
 
-.selection-box
-{
-    clear: both; 
+.selection-box {
+    clear: both;
     position: relative;
 }
+
 .selection-box:before,
-.selection-box:after
-{
+.selection-box:after {
     content: '';
     pointer-events: none;
     position: absolute;
 }
-.selection-box:before
-{
+
+.selection-box:before {
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
-    border-top: 7px solid; 
+    border-top: 7px solid;
     bottom: 0;
     height: 0;
     margin: auto;
@@ -192,23 +180,22 @@ select
     top: 5px;
     z-index: 1;
 }
-.selection-box:after
-{
+
+.selection-box:after {
     border-left: 1px solid rgba(0, 0, 0, .15);
-    border-right: 1px solid rgba(0, 0, 0, .15); 
+    border-right: 1px solid rgba(0, 0, 0, .15);
     height: calc(100% - 2px);
     right: 0;
     top: 1px;
     width: 48px;
 }
-.selection-box select
-{
+
+.selection-box select {
     margin-top: 0;
 }
 
-.post-password-form input[type=password]
-{
+.post-password-form input[type=password] {
     margin: 15px 0 10px;
 }
 
-
+@import "../elearni/input/input"

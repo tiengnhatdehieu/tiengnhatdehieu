@@ -1,0 +1,31 @@
+.effect-14~.focus-bg:before,
+.effect-14~.focus-bg:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    background-color: #ededed;
+    transition: 0.3s;
+    z-index: -1;
+}
+
+.effect-14:focus~.focus-bg:before {
+    transition: 0.3s;
+    width: 50%;
+    height: 100%;
+}
+
+.effect-14~.focus-bg:after {
+    left: auto;
+    right: 0;
+    top: auto;
+    bottom: 0;
+}
+
+.effect-14:focus~.focus-bg:after {
+    transition: 0.3s;
+    width: 50%;
+    height: 100%;
+}
