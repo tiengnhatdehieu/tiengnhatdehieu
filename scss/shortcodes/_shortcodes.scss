@@ -1,0 +1,52 @@
+@charset "utf-8";
+@import "blockquote";
+@import "buttons";
+@import "carousel";
+@import "contact-info";
+@import "counter";
+@import "custom-nav";
+@import "donut-chart";
+@import "dropcap";
+@import "event";
+@import "fancy-boxes";
+@import "icon-boxes";
+@import "image-caption";
+@import "image-flip";
+@import "lists";
+@import "newsletter";
+@import "popular-procedures";
+@import "pricing-table";
+@import "progress-bar";
+@import "social-icons";
+@import "tabs";
+@import "team";
+@import "testimonials";
+@import "timeline";
+@import "title";
+@import "toggle-and-accordion";
+@import "tooltip";
+@import "twitter-feeds";
+@import "video-manager";
+
+/*.dt-sc-product-image-gallery-holder { display: flex; flex-direction: row; width: 100%; }
+.dt-sc-product-image-gallery-container { width: 80%; }
+
+.dt-sc-product-image-gallery-thumb-container {
+  flex-basis: 100px;
+  width: 20%;
+}
+.dt-sc-product-image-gallery-thumb-container .swiper-slide {
+  opacity: 0.4;
+}
+.dt-sc-product-image-gallery-thumb-container .swiper-slide-active {
+  opacity: 1;
+}
+
+.dt-sc-product-image-gallery-thumb-container .swiper-slide img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}*/

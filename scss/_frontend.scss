@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Lovers+Quarrel');
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+// @import url('https://fonts.googleapis.com/css?family=Lovers+Quarrel');
+// @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 
 /*--------------------------------------------------------------
 	Transition
@@ -781,7 +781,7 @@ div[class*="listing-holder"] div[class*="listing-filters"]>div[class$="filter"]>
     background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 48%, rgba(0, 0, 0, 0.42) 49%, rgba(0, 0, 0, 0.6) 70%, rgba(0, 0, 0, 0.8) 100%);
     background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 48%, rgba(0, 0, 0, 0.42) 49%, rgba(0, 0, 0, 0.6) 70%, rgba(0, 0, 0, 0.8) 100%);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 48%, rgba(0, 0, 0, 0.42) 49%, rgba(0, 0, 0, 0.6) 70%, rgba(0, 0, 0, 0.8) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
+    // filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
 }
 
 .dtlms-course-category-item.type2:after {
@@ -2751,20 +2751,17 @@ div[class*="listing-holder"] div[class*="listing-filters"]>div[class$="filter"]>
 }
 
 @import "./components/social";
-
 .page-with-sidebar .dtlms-instructor-item.type1.dtlms-one-third .dtlms-instructor-item-meta-data {
     width: 100%;
     float: right;
     margin-top: 15px;
 }
 
-
 .page-with-sidebar.with-both-sidebar .dtlms-instructor-item.type1.dtlms-one-half .dtlms-instructor-item-meta-data {
     width: 100%;
     float: right;
     margin-top: 15px;
 }
-
 
 .page-with-sidebar .dtlms-instructor-item.type6.dtlms-one-third {
     padding: 20px 20px 15px;
@@ -2785,7 +2782,6 @@ div[class*="listing-holder"] div[class*="listing-filters"]>div[class$="filter"]>
 .page-with-sidebar .dtlms-instructor-item.type7.dtlms-one-third img {
     width: 75px;
 }
-
 
 .page-with-sidebar .dtlms-instructor-item.type7.dtlms-one-third .dtlms-instructor-item-meta-data h4 {
     font-size: 17px;
@@ -3007,9 +3003,6 @@ div[class*="listing-holder"] .dtlms-column div[class*="listing-filters"] input[t
 }
 
 @import "./components/listing";
-
-
-
 .ui-widget.ui-widget-content {
     z-index: 9 !important;
 }
@@ -3731,6 +3724,7 @@ div[class*="listing-holder"] div[class*="listing-rightside-filter"] select {
     transform: translateY(-75%);
 }
 
+
 /**
 course detail
  */
@@ -4347,13 +4341,11 @@ div[class*="listing-containers"] .dtlms-column.no-space.dtlms-one-tenth {
 .wpb_column.dtlms-slider-overlay form {
     position: relative;
     text-align: center;
-
     .dtlms-courses-listing-filters {
         background: none;
         float: left;
         text-align: left;
         width: 100%;
-
         .dtlms-column {
             margin-top: 0;
             width: 100%;
@@ -4406,7 +4398,6 @@ div[class*="listing-containers"] .dtlms-column.no-space.dtlms-one-tenth {
         border-radius: 30px 6px 6px 6px;
         font-size: 16px;
         padding: 16px 50px 16px 22px;
-
         li {
             background: none;
             border: 0;
@@ -4416,14 +4407,12 @@ div[class*="listing-containers"] .dtlms-column.no-space.dtlms-one-tenth {
             padding: 0 22px 0 0;
             -moz-box-shadow: none;
             -webkit-box-shadow: none;
-
             &.search-choice .search-choice-close {
                 right: 2px;
             }
         }
     }
 }
-
 
 .wpb_column.dtlms-slider-overlay .dtlms-courses-listing-holder {
     .chosen-container .chosen-drop {
@@ -4433,7 +4422,6 @@ div[class*="listing-containers"] .dtlms-column.no-space.dtlms-one-tenth {
         box-shadow: none;
         padding: 5px;
     }
-
     .chosen-container-single .chosen-single {
         background: #fff;
         border: 0;
@@ -4443,7 +4431,6 @@ div[class*="listing-containers"] .dtlms-column.no-space.dtlms-one-tenth {
         padding: 13px 15px;
     }
 }
-
 
 .wpb_column.dtlms-slider-overlay .dtlms-courses-listing-holder .chosen-container-single .chosen-single div b {
     background-image: none;
@@ -4912,17 +4899,16 @@ div[class*="dynamic-section-holder"],
     width: 100%;
 }
 
+
 /*----*****---- << Horizontal Tabs Section >> ----*****----*/
+
 @import "./utils/tabs/tabs-horizontal";
 
 /*----*****---- << Vertical Tabs Section >> ----*****----*/
+
 @import "./utils/tabs/tabs-vertical";
 
-
-
-
 /* Curriculum List */
-
 
 .dtlms-curriculum-content-holder .dtlms-lesson-video {
     display: inline-block;
@@ -6334,6 +6320,7 @@ div[class$="details-holder"] ul li a {
 /*--------------------------------------------------------------
 	Toggles
 --------------------------------------------------------------*/
+
 @import "./components/dtlms-toggle";
 
 /*--------------------------------------------------------------
@@ -6808,7 +6795,7 @@ div[class$="details-holder"] ul li a {
     background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 48%, rgba(255, 255, 255, 0.42) 49%, rgba(255, 255, 255, 0.8) 70%, rgba(255, 255, 255, 1) 100%);
     background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 48%, rgba(255, 255, 255, 0.42) 49%, rgba(255, 255, 255, 0.8) 70%, rgba(255, 255, 255, 1) 100%);
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 48%, rgba(255, 255, 255, 0.42) 49%, rgba(255, 255, 255, 0.8) 70%, rgba(255, 255, 255, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
+    // filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
 }
 
 
@@ -7633,9 +7620,7 @@ div[class$="share-holder"] ul li a:hover,
         clear: none;
         width: 50%;
     }
-    
     @include tabs-horizontal-1200;
-
     .dtlms-toggle-group-set h5.dtlms-toggle {
         font-size: 18px;
     }
