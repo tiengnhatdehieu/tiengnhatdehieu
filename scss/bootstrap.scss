@@ -1,6 +1,6 @@
 
  /*!
- * Bootstrap v5.0.2 (https://getbootstrap.com/)
+ * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
@@ -8,49 +8,53 @@
 
 // scss-docs-start import-stack
 // Configuration
-@import "bootstrap-5.0.2/functions";
-@import "bootstrap-5.0.2/variables";
-@import "bootstrap-5.0.2/mixins";
-@import "bootstrap-5.0.2/utilities";
+@import "bootstrap/5.1.3/functions";
+@import "bootstrap/5.1.3/variables";
+@import "bootstrap/5.1.3/maps";
+@import "bootstrap/5.1.3/mixins";
+@import "bootstrap/5.1.3/utilities";
 
 // Layout & components
-@import "bootstrap-5.0.2/root";
-@import "bootstrap-5.0.2/reboot";
-@import "bootstrap-5.0.2/type";
-@import "bootstrap-5.0.2/images";
-@import "bootstrap-5.0.2/containers";
-@import "bootstrap-5.0.2/grid";
-@import "bootstrap-5.0.2/tables";
-@import "bootstrap-5.0.2/forms";
-@import "bootstrap-5.0.2/buttons";
-@import "bootstrap-5.0.2/transitions";
-@import "bootstrap-5.0.2/dropdown";
-@import "bootstrap-5.0.2/button-group";
-@import "bootstrap-5.0.2/nav";
-@import "bootstrap-5.0.2/navbar";
-@import "bootstrap-5.0.2/card";
-@import "bootstrap-5.0.2/accordion";
-@import "bootstrap-5.0.2/breadcrumb";
-@import "bootstrap-5.0.2/pagination";
-@import "bootstrap-5.0.2/badge";
-@import "bootstrap-5.0.2/alert";
-@import "bootstrap-5.0.2/progress";
-@import "bootstrap-5.0.2/list-group";
-@import "bootstrap-5.0.2/close";
-@import "bootstrap-5.0.2/toasts";
-@import "bootstrap-5.0.2/modal";
-@import "bootstrap-5.0.2/tooltip";
-@import "bootstrap-5.0.2/popover";
-@import "bootstrap-5.0.2/carousel";
-@import "bootstrap-5.0.2/spinners";
-@import "bootstrap-5.0.2/offcanvas";
+@import "bootstrap/5.1.3/root";
+@import "bootstrap/5.1.3/reboot";
+@import "bootstrap/5.1.3/type";
+@import "bootstrap/5.1.3/images";
+@import "bootstrap/5.1.3/containers";
+@import "bootstrap/5.1.3/grid";
+@import "bootstrap/5.1.3/tables";
+@import "bootstrap/5.1.3/forms";
+@import "bootstrap/5.1.3/buttons";
+@import "bootstrap/5.1.3/transitions";
+@import "bootstrap/5.1.3/dropdown";
+@import "bootstrap/5.1.3/button-group";
+@import "bootstrap/5.1.3/nav";
+@import "bootstrap/5.1.3/navbar";
+@import "bootstrap/5.1.3/card";
+@import "bootstrap/5.1.3/accordion";
+@import "bootstrap/5.1.3/breadcrumb";
+@import "bootstrap/5.1.3/pagination";
+@import "bootstrap/5.1.3/badge";
+@import "bootstrap/5.1.3/alert";
+@import "bootstrap/5.1.3/progress";
+@import "bootstrap/5.1.3/list-group";
+@import "bootstrap/5.1.3/close";
+@import "bootstrap/5.1.3/toasts";
+@import "bootstrap/5.1.3/modal";
+@import "bootstrap/5.1.3/tooltip";
+@import "bootstrap/5.1.3/popover";
+@import "bootstrap/5.1.3/carousel";
+@import "bootstrap/5.1.3/spinners";
+@import "bootstrap/5.1.3/offcanvas";
+@import "bootstrap/5.1.3/placeholders";
 
 // Helpers
-@import "bootstrap-5.0.2/helpers";
+@import "bootstrap/5.1.3/helpers";
 
 // Utilities
-@import "bootstrap-5.0.2/utilities/api";
+@import "bootstrap/5.1.3/utilities/api";
+// scss-docs-end import-stack
 
-@import "bootstrap-5.0.2/custom";
+
+@import "bootstrap/custom";
 // scss-docs-end import-stack
 
