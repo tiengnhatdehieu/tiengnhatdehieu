@@ -25,9 +25,7 @@
   vertical-align: middle;
 }
 
-.bd-callout-danger {
-  border-left-color: #d9534f;
-}
+
 
 .bd-callout {
   padding: 1.25rem;
@@ -36,6 +34,14 @@
   border: 1px solid #e9ecef;
   border-left-width: .25rem;
   border-radius: .25rem;
+}
+
+.bd-callout-danger {
+  border-left-color: #d9534f;
+}
+
+.bd-callout-warning {
+  border-left-color: #f0ad4e;
 }
 
 .alert i.fad {
