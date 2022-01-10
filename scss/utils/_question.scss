@@ -78,17 +78,20 @@ $group-number: group-number;
             left: 0;
         }
     }
+
     .sentence-text {
-        margin-bottom: 0;
+        margin-bottom: 5px;
         .text-underline {
             text-decoration: underline;
             color: $gray-600;
         }
     }
+
     .sentence-trans {
-        font-size: 80%;
+        font-size: 60%;
         line-height: 80%;
         color: #999;
+        margin-bottom: 5px;
     }
 }
 
@@ -266,21 +269,26 @@ $group-number: group-number;
             }
         }
     }
+
     .q-guild {
         padding-left: 55px;
         font-size: 0.9rem;
-        .alert {
-            margin: 0;
-            padding: 0.2rem;
-            >i.fas {
-                position: absolute;
-                font-size: 1.5rem;
-                top: 7px;
-            }
-            >p {
-                margin-left: 35px;
-                margin-bottom: 0.2rem;
-            }
+    }
+}
+
+.q-guild {
+    .alert {
+        margin: 0;
+        padding: 0.2rem;
+        >i.fas {
+            position: absolute;
+            font-size: 1.5rem;
+            top: 15px;
+            left: 15px;
+        }
+        >p {
+            margin-left: 35px;
+            margin-bottom: 0.2rem;
         }
     }
 }
