@@ -575,6 +575,22 @@ progress {
   flex: 0 0 auto;
   width: 16.66667%; }
 
+.row-cols-7 > * {
+  flex: 0 0 auto;
+  width: 14.28571%; }
+
+.row-cols-8 > * {
+  flex: 0 0 auto;
+  width: 12.5%; }
+
+.row-cols-9 > * {
+  flex: 0 0 auto;
+  width: 11.11111%; }
+
+.row-cols-10 > * {
+  flex: 0 0 auto;
+  width: 10%; }
+
 .col-auto {
   flex: 0 0 auto;
   width: auto; }
@@ -732,6 +748,18 @@ progress {
   .row-cols-sm-6 > * {
     flex: 0 0 auto;
     width: 16.66667%; }
+  .row-cols-sm-7 > * {
+    flex: 0 0 auto;
+    width: 14.28571%; }
+  .row-cols-sm-8 > * {
+    flex: 0 0 auto;
+    width: 12.5%; }
+  .row-cols-sm-9 > * {
+    flex: 0 0 auto;
+    width: 11.11111%; }
+  .row-cols-sm-10 > * {
+    flex: 0 0 auto;
+    width: 10%; }
   .col-sm-auto {
     flex: 0 0 auto;
     width: auto; }
@@ -856,6 +884,18 @@ progress {
   .row-cols-md-6 > * {
     flex: 0 0 auto;
     width: 16.66667%; }
+  .row-cols-md-7 > * {
+    flex: 0 0 auto;
+    width: 14.28571%; }
+  .row-cols-md-8 > * {
+    flex: 0 0 auto;
+    width: 12.5%; }
+  .row-cols-md-9 > * {
+    flex: 0 0 auto;
+    width: 11.11111%; }
+  .row-cols-md-10 > * {
+    flex: 0 0 auto;
+    width: 10%; }
   .col-md-auto {
     flex: 0 0 auto;
     width: auto; }
@@ -980,6 +1020,18 @@ progress {
   .row-cols-lg-6 > * {
     flex: 0 0 auto;
     width: 16.66667%; }
+  .row-cols-lg-7 > * {
+    flex: 0 0 auto;
+    width: 14.28571%; }
+  .row-cols-lg-8 > * {
+    flex: 0 0 auto;
+    width: 12.5%; }
+  .row-cols-lg-9 > * {
+    flex: 0 0 auto;
+    width: 11.11111%; }
+  .row-cols-lg-10 > * {
+    flex: 0 0 auto;
+    width: 10%; }
   .col-lg-auto {
     flex: 0 0 auto;
     width: auto; }
@@ -1104,6 +1156,18 @@ progress {
   .row-cols-xl-6 > * {
     flex: 0 0 auto;
     width: 16.66667%; }
+  .row-cols-xl-7 > * {
+    flex: 0 0 auto;
+    width: 14.28571%; }
+  .row-cols-xl-8 > * {
+    flex: 0 0 auto;
+    width: 12.5%; }
+  .row-cols-xl-9 > * {
+    flex: 0 0 auto;
+    width: 11.11111%; }
+  .row-cols-xl-10 > * {
+    flex: 0 0 auto;
+    width: 10%; }
   .col-xl-auto {
     flex: 0 0 auto;
     width: auto; }
@@ -1228,6 +1292,18 @@ progress {
   .row-cols-xxl-6 > * {
     flex: 0 0 auto;
     width: 16.66667%; }
+  .row-cols-xxl-7 > * {
+    flex: 0 0 auto;
+    width: 14.28571%; }
+  .row-cols-xxl-8 > * {
+    flex: 0 0 auto;
+    width: 12.5%; }
+  .row-cols-xxl-9 > * {
+    flex: 0 0 auto;
+    width: 11.11111%; }
+  .row-cols-xxl-10 > * {
+    flex: 0 0 auto;
+    width: 10%; }
   .col-xxl-auto {
     flex: 0 0 auto;
     width: auto; }
