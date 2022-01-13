@@ -8069,3 +8069,14 @@ textarea.form-control-lg {
     .tab-content .tab-pane > .row {
       margin-left: 0;
       margin-right: 0; }
+
+/**
+https://freefrontend.com/bootstrap-buttons/
+https://colorlib.com/wp/bootstrap-buttons/
+https://preview.colorlib.com/theme/bb/bootstrap-buttons-18/
+*/
+.btn-v18 {
+  border-radius: 0 40px 0 40px;
+  padding: 6px 30px; }
+  .btn-v18.btn-primary {
+    color: white; }
