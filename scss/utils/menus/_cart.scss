@@ -1,0 +1,68 @@
+.cart-info {
+    display: inline-block;
+    margin: 28px 0 0;
+    padding: 14px 20px 14px 57px;
+    position: relative;
+    width: auto;
+}
+
+.cart-info:hover .cart-icon span {
+    color: #fff;
+}
+
+.cart-info p {
+    margin: 0;
+}
+
+.cart-info:before {
+    content: '\e66c';
+    font-family: 'Stroke-Gap-Icons';
+    font-size: 20px;
+    left: 15px;
+    position: absolute;
+    top: 18px;
+}
+
+.cart-icon span {
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 12px;
+    height: 20px;
+    left: 28px;
+    line-height: 20px;
+    position: absolute;
+    text-align: center;
+    top: 9px;
+    width: 20px;
+    transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+
+.cart-total {
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: .5px;
+    margin: 0 0 0 20px;
+}
+
+.live-chat {
+    float: right;
+    margin: 32px 0 0 10px;
+}
+
+.live-chat a {
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 800;
+    padding: 10px 15px 9px;
+    text-transform: uppercase;
+}
+
+.live-chat a span {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 5px 0 0;
+}

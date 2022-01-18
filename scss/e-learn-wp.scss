@@ -24,6 +24,14 @@
 @import "other/chosen";
 @import "icon/icon";
 @import "./utils/layout";
+@import "./utils/menus/header";
+
+/*--- Maaya Header ---*/
+
+@import "./utils/menus/maaya-header";
+@import "./utils/menus/mobile";
+@import "./utils/menus/main";
+@import "./utils/menus/cart";
 @import "custom-class";
 // @import "../css/body-cef0ddd92bacbf9359ed1a36b46752e79bd6d4d4.css";
 // @import "../css/v4-shims.min.css";
