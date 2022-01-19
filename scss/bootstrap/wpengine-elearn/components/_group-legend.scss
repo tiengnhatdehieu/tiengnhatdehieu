@@ -1,0 +1,44 @@
+$fieldset-border-color: rgba(0, 0, 0, .2);
+
+.group-legend {
+    // position: relative;
+    border-radius: $alert-border-radius;
+    min-height: 150px;
+    margin-top: 30px;
+    border-color: $fieldset-border-color;
+
+    .group-legend-label {
+        // position: absolute;
+        // top: calc(-50% ) ;
+        // left: 15px;
+        margin-top: -30px;
+        font-weight: normal;
+        font-size: 120%;
+        width: auto;
+        background-color: white;
+        border-radius: $alert-border-radius;
+        padding: 0px 15px;
+        border: 1px solid;
+        border-color: $fieldset-border-color;
+
+        &.bg-success {
+            border-color: $success;
+            color: white;
+        }
+        &.bg-secondary {
+            border-color: $gray-600;
+            color: white;
+        }
+
+        &.fs-0-8 {
+            margin-top: -25px; 
+        }
+        
+    }
+
+    .group-legend-content {
+        display: block;
+        //width : calc(100% - 30px);
+        width: 100%;
+    }
+}

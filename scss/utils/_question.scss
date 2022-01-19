@@ -69,6 +69,9 @@ $group-number: group-number;
 
 .sentence-group {
     position: relative;
+    padding: 15px;
+    margin-top: 15px;
+    
     &.group-number {
         padding-left: 25px;
         &:before {
@@ -92,6 +95,10 @@ $group-number: group-number;
         line-height: 80%;
         color: #999;
         margin-bottom: 5px;
+    }
+
+    &.bg-secondary {
+        background-color: rgba(108, 117, 125, 0.5) !important;
     }
 }
 
@@ -302,5 +309,15 @@ $group-number: group-number;
         &:nth-child(even) {
             background-color: darkgray;
         }
+    }
+}
+
+.q-item {
+    u {
+        min-width: 50px;
+        margin: 0 5px;
+        display: inline-block;
+        border-bottom: 1px solid;
+        text-align: center;
     }
 }

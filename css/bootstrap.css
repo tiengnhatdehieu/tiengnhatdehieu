@@ -8061,6 +8061,9 @@ textarea.form-control-lg {
     text-decoration: none;
     background-color: #060607; }
 
+.fs-0-8 {
+  font-size: 80% !important; }
+
 .tab-content {
   border: 1px solid #dee2e6;
   border-top: 0; }
@@ -8069,6 +8072,33 @@ textarea.form-control-lg {
     .tab-content .tab-pane > .row {
       margin-left: 0;
       margin-right: 0; }
+
+.group-legend {
+  border-radius: 0.25rem;
+  min-height: 150px;
+  margin-top: 30px;
+  border-color: rgba(0, 0, 0, 0.2); }
+  .group-legend .group-legend-label {
+    margin-top: -30px;
+    font-weight: normal;
+    font-size: 120%;
+    width: auto;
+    background-color: white;
+    border-radius: 0.25rem;
+    padding: 0px 15px;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.2); }
+    .group-legend .group-legend-label.bg-success {
+      border-color: #198754;
+      color: white; }
+    .group-legend .group-legend-label.bg-secondary {
+      border-color: #6c757d;
+      color: white; }
+    .group-legend .group-legend-label.fs-0-8 {
+      margin-top: -25px; }
+  .group-legend .group-legend-content {
+    display: block;
+    width: 100%; }
 
 /**
 https://freefrontend.com/bootstrap-buttons/
@@ -8080,3 +8110,15 @@ https://preview.colorlib.com/theme/bb/bootstrap-buttons-18/
   padding: 6px 30px; }
   .btn-v18.btn-primary {
     color: white; }
+  .btn-v18 .icon-effect {
+    opacity: 0;
+    font-size: 14px;
+    line-height: 1.3;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s; }
+  .btn-v18:hover .icon-effect,
+  .btn-v18:active .icon-effect,
+  .btn-v18:focus .icon-effect {
+    opacity: 1;
+    margin-left: 10px; }
