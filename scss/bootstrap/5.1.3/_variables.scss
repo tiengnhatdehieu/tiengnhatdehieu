@@ -17,6 +17,8 @@ $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
+
+
 // scss-docs-end gray-color-variables
 
 // fusv-disable
@@ -88,7 +90,7 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
 ) !default;
 // scss-docs-end theme-colors-map
 
