@@ -35,8 +35,23 @@
   border-left-width: .25rem;
   border-radius: .25rem;
 
+  &.fw-bold {
+    border-left-width: .5rem;
+  }
+
   p {
     margin-bottom: 0.4rem !important;
+  }
+
+  .bd-callout-icon {
+    display: inline-block;
+    > i {
+      font-size: 150%;
+    }
+  }
+
+  .bd-callout-content {
+    display: inline-block;
   }
 }
 
@@ -46,6 +61,11 @@
 
 .bd-callout-warning {
   border-left-color: #f0ad4e;
+}
+
+.bd-callout-info {
+  border-color: #5bc0de;
+  color: #5bc0de;
 }
 
 .alert i.fad {
