@@ -321,3 +321,55 @@ $group-number: group-number;
         text-align: center;
     }
 }
+
+.q-multi-quiz {
+    position: relative;
+    .answer-input {
+        display: inline-block;
+        min-width: 100px;
+        height: 28px;
+        margin: auto 5px;
+        padding: 2px;
+
+        position: initial;
+        margin-bottom: -8px;
+        .bg-color {
+            display: block;
+            height: 22px;
+            opacity: 0.5;
+        }
+        
+        &:nth-child(1) { 
+            border: 1px dashed $primary;
+            .bg-color { background-color: $primary;}
+        }
+        &:nth-child(2) { 
+            border: 1px dashed $success;
+            .bg-color { background-color: $success;}
+        }
+    }
+
+    .answer-quiz {
+        margin-top: 5px;
+        padding: 15px;
+        border: 2px dashed;
+        &:nth-child(1) { 
+            border-color: $primary;
+        }
+        &:nth-child(2) { 
+            border-color: $success;
+        }
+    }
+}
+
+.q-multi-character {
+    .input-character {
+        border: 1px dashed $secondary;
+        width: 35px;
+        margin: 0 2px;
+        text-align: center;
+        &:focus {
+            background-color: $secondary;
+        }
+    }
+}
