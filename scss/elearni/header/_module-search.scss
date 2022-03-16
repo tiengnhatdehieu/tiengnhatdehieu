@@ -1,0 +1,115 @@
+
+.simple-header-search #searchform .dt-search-icon,
+.overlay-header-search #searchform .dt-search-icon {
+    display: none;
+}
+
+.simple-header-search.stretch,
+.simple-header-search.stretch #searchform,
+.simple-header-search.stretch #searchform input[type='text'] {
+    height: 100%;
+}
+
+.search-module.slide-down-header-search {
+    height: 100%;
+}
+
+.search-module.slide-down-header-search #searchform,
+.search-module.slide-down-header-search #searchform input[type='text'] {
+    width: 100%;
+}
+
+.search-module.slide-down-header-search .menu-icons-wrapper,
+.search-module.slide-down-header-search .menu-icons-wrapper .search,
+.search-module.slide-down-header-search .menu-icons-wrapper .search a,
+.search-module.slide-down-header-search .menu-icons-wrapper .search a span {
+    height: inherit;
+    width: inherit;
+}
+
+.search-module.slide-down-header-search .menu-icons-wrapper {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.search-module.slide-down-header-search .menu-icons-wrapper .search a {
+    display: inline-block;
+}
+
+.search-module.simple-header-search.filled #searchform {
+    border-color: transparent;
+}
+
+.search-module.simple-header-search.filled.gray #searchform {
+    background-color: #f3f3f3;
+}
+
+.search-module.simple-header-search.filled.gray.dt-sc-dark-bg #searchform {
+    background-color: #333;
+}
+
+.search-module.slide-down-header-search #searchform,
+.search-module.simple-header-search.filled.white #searchform {
+    background-color: #fff;
+}
+
+.search-module.simple-header-search.simple-rounded #searchform {
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.search-module:not(.simple-header-search).filled,
+.search-module:not(.simple-header-search).filled-onhvr {
+    position: relative;
+    text-align: center;
+}
+
+.search-module:not(.simple-header-search).filled.stretch,
+.search-module:not(.simple-header-search).filled-onhvr.stretch {
+    width: 60px;
+}
+
+.search-module:not(.simple-header-search).filled.stretch .menu-icons-wrapper,
+.search-module:not(.simple-header-search).filled.stretch .menu-icons-wrapper .search,
+.search-module:not(.simple-header-search).filled-onhvr.stretch .menu-icons-wrapper,
+.search-module:not(.simple-header-search).filled-onhvr.stretch .menu-icons-wrapper .search {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.search-module:not(.simple-header-search).filled .menu-icons-wrapper .search a span:before,
+.search-module:not(.simple-header-search).filled-onhvr .menu-icons-wrapper .search a span:before,
+.search-module:not(.simple-header-search).stretch .menu-icons-wrapper .search a span:before,
+.search-module:not(.simple-header-search).stretch .menu-icons-wrapper .search a span:before {
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.search-module.filled:not(.simple-header-search):not(.dt-sc-skin-highlight),
+.search-module.filled-onhvr:not(.simple-header-search):not(.dt-sc-skin-highlight):hover {
+    background-color: #f3f3f3;
+}
+
+.search-module:not(.simple-header-search).filled.dt-sc-dark-bg,
+.search-module:not(.simple-header-search).filled-onhvr.dt-sc-dark-bg:hover {
+    background-color: #000;
+}
+
+.search-module:not(.simple-header-search).filled.dt-sc-dark-bg .menu-icons-wrapper .search span,
+.search-module:not(.simple-header-search).filled-onhvr.dt-sc-dark-bg:hover .menu-icons-wrapper .search span,
+.search-module:not(.simple-header-search).filled.dt-sc-skin-highlight .menu-icons-wrapper .search span,
+.search-module:not(.simple-header-search).filled-onhvr.dt-sc-skin-highlight:hover .menu-icons-wrapper .search span {
+    color: #fff;
+}
+
+
+.search-module,
+.search-module * {
+    transition: all .3s linear 0s;
+    -webkit-transition: all .3s linear 0s;
+}

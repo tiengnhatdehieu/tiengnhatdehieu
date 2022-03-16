@@ -1,0 +1,32 @@
+
+#header .header-29 .search-module.simple-header-search.filled.gray #searchform {
+    background: rgba(255, 255, 255, .11);
+    display: inline-block;
+    float: none;
+    padding: 6px 0;
+    width: 100%;
+}
+
+#header .header-29 #searchform input[type='text'] {
+    width: 100%;
+}
+
+#header .header-29 #searchform input[type='submit'] {
+    border-radius: 0;
+    width: 60px;
+}
+
+#header .header-29 .no-header-menu ul>li,
+#header .header-29 .dt-header-menu .dt-primary-nav>li {
+    margin: 0 5px 0 0;
+}
+
+#header .header-29 .no-header-menu ul li:empty-child,
+#header .header-29 .dt-header-menu .dt-primary-nav li:empty-child {
+    display: none;
+}
+
+#header .header-29 .dt-custom-nav-wrapper.right[data-link-icon-position='inside'] .dt-custom-nav li a>i.menu-item-icon {
+    float: left;
+    margin: 0 10px 0 0;
+}

@@ -1,0 +1,15 @@
+
+h2.default-title {
+    font-size: 40px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.default-title {
+    &.bigger-font {
+        font-size: 50px;
+    }
+    &.xbigger-font {
+        font-size: 62px;
+    }
+}

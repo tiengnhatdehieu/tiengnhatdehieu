@@ -1,0 +1,129 @@
+@media only screen and (max-width: 1380px) {
+    .dt-sc-maaya-header .dt-sc-slide-search #searchform input[type='text']:focus {
+        max-width: 1110px;
+        width: 1110px;
+    }
+}
+
+@media only screen and (max-width: 1380px) and (min-width: 1200px) {
+    .elearni-header #searchform input[type='text'] {
+        width: 137px;
+    }
+}
+
+/* Note: Design for a width of 960px */
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .elearni-header #searchform {
+        max-width: 125px;
+    }
+
+    .dt-sc-maaya-header .dt-sc-slide-search #searchform input[type='text']:focus {
+        max-width: 930px;
+        width: 930px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .overlay-header-search .overlay-search #searchform {
+        width: 75%;
+    }
+    .simple-header-search.stretch,
+    .simple-header-search.stretch #searchform,
+    .simple-header-search.stretch #searchform input[type='text'] {
+        height: auto;
+    }
+}
+
+/* Note: Design for a width of 768px */
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .dt-no-header-elearni .search-module #searchform {
+        width: 172px;
+    }
+
+    .dt-sc-maaya-header .dt-sc-slide-search #searchform input[type='text']:focus {
+        max-width: 740px;
+        width: 740px;
+    }
+    .dt-sc-maaya-header.with-border .mobile-nav-container .menu-trigger {
+        top: 7px;
+    }
+    .dt-sc-maaya-header.with-border .dt-sc-slide-search #searchform input[type='text'] {
+        padding-bottom: 11px;
+        top: -2px;
+    }
+    .dt-sc-maaya-header.with-border .dt-sc-slide-search #searchform::before {
+        top: 3px;
+    }
+    .dt-sc-maaya-header.with-border .alignright.rs_col-sm-6.wpb_column.vc_col-sm-2 {
+        margin-bottom: 0;
+    }
+
+    #header .header-29 #searchform input[type='text'] {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .dt-no-header-elearni .search-module #searchform {
+        width: 172px;
+    }
+}
+
+/* Common Styles for the devices below 767px width */
+
+@media only screen and (max-width: 767px) {
+    .dt-no-header-elearni .search-module #searchform {
+        float: none;
+        margin: 10px 0 20px;
+    } 
+
+    .overlay-search #searchform input[type='text'] {
+        font-size: 25px;
+        letter-spacing: .5px;
+    }
+
+    .simple-header-search.stretch,
+    .simple-header-search.stretch #searchform,
+    .simple-header-search.stretch #searchform input[type='text'] {
+        width: 100%;
+    }
+
+    .search-module.slide-down-header-search .menu-icons-wrapper .top-menu-search-container {
+        left: 75%;
+        right: auto;
+        transform: translateX(-75%);
+        -webkit-transform: translateX(-75%);
+    }
+    
+    .search-module.filled:not(.simple-header-search):not(.dt-sc-skin-highlight),
+    .search-module.filled-onhvr:not(.simple-header-search):not(.dt-sc-skin-highlight):hover,
+    .search-module:not(.simple-header-search).filled.dt-sc-dark-bg,
+    .search-module:not(.simple-header-search).filled-onhvr.dt-sc-dark-bg:hover {
+        background-color: transparent;
+    }
+    .search-module:not(.simple-header-search).filled.dt-sc-dark-bg .menu-icons-wrapper .search span,
+    .search-module:not(.simple-header-search).filled-onhvr.dt-sc-dark-bg:hover .menu-icons-wrapper .search span,
+    .search-module:not(.simple-header-search).filled.dt-sc-skin-highlight .menu-icons-wrapper .search span,
+    .search-module:not(.simple-header-search).filled-onhvr.dt-sc-skin-highlight:hover .menu-icons-wrapper .search span {
+        color: inherit;
+    }
+}
+
+
+/* Common Styles for the devices below 479px width */
+
+@media only screen and (max-width: 479px) {
+    .overlay-header-search .overlay-search #searchform {
+        width: 90%;
+    }
+    .search-module.slide-down-header-search #searchform {
+        max-width: 175px;
+    }
+    .dt-sc-maaya-header:not(.with-border) .dt-sc-slide-search #searchform input[type='text']:focus {
+        max-width: 320px;
+        width: 320px;
+    }
+    .dt-sc-maaya-header.with-border {
+        margin: 0;
+    }
+}
