@@ -5,7 +5,7 @@
 
 .mobile-nav-container .menu-trigger>i:before {
     content: '\f0c9';
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Font Awesome 5 Pro';
     font-size: 14px;
     font-style: normal;
     font-weight: 900;
@@ -226,7 +226,7 @@
 
 .mobile-menu ul.dt-primary-nav li.go-back a:before {
     content: '\f104';
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Font Awesome 5 Pro';
     font-size: 25px;
     font-weight: 900;
     height: 50px;
@@ -238,7 +238,7 @@
 .mobile-menu li[class*='has-children']>a:before,
 .mobile-menu li[class*='has_children']>a:before {
     content: '\f105';
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Font Awesome 5 Pro';
     font-size: 25px;
     font-weight: 900;
     height: 42px;
@@ -255,6 +255,7 @@
     height: 3px;
     opacity: 0;
     visibility: hidden;
+    margin-top: -1.5px;
 }
 
 .mobile-menu ul.dt-primary-nav li.go-back a:hover:before {

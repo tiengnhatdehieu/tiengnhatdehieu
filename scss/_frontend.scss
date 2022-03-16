@@ -461,13 +461,6 @@ ul.dtlms-custom-login li a span {
     right: 0;
 }
 
-.dtlms-login-form-container .dtlms-login-form .dtlms-login-form-holder p #wp-submit {
-    display: inline-block;
-    padding: 20px 130px;
-    text-align: center;
-    margin: 0;
-    float: none;
-}
 
 .dtlms-class-registration-form-container .dtlms-class-registration-form-inner .dtlms-submit-registration-form.dtlms-button {
     margin: 20px 0 0 0;
@@ -589,10 +582,10 @@ ul.dtlms-custom-login li a span {
     font-weight: 300;
 }
 
-.dtlms-login-form-container .dtlms-login-form .dtlms-login-form-holder p #wp-submit {
-    width: 100% !important;
-    padding: 20px 0 !important;
-}
+// .dtlms-login-form-container .dtlms-login-form .dtlms-login-form-holder p #wp-submit {
+//     width: 100% !important;
+//     padding: 20px 0 !important;
+// }
 
 .vc_tta-panels-container h2.vc_custom_heading {
     font-size: 22px !important;
@@ -2980,7 +2973,7 @@ div[class*="listing-holder"] .dtlms-column div[class*="listing-filters"] input[t
 .dtlms-classes-search-filter:before,
 .dtlms-courses-search-filter:before {
     content: "\f073";
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Pro";
     font-style: 900;
     font-weight: normal;
     position: absolute;
@@ -3061,7 +3054,7 @@ div[class*="listing-holder"] .dtlms-column div[class*="listing-filters"] input[t
 .dtlms-payment-details>.dtlms-packagedetail-cart-details>a.added_to_cart.wc-forward:before {
     content: "\f217";
     display: inline-block;
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Pro";
     font-weight: 900;
     margin-right: 10px;
     vertical-align: middle;
@@ -4994,7 +4987,7 @@ div[class*="dynamic-section-holder"],
 .dtlms-curriculum-list>li .dtlms-curriculum-meta-duration:before,
 .dtlms-curriculum-list>li.drip-locked .dtlms-curriculum-meta-items:before,
 .dtlms-curriculum-list>li.unlocked .dtlms-curriculum-meta-items:before {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Pro";
     font-weight: 900;
     font-size: 15px;
     line-height: 0;
@@ -5029,7 +5022,7 @@ div[class*="dynamic-section-holder"],
 
 .dtlms-curriculum-list>li.unlocked .dtlms-curriculum-meta-items:before {
     content: "\f3c1";
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Pro";
     font-weight: 900;
     font-size: 13px;
 }
@@ -5212,7 +5205,7 @@ div[class*="dynamic-section-holder"],
 
 .dtlms-course-detail-group-section .action .meta:before {
     content: "\f0c0";
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Pro";
     font-weight: 900;
     margin: 0 10px 0 0;
 }
@@ -5239,7 +5232,7 @@ div[class*="dynamic-section-holder"],
 
 .dtlms-course-detail-media-attachment td a:before {
     content: "\f019";
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Pro";
     margin-right: 10px;
     font-family: 900;
 }
@@ -5418,7 +5411,7 @@ div[class*="dynamic-section-holder"],
 
 .dtlms-course-detail-news-item .dtlms-course-detail-news-date:before {
     content: "\f133";
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Pro";
     font-weight: 900;
     margin: 0 10px 0 0;
 }
@@ -7349,8 +7342,6 @@ body[class*="single-dtlms"] ul.commentlist li .reply a:hover,
 
 .dtlms-login-form .dtlms-social-logins-container a[class^="dtlms-social"],
 .dt-sc-dark-bg ul.dtlms-custom-login a,
-.dtlms-login-form-container .dtlms-login-form .dtlms-login-form-holder p #wp-submit,
-.dtlms-login-form-container .dtlms-login-form .dtlms-login-form-holder p #wp-submit:hover,
 .dtlms-upload-assignment .dtlms-remove-upload-assignment-field,
 .dtlms-timer-container>h4,
 div[class$="share-holder"] ul li a,
@@ -8676,10 +8667,10 @@ div[class$="share-holder"] ul li a:hover,
     .dtlms-class-registration-form-container .dtlms-class-registration-form-inner .dtlms-title.dtlms-registration-title h2 {
         margin: 0;
     }
-    .dtlms-login-form-container .dtlms-login-form .dtlms-login-form-holder p #wp-submit {
-        padding: 20px;
-        width: 100%;
-    }
+    // .dtlms-login-form-container .dtlms-login-form .dtlms-login-form-holder p #wp-submit {
+    //     padding: 20px;
+    //     width: 100%;
+    // }
     .dtlms-login-form-container .dtlms-login-form p.tpl-forget-pwd {
         width: 100%;
         float: right;

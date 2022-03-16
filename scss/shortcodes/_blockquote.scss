@@ -19,7 +19,7 @@
 	blockquote.type2, blockquote.type3 { overflow:hidden; position:relative; }
 	blockquote.type2 q { display: inline-block; font-size: 24px;line-height: 40px;border-top: 1px solid rgba(0, 0, 0, .15);border-bottom: 1px solid rgba(0, 0, 0, .15); padding: 10px 0; }
 	blockquote.type2 q:before { content:""; }
-	blockquote.type2 q:after {position: absolute;display: block;content: "\f10d";font-family: "Font Awesome 5 Free";top: 50%;transform: translateY(-50%);transform: translateY(-50%);transform: translateY(-100%);float: left;font-size: 100px;font-style:normal; left:0;  width: 100%;opacity: 0.2;font-weight: 900;}
+	blockquote.type2 q:after {position: absolute;display: block;content: "\f10d";font-family: "Font Awesome 5 Pro";top: 50%;transform: translateY(-50%);transform: translateY(-50%);transform: translateY(-100%);float: left;font-size: 100px;font-style:normal; left:0;  width: 100%;opacity: 0.2;font-weight: 900;}
 	blockquote.type2 cite {  float: right; font-style: normal;position: relative; text-align: right; background:rgba(0, 0, 0, .15); padding: 4px 8px; }
 	
 	blockquote.type3{width:100%;float:left;margin:26px 0;position:relative;padding:46px 0;overflow:hidden;}

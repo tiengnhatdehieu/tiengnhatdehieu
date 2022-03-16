@@ -29,10 +29,19 @@
     background: none;
     border: none;
     font-size: 12px;
-    padding: 12px 50px 12px 15px;
+    padding: 5px 50px 5px 15px;
     text-transform: uppercase;
-    width: 220px;
+    width: 130px;
 }
+
+.elearni-header #searchform input[type='text'] {
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 15px 5px 53px;
+    text-transform: none;
+    width: 130px;
+}
+
 
 #searchform label span {
     display: none;
@@ -120,13 +129,6 @@
     right: auto;
 }
 
-.elearni-header #searchform input[type='text'] {
-    color: #fff;
-    font-size: 16px;
-    padding: 10px 15px 10px 53px;
-    text-transform: none;
-    width: 172px;
-}
 
 
 .dt-no-header-elearni .search-module #searchform {

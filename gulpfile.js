@@ -39,7 +39,6 @@ gulp.task('sass:watch', function () {
       './scss/**/*.scss',
       './scss/**/**/*.scss',
       './scss/**/**/**/*.scss',
-      './js/**/*.scss',
     ],
     gulp.series('sass')
   );
@@ -77,7 +76,8 @@ const scripts = series(cleanJs, function(cb) {
     './js/ict/question.js',
     './js/ict/converstation.js',
     './js/jquery/jquery.toggle.click.js',
-    './js/ict/dtlms/toggle.js'
+    './js/ict/dtlms/toggle.js',
+    './js/ict/dtlms/login.js'
   ])
     .pipe(concat('dtlms.js'))
     //.pipe(uglify())
@@ -87,12 +87,25 @@ const scripts = series(cleanJs, function(cb) {
 
 gulp.task('scripts', series(scripts) );
 
+gulp.task('scripts:watch', function () {
+  gulp.watch(
+    [
+      './js/*.js',
+      './js/**/*.js',
+      './js/**/**/*.js',
+      './js/**/**/**/*.js',
+      './js/**/**/**/**/*.js',
+    ],
+    gulp.series('scripts')
+  );
+});
+
 gulp.task('clean', () => {
   return del([
       'dist/tiengnhatdehieu.css',
   ]);
 });
 
-gulp.task('watch', gulp.series(['sass','scripts','sass:watch']));
+gulp.task('watch', gulp.series(['sass','scripts','sass:watch', 'scripts:watch']));
 
 gulp.task('default', gulp.series(['clean', 'sass']));

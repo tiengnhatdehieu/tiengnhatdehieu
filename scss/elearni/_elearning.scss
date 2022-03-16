@@ -10,4 +10,9 @@
 @import "contact";
 @import "browsers";
 @import "pretty_photo";
-@import "background-style"
+@import "background-style";
+@import "./components/components";
+
+
+@import "form/input";
+@import "form/login";

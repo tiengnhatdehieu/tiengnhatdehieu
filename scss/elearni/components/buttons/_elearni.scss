@@ -1,0 +1,27 @@
+
+
+[class*="btn-elearni"] {
+    display: inline-block;
+    // padding: 20px 130px;
+    text-align: center;
+    margin: 0;
+    float: none;
+    background-color: #00eda4;
+    background-image: linear-gradient(to right,#00eda4,#6a7df1);
+    -webkit-border-radius: 30px 5px 5px;
+    // -webkit-box-shadow: 0 0 20px rgb(0 0 0 / 7%);
+    text-transform: capitalize;
+    -webkit-appearance: none;
+    border: 0;
+    color: white;
+}
+
+.btn {
+    &.btn-elearni-primary {
+        width: 100%!important;
+        padding: 20px 0!important;
+        font-size: 15px;
+
+        
+    }
+}
