@@ -96,8 +96,6 @@ var dtLMSFrontendUtils = {
 	},
 
 	dtLMSToggleItems : function() {
-
-		
 	},		
 
 	dtLMSNiceScroll : function(itemclass) {
