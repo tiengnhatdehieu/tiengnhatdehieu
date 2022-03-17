@@ -239,7 +239,8 @@ rs-module i[class*=" fa-"],
 #builderView i[class^="fa-"],
 #builderView i[class*=" fa-"] {
     display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
+    // font: normal normal normal 14px/1 "Font Awesome 5 Pro";
+    // font: normal normal normal 14px/1;
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
@@ -260,7 +261,7 @@ rs-module [class*=" fa-"]:before,
 #rs_overview_menu [class*=" fa-"]:before,
 #builderView [class^="fa-"]:before,
 #builderView [class*=" fa-"]:before {
-    font-family: FontAwesome;
+    // font-family: "Font Awesome 5 Pro";
     font-style: normal;
     font-weight: 400;
     speak: none;

@@ -106,6 +106,7 @@ gulp.task('clean', () => {
   ]);
 });
 
+gulp.task('scss', gulp.series(['sass']));
 gulp.task('watch', gulp.series(['sass','scripts','sass:watch', 'scripts:watch']));
 
 gulp.task('default', gulp.series(['clean', 'sass']));
