@@ -8100,6 +8100,12 @@ textarea.form-control-lg {
     display: block;
     width: 100%; }
 
+.btn-collapse i.fas:before {
+  content: "\f146"; }
+
+.btn-collapse.collapsed i.fas:before {
+  content: "\f0fe"; }
+
 /**
 https://freefrontend.com/bootstrap-buttons/
 https://colorlib.com/wp/bootstrap-buttons/

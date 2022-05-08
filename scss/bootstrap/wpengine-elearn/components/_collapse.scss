@@ -1,0 +1,13 @@
+.btn-collapse {
+    i.fas {
+        &:before {
+            content: "\f146";
+        }
+    }
+
+    &.collapsed i.fas {
+        &:before {
+            content: "\f0fe";
+        }
+    }
+}
