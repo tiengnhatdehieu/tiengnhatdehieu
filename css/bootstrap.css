@@ -3903,9 +3903,13 @@ textarea.form-control-lg {
 .list-group-numbered {
   list-style-type: none;
   counter-reset: section; }
-  .list-group-numbered > li::before {
+  .list-group-numbered > li::before,
+  .list-group-numbered ol > li::before {
     content: counters(section, ".") ". ";
     counter-increment: section; }
+  .list-group-numbered li.no-numbered::before {
+    content: none;
+    counter-increment: none; }
 
 .list-group-item-action {
   width: 100%;
