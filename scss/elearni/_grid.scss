@@ -63,35 +63,6 @@
     width: 100%;
 }
 
-#primary
-{
-    float: left;
-    margin: 0;
-    padding: 0 0 0;
-    position: relative; 
-    width: 870px;
-}
-#primary.content-full-width
-{
-    width: 100%;
-}
-#primary.with-left-sidebar
-{
-    float: right;
-    margin-left: 30px;
-}
-#primary.with-right-sidebar
-{
-    float: left;
-    margin-right: 30px;
-}
-#primary.with-both-sidebar
-{
-    float: left;
-    margin: 0 30px; 
-    width: 570px;
-}
-
 #secondary,
 #secondary-right,
 #secondary-left
@@ -138,14 +109,7 @@
 {
     padding-bottom: 100px;
 }
-.single.single-dtlms_courses #primary
-{
-    padding-bottom: 0;
-}
-.single.single-post #primary
-{
-    padding-bottom: 100px;
-}
+
 .dtlms-admin-dashboard,
 .bp_register.type-bp_register
 {

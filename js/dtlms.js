@@ -5308,24 +5308,9 @@ jQuery(document).ready(function ($) {
     jQuery('.conversation-chat').jpConverstation();
 });
 jQuery.fn.dtLMSToggleItems = function () {
-
     return this.each(function () {
         const elm = this
-        //console.log('click dtlms-toggle', { elm });
-
-        // jQuery(elm).toggleClick(function () {
-        //     jQuery(this).removeClass('active');  
-        // }, function() { 
-        //     jQuery(this).addClass('active'); 
-        // });
-    
-        // jQuery(elm).toggleClick(function (e) {
-        //     console.log('onclick click ', { elm , e});
-        //     jQuery(this).toggleClass('active')
-        // }, function (e) {
-        //     console.log('fn2',{e})
-        // });
-
+   
         jQuery(elm).on('click', function () {
             jQuery(this).toggleClass('active');
             jQuery(this).next('.dtlms-toggle-content').slideToggle(); 
@@ -5333,8 +5318,28 @@ jQuery.fn.dtLMSToggleItems = function () {
     });
 };
 
+jQuery.fn.collapseEvents = function () {
+    return this.each(function () {
+        const collapse = jQuery(this);
+        const toggle = collapse.parent('div').find('.btn-collapse');
+        const itemListGroup = collapse.parents('.list-group-item');
+        const anchors = jQuery('a', itemListGroup).not(".btn-collapse");
+        if( collapse.hasClass('show')){
+            toggle.removeClass('collapsed');
+        } else {
+            toggle.addClass('collapsed');
+        }
+        if(toggle.attr('href')==='#'){
+            toggle.attr('href', `#${this.id}`)
+        }
+
+        itemListGroup.find('.badge[data-count="item"]').html(anchors.length)
+    });
+};
+
 jQuery(document).ready(function ($) {
     jQuery('.dtlms-toggle').dtLMSToggleItems();
+    jQuery('.collapse').collapseEvents();
 });
 
 

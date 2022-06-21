@@ -69,6 +69,7 @@ const scripts = series(cleanJs, function(cb) {
     './js/jquery/jquery.placeholder.js',
     './js/jquery/matchHeight.js'
   ];
+
   gulp.src([
     ...files,
     './js/jquery/jquery.jplayer.js',
@@ -107,6 +108,7 @@ gulp.task('clean', () => {
 });
 
 gulp.task('scss', gulp.series(['sass']));
+gulp.task('js', gulp.series(['scripts']));
 gulp.task('watch', gulp.series(['sass','scripts','sass:watch', 'scripts:watch']));
 
 gulp.task('default', gulp.series(['clean', 'sass']));

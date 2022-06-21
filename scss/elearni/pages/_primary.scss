@@ -1,0 +1,33 @@
+
+#primary
+{
+    float: left;
+    margin: 0;
+    padding: 0 0 0;
+    position: relative; 
+    width: 870px;
+
+    &.content-full-width
+    {
+        width: 100%;
+    }
+
+    &.with-left-sidebar
+    {
+        float: right;
+        margin-left: 30px;
+    }
+
+    &.with-right-sidebar
+    {
+        float: left;
+        margin-right: 30px;
+    }
+    
+    &.with-both-sidebar
+    {
+        float: left;
+        margin: 0 30px; 
+        width: 570px;
+    }
+}

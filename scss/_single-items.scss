@@ -228,8 +228,7 @@ article.dtlms-course-detail.type3 .dtlms-course-detail-header .dtlms-course-deta
     font-size: 11px
 }
 
-.dtlms-remove-top-space #header-wrapper,
-.dtlms-remove-top-space #header-wrapper .main-title-section-wrapper {
+.dtlms-remove-top-space #header-wrapper {
     margin: 0
 }
 
@@ -3139,7 +3138,7 @@ div[class$="header-inner-content"] div[class$="featured"] span:after {
     }
 
     .dtlms-class-detail[class*="type"] .dtlms-class-detail-author .dtlms-author-contact-details > li,
-.dtlms-course-detail[class*="type"] .dtlms-class-detail-author .dtlms-author-contact-details > li {
+    .dtlms-course-detail[class*="type"] .dtlms-class-detail-author .dtlms-author-contact-details > li {
         float: none;
         display: inline-block
     }
@@ -3154,7 +3153,7 @@ div[class$="header-inner-content"] div[class$="featured"] span:after {
     }
 
     .dtlms-course-detail.type5 .dtlms-toggle-group-set .dtlms-toggle-content:before,
-.dtlms-course-detail.type5 .dtlms-toggle-group-set .dtlms-toggle:after {
+    .dtlms-course-detail.type5 .dtlms-toggle-group-set .dtlms-toggle:after {
         display: none
     }
 
